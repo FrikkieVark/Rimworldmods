@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bionic animal brain stimulator -->
+  <AnimalBrainStimulator.label>仿生动物大脑刺激器</AnimalBrainStimulator.label>
+  <!-- EN: bionic animal brain stimulator. -->
+  <AnimalBrainStimulator.description>仿生动物大脑刺激器。</AnimalBrainStimulator.description>
+  
+  <!-- EN: bionic animal heart -->
+  <BionicAnimalHeart.label>仿生动物心脏</BionicAnimalHeart.label>
+  <!-- EN: Bionic animal heart. -->
+  <BionicAnimalHeart.description>仿生动物心脏。</BionicAnimalHeart.description>
+  
+  <!-- EN: bionic animal kidney -->
+  <BionicAnimalKidney.label>仿生动物肾</BionicAnimalKidney.label>
+  <!-- EN: Bionic animal kidney. -->
+  <BionicAnimalKidney.description>仿生动物肾。</BionicAnimalKidney.description>
+  
+  <!-- EN: bionic animal liver -->
+  <BionicAnimalLiver.label>仿生动物肝</BionicAnimalLiver.label>
+  <!-- EN: Bionic animal liver. -->
+  <BionicAnimalLiver.description>仿生动物肝。</BionicAnimalLiver.description>
+  
+  <!-- EN: bionic animal lung -->
+  <BionicAnimalLung.label>仿生动物肺</BionicAnimalLung.label>
+  <!-- EN: Bionic animal lung. -->
+  <BionicAnimalLung.description>仿生动物肺。</BionicAnimalLung.description>
+  
+  <!-- EN: bionic animal stomach -->
+  <BionicAnimalStomach.label>仿生动物胃</BionicAnimalStomach.label>
+  <!-- EN: Bionic animal stomach. -->
+  <BionicAnimalStomach.description>仿生动物胃。</BionicAnimalStomach.description>
+  
+  <!-- EN: bionic animal arm -->
+  <BionicArmAnimal.label>仿生动物臂</BionicArmAnimal.label>
+  <!-- EN: Bionic animal arm. -->
+  <BionicArmAnimal.description>仿生动物臂。</BionicArmAnimal.description>
+  <!-- EN: bionic animal arm -->
+  <BionicArmAnimal.comps.HediffComp_VerbGiver.tools.bionic_animal_arm.label>仿生动物臂</BionicArmAnimal.comps.HediffComp_VerbGiver.tools.bionic_animal_arm.label>
+  
+  <!-- EN: bionic animal eye -->
+  <BionicEyeAnimal.label>仿生动物眼</BionicEyeAnimal.label>
+  <!-- EN: bionic animal eye. -->
+  <BionicEyeAnimal.description>仿生动物眼。</BionicEyeAnimal.description>
+  
+  <!-- EN: bionic animal leg -->
+  <BionicLegAnimal.label>仿生动物腿</BionicLegAnimal.label>
+  <!-- EN: Bionic animal leg. -->
+  <BionicLegAnimal.description>仿生动物腿。</BionicLegAnimal.description>
+  <!-- EN: bionic animal leg -->
+  <BionicLegAnimal.comps.HediffComp_VerbGiver.tools.bionic_animal_leg.label>仿生动物腿</BionicLegAnimal.comps.HediffComp_VerbGiver.tools.bionic_animal_leg.label>
+  
+  <!-- EN: bionic animal ear implant -->
+  <EarAnimalBionic.label>仿生动物耳</EarAnimalBionic.label>
+  <!-- EN: Bionic animal ear implant. -->
+  <EarAnimalBionic.description>仿生动物耳。</EarAnimalBionic.description>
+  
+  <!-- EN: simple animal ear implant -->
+  <EarAnimalSimple.label>简易动物耳</EarAnimalSimple.label>
+  <!-- EN: Simple animal ear implant. -->
+  <EarAnimalSimple.description>简易动物耳。</EarAnimalSimple.description>
+  
+  <!-- EN: bionic animal jaw implant -->
+  <JawAnimalBionic.label>仿生动物下颚</JawAnimalBionic.label>
+  <!-- EN: Bionic animal jaw implant. -->
+  <JawAnimalBionic.description>仿生动物下颚。</JawAnimalBionic.description>
+  <!-- EN: bionic animal jaw -->
+  <JawAnimalBionic.comps.HediffComp_VerbGiver.tools.bionic_animal_jaw.label>仿生动物下颚</JawAnimalBionic.comps.HediffComp_VerbGiver.tools.bionic_animal_jaw.label>
+  
+  <!-- EN: simple animal jaw implant -->
+  <JawAnimalSimple.label>简易动物下颚</JawAnimalSimple.label>
+  <!-- EN: Simple animal jaw implant. -->
+  <JawAnimalSimple.description>简易动物下颚。</JawAnimalSimple.description>
+  
+  <!-- EN: simple animal nose -->
+  <NoseAnimalSimple.label>简易动物鼻</NoseAnimalSimple.label>
+  <!-- EN: Simple animal prosthetic nose. -->
+  <NoseAnimalSimple.description>简易动物鼻。</NoseAnimalSimple.description>
+  
+  <!-- EN: prosthetic tail -->
+  <ProstheticTail.label>假尾巴</ProstheticTail.label>
+  <!-- EN: Simple prosthetic animal tail. -->
+  <ProstheticTail.description>假尾巴。</ProstheticTail.description>
+  
+  <!-- EN: simple prosthetic animal arm -->
+  <SimpleProstheticArmAnimal.label>简易动物假臂</SimpleProstheticArmAnimal.label>
+  <!-- EN: Simple prosthetic animal arm. -->
+  <SimpleProstheticArmAnimal.description>简易动物假臂。</SimpleProstheticArmAnimal.description>
+  <!-- EN: prosthetic animal arm -->
+  <SimpleProstheticArmAnimal.comps.HediffComp_VerbGiver.tools.prosthetic_animal_arm.label>动物假臂</SimpleProstheticArmAnimal.comps.HediffComp_VerbGiver.tools.prosthetic_animal_arm.label>
+  
+  <!-- EN: simple prosthetic animal leg -->
+  <SimpleProstheticLegAnimal.label>简易动物假腿</SimpleProstheticLegAnimal.label>
+  <!-- EN: simple prosthetic animal leg. -->
+  <SimpleProstheticLegAnimal.description>简易动物假腿。</SimpleProstheticLegAnimal.description>
+  <!-- EN: prothetic animal leg -->
+  <SimpleProstheticLegAnimal.comps.HediffComp_VerbGiver.tools.prothetic_animal_leg.label>动物假腿</SimpleProstheticLegAnimal.comps.HediffComp_VerbGiver.tools.prothetic_animal_leg.label>
+  
+  <!-- EN: bionic animal spine -->
+  <SpineAnimalBionic.label>仿生动物脊椎</SpineAnimalBionic.label>
+  <!-- EN: Bionic animal spine. -->
+  <SpineAnimalBionic.description>仿生动物脊椎。</SpineAnimalBionic.description>
+  
+  <!-- EN: simple animal spine -->
+  <SpineAnimalSimple.label>简易动物脊椎</SpineAnimalSimple.label>
+  <!-- EN: Simple animal spine. -->
+  <SpineAnimalSimple.description>简易动物脊椎。</SpineAnimalSimple.description>
+  
+</LanguageData>

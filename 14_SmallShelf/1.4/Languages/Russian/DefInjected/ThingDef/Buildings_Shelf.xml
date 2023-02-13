@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SmallShelf.label>Маленький стеллаж (1x1)</SmallShelf.label>
+  <SmallShelf.description>Стеллаж для хранения размером 1х1. Хранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</SmallShelf.description>
+  <Blueprint_SmallShelf.label>Маленький стеллаж (1x1)</Blueprint_SmallShelf.label>
+  <Blueprint_Install_SmallShelf.label>Маленький стеллаж (1x1)</Blueprint_Install_SmallShelf.label>
+  <Frame_SmallShelf.label>Маленький стеллаж (1x1)</Frame_SmallShelf.label>
+  <Frame_SmallShelf.description>Стеллаж для хранения размером 1х1. Хранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</Frame_SmallShelf.description>
+
+  <OldSmallShelf.label>Старый Маленький стеллаж (1x1)</OldSmallShelf.label>
+  <OldSmallShelf.description>Это старый стиль, который содержит только 1 стопку. Стеллаж для хранения размером 1х1. Хранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</OldSmallShelf.description>
+  <Blueprint_OldSmallShelf.label>Старый Маленький стеллаж (1x1)</Blueprint_OldSmallShelf.label>
+  <Blueprint_Install_OldSmallShelf.label>Старый Маленький стеллаж (1x1)</Blueprint_Install_OldSmallShelf.label>
+  <Frame_OldSmallShelf.label>Старый Маленький стеллаж (1x1)</Frame_OldSmallShelf.label>
+  <Frame_OldSmallShelf.description>Это старый стиль, который содержит только 1 стопку. Стеллаж для хранения размером 1х1. Хранимые предметы не будут ветшать, даже если стеллаж расположить вне помещения.</Frame_OldSmallShelf.description>
+
+</LanguageData>

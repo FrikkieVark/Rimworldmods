@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <CNNetworkedArm.label>Networked Arm</CNNetworkedArm.label>
+    <CNNetworkedArm.labelNoun>A Networked Arm</CNNetworkedArm.labelNoun>
+    <CNNetworkedArm.stages.disconnected.label>Disconnected</CNNetworkedArm.stages.disconnected.label>
+    <CNNetworkedArm.stages.throttled.label>Throttled</CNNetworkedArm.stages.throttled.label>
+    <CNNetworkedArm.stages.sluggish.label>Sluggish</CNNetworkedArm.stages.sluggish.label>
+    <CNNetworkedArm.stages.connected.label>Connected</CNNetworkedArm.stages.connected.label>
+    <CNNetworkedArm.stages.overclocked.label>Overclocked</CNNetworkedArm.stages.overclocked.label>
+    <CNNetworkedArm.stages.supercharged.label>Supercharged</CNNetworkedArm.stages.supercharged.label>
+
+    <CNNetworkedLeg.label>Networked Leg</CNNetworkedLeg.label>
+    <CNNetworkedLeg.labelNoun>A Networked Leg</CNNetworkedLeg.labelNoun>
+    <CNNetworkedLeg.stages.disconnected.label>Disconnected</CNNetworkedLeg.stages.disconnected.label>
+    <CNNetworkedLeg.stages.throttled.label>Throttled</CNNetworkedLeg.stages.throttled.label>
+    <CNNetworkedLeg.stages.sluggish.label>Sluggish</CNNetworkedLeg.stages.sluggish.label>
+    <CNNetworkedLeg.stages.connected.label>Connected</CNNetworkedLeg.stages.connected.label>
+    <CNNetworkedLeg.stages.overclocked.label>Overclocked</CNNetworkedLeg.stages.overclocked.label>
+    <CNNetworkedLeg.stages.supercharged.label>Supercharged</CNNetworkedLeg.stages.supercharged.label>
+
+    <CNNetworkedEye.label>Networked Eye</CNNetworkedEye.label>
+    <CNNetworkedEye.labelNoun>A Networked Eye</CNNetworkedEye.labelNoun>
+    <CNNetworkedEye.stages.disconnected.label>Disconnected</CNNetworkedEye.stages.disconnected.label>
+    <CNNetworkedEye.stages.throttled.label>Throttled</CNNetworkedEye.stages.throttled.label>
+    <CNNetworkedEye.stages.sluggish.label>Sluggish</CNNetworkedEye.stages.sluggish.label>
+    <CNNetworkedEye.stages.connected.label>Connected</CNNetworkedEye.stages.connected.label>
+    <CNNetworkedEye.stages.overclocked.label>Overclocked</CNNetworkedEye.stages.overclocked.label>
+    <CNNetworkedEye.stages.supercharged.label>Supercharged</CNNetworkedEye.stages.supercharged.label>
+
+    <CNNetworkedSpine.label>Networked Spine</CNNetworkedSpine.label>
+    <CNNetworkedSpine.labelNoun>A Networked Spine</CNNetworkedSpine.labelNoun>
+    <CNNetworkedSpine.stages.disconnected.label>Disconnected</CNNetworkedSpine.stages.disconnected.label>
+    <CNNetworkedSpine.stages.throttled.label>Throttled</CNNetworkedSpine.stages.throttled.label>
+    <CNNetworkedSpine.stages.sluggish.label>Sluggish</CNNetworkedSpine.stages.sluggish.label>
+    <CNNetworkedSpine.stages.connected.label>Connected</CNNetworkedSpine.stages.connected.label>
+    <CNNetworkedSpine.stages.overclocked.label>Overclocked</CNNetworkedSpine.stages.overclocked.label>
+    <CNNetworkedSpine.stages.supercharged.label>Supercharged</CNNetworkedSpine.stages.supercharged.label>
+
+    <CNNetworkedHeart.label>Networked Heart</CNNetworkedHeart.label>
+    <CNNetworkedHeart.labelNoun>A Networked Heart</CNNetworkedHeart.labelNoun>
+    <CNNetworkedHeart.stages.disconnected.label>Disconnected</CNNetworkedHeart.stages.disconnected.label>
+    <CNNetworkedHeart.stages.throttled.label>Throttled</CNNetworkedHeart.stages.throttled.label>
+    <CNNetworkedHeart.stages.sluggish.label>Sluggish</CNNetworkedHeart.stages.sluggish.label>
+    <CNNetworkedHeart.stages.connected.label>Connected</CNNetworkedHeart.stages.connected.label>
+    <CNNetworkedHeart.stages.overclocked.label>Overclocked</CNNetworkedHeart.stages.overclocked.label>
+    <CNNetworkedHeart.stages.supercharged.label>Supercharged</CNNetworkedHeart.stages.supercharged.label>
+
+    <CNNetworkedStomach.label>Networked Stomach</CNNetworkedStomach.label>
+    <CNNetworkedStomach.labelNoun>A Networked Stomach</CNNetworkedStomach.labelNoun>
+    <CNNetworkedStomach.stages.disconnected.label>Disconnected</CNNetworkedStomach.stages.disconnected.label>
+    <CNNetworkedStomach.stages.throttled.label>Throttled</CNNetworkedStomach.stages.throttled.label>
+    <CNNetworkedStomach.stages.sluggish.label>Sluggish</CNNetworkedStomach.stages.sluggish.label>
+    <CNNetworkedStomach.stages.connected.label>Connected</CNNetworkedStomach.stages.connected.label>
+    <CNNetworkedStomach.stages.overclocked.label>Overclocked</CNNetworkedStomach.stages.overclocked.label>
+    <CNNetworkedStomach.stages.supercharged.label>Supercharged</CNNetworkedStomach.stages.supercharged.label>
+
+    <CNNetworkedEar.label>Networked Ear</CNNetworkedEar.label>
+    <CNNetworkedEar.labelNoun>A Networked Ear</CNNetworkedEar.labelNoun>
+    <CNNetworkedEar.stages.disconnected.label>Disconnected</CNNetworkedEar.stages.disconnected.label>
+    <CNNetworkedEar.stages.throttled.label>Throttled</CNNetworkedEar.stages.throttled.label>
+    <CNNetworkedEar.stages.sluggish.label>Sluggish</CNNetworkedEar.stages.sluggish.label>
+    <CNNetworkedEar.stages.connected.label>Connected</CNNetworkedEar.stages.connected.label>
+    <CNNetworkedEar.stages.overclocked.label>Overclocked</CNNetworkedEar.stages.overclocked.label>
+    <CNNetworkedEar.stages.supercharged.label>Supercharged</CNNetworkedEar.stages.supercharged.label>
+    
+</LanguageData>

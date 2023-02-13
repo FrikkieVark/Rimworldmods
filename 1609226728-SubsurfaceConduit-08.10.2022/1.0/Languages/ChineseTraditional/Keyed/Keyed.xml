@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MUR_SubsurfaceConduit>地下電纜</MUR_SubsurfaceConduit>
+  <MUR_SubsurfaceConduit_SteelCostName>鋼鐵成本</MUR_SubsurfaceConduit_SteelCostName>
+  <MUR_SubsurfaceConduit_SteelCostDesc>一根電纜需要多少鋼鐵。 默認值：3</MUR_SubsurfaceConduit_SteelCostDesc>
+  <MUR_SubsurfaceConduit_WorkCostName>施工速度</MUR_SubsurfaceConduit_WorkCostName>
+  <MUR_SubsurfaceConduit_WorkCostDesc>建造一條電纜需要多少施工時間。 默認值：50</MUR_SubsurfaceConduit_WorkCostDesc>
+  <MUR_SubsurfaceConduit_UnderWallName>可以放在牆下嗎？</MUR_SubsurfaceConduit_UnderWallName>
+  <MUR_SubsurfaceConduit_UnderWallDesc>默認情況下，地下電纜不能在之前建好的牆壁設置。但是，可以先設置電纜在其上方建造牆。此選項消除了此限制。</MUR_SubsurfaceConduit_UnderWallDesc>
+
+</LanguageData>

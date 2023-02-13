@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+<MakeNeutroamine.label>Сделать Нейтроамин</MakeNeutroamine.label>
+<MakeNeutroamine.description>Сделать нейтроамин, базовый ингридиент для других лекарств.</MakeNeutroamine.description>
+<MakeNeutroamine.jobString>Делает нейтроамин.</MakeNeutroamine.jobString>
+
+<MakeNeutroaminex5.label>Сделать х5 Нейтроамина</MakeNeutroaminex5.label>
+<MakeNeutroaminex5.description>Сделать х5 нейтроамина, базового ингридиента для других лекарств.</MakeNeutroaminex5.description>
+<MakeNeutroaminex5.jobString>Делает нейтроамин.</MakeNeutroaminex5.jobString>
+
+<MakeNeutroaminex10.label>Сделать х10 Нейтроамина</MakeNeutroaminex10.label>
+<MakeNeutroaminex10.description>Сделать х10 нейтроамина, базового ингридиента для других лекарств.</MakeNeutroaminex10.description>
+<MakeNeutroaminex10.jobString>Делает нейтроамин.</MakeNeutroaminex10.jobString>
+
+</LanguageData>

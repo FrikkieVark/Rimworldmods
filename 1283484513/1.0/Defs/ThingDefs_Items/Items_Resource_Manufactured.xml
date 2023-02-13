@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef Name="MakeNeutroamine">
+	<defName>MakeNeutroamine</defName>
+		<label>Make Neutroamine</label>
+		<description>Makes neutroamine, a base ingredient for other drugs.</description>
+		<jobString>Making Neutroamine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroaleaves</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroaleaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>1</Neutroamine>
+		</products>
+		<workAmount>250</workAmount>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>NeutroaleafRefining</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef Name="MakeNeutroaminex5">
+	<defName>MakeNeutroaminex5</defName>
+		<label>Make 5 Neutroamine</label>
+		<description>Makes 5 neutroamine, a base ingredient for other drugs.</description>
+		<jobString>Making Neutroamine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroaleaves</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroaleaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>5</Neutroamine>
+		</products>
+		<workAmount>1136</workAmount>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>NeutroaleafRefining</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef Name="MakeNeutroaminex10">
+	<defName>MakeNeutroaminex10</defName>
+		<label>Make 10 Neutroamine</label>
+		<description>Makes 10 neutroamine, a base ingredient for other drugs.</description>
+		<jobString>Making Neutroamine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroaleaves</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroaleaves</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>10</Neutroamine>
+		</products>
+		<workAmount>2083</workAmount>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>DrugLab</li>
+		</recipeUsers>
+		<researchPrerequisite>NeutroaleafRefining</researchPrerequisite>
+	</RecipeDef>
+</Defs>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- GlitterNet Cable -->
+
+  <GNGlitterNetCable.label>闪耀网络电缆</GNGlitterNetCable.label>
+  <GNGlitterNetCable.description>能够将闪耀网络设备连接在一起的高速电缆。</GNGlitterNetCable.description>
+  <GNGlitterNetCable_Blueprint.label>闪耀网络电缆(蓝图)</GNGlitterNetCable_Blueprint.label>
+  <GNGlitterNetCable_Frame.label>闪耀网络电缆(建造中)</GNGlitterNetCable_Frame.label>
+  <GNGlitterNetCable_Frame.description>能够将闪耀网络设备连接在一起的高速电缆。</GNGlitterNetCable_Frame.description>
+
+  <GNGlitterNetCableHidden.label>闪耀网络电缆(隐藏)</GNGlitterNetCableHidden.label>
+  <GNGlitterNetCableHidden.description>能够将闪耀网络设备连接在一起的高速电缆。这种线缆不可见。</GNGlitterNetCableHidden.description>
+  <GNGlitterNetCableHidden_Blueprint.label>闪耀网络电缆(隐藏) (蓝图)</GNGlitterNetCableHidden_Blueprint.label>
+  <GNGlitterNetCableHidden_Frame.label>闪耀网络电缆(隐藏) (建造中)</GNGlitterNetCableHidden_Frame.label>
+  <GNGlitterNetCableHidden_Frame.description>能够将闪耀网络设备连接在一起的高速电缆。这种线缆不可见。</GNGlitterNetCableHidden_Frame.description>
+
+
+  <!-- GlitterNet Hub -->
+
+  <GNGlitterNetHub.label>闪耀网络中枢</GNGlitterNetHub.label>
+  <GNGlitterNetHub.description>闪耀网络系统的核心。一个功能强大的计算系统，能协调处理大量的数据。不幸的是，基于闪耀网络系统的架构，一个网络中只能存在一个中枢。</GNGlitterNetHub.description>
+
+
+  <!-- GlitterNet Processors -->
+
+  <GNBasicGlitterNetProcessor.label>基础闪耀网络处理器</GNBasicGlitterNetProcessor.label>
+  <GNBasicGlitterNetProcessor.description>闪耀网络系统通用的辅助处理器，足以应对高强度计算。</GNBasicGlitterNetProcessor.description>
+
+  <GNImprovedGlitterNetProcessor.label>改进闪耀网络处理器</GNImprovedGlitterNetProcessor.label>
+  <GNImprovedGlitterNetProcessor.description>闪耀网络系统通用的辅助处理器，用以应对超强度计算。</GNImprovedGlitterNetProcessor.description>
+
+  <GNAdvancedGlitterNetProcessor.label>先进闪耀网络处理器</GNAdvancedGlitterNetProcessor.label>
+  <GNAdvancedGlitterNetProcessor.description>闪耀网络系统通用的辅助处理器，能执行极高强度的计算。</GNAdvancedGlitterNetProcessor.description>
+
+
+  <!-- Specialized Processors -->
+
+  <GNSpecializedEfficiencyProcessor.label>专用效能处理器</GNSpecializedEfficiencyProcessor.label>
+  <GNSpecializedEfficiencyProcessor.description>用于闪耀网络系统的专用处理器，用以提高最大效率，一个网络中只生效一台。</GNSpecializedEfficiencyProcessor.description>
+
+  <GNSpecializedOverdriveProcessor.label>专用超频处理器</GNSpecializedOverdriveProcessor.label>
+  <GNSpecializedOverdriveProcessor.description>用于闪耀网络系统的专用处理器，以更高的处理性能使用换取更高的最大效率，一个网络中只生效一台。</GNSpecializedOverdriveProcessor.description>
+
+  <GNSpecializedConcurrencyProcessor.label>专用并行处理器</GNSpecializedConcurrencyProcessor.label>
+  <GNSpecializedConcurrencyProcessor.description>用于闪耀网络系统的专用处理器，用以增加单建筑可用终端数量，一个网络中只生效一台。</GNSpecializedConcurrencyProcessor.description>
+
+  <GNSpecializedOverheadProcessor.label>专用优化处理器</GNSpecializedOverheadProcessor.label>
+  <GNSpecializedOverheadProcessor.description>用于闪耀网络系统的专用处理器，用以提高处理性能，一个网络中只生效一台。</GNSpecializedOverheadProcessor.description>
+
+
+  <!--<GNGlitterNetHub_Blueprint.label>GlitterNet中枢(蓝图)</GNGlitterNetHub_Blueprint.label>-->
+  <!--<GNGlitterNetHub_Blueprint_Install.label>GlitterNet中枢(蓝图)</GNGlitterNetHub_Blueprint_Install.label>-->
+  <!--<GNGlitterNetHub_Frame.label>GlitterNet中枢(建造中)</GNGlitterNetHub_Frame.label>-->
+  <!--<GNGlitterNetHub_Frame.description>GlitterNET系统的核心。一个功能强大的计算系统，能协调处理大量的数据。不幸的是，基于GlitterNET系统的架构，一个网络中只能存在一个中枢。</GNGlitterNetHub_Frame.description>-->
+  <!--<GNBasicGlitterNetProcessor_Blueprint.label>基础GlitterNET处理器(蓝图)</GNBasicGlitterNetProcessor_Blueprint.label>-->
+  <!--<GNBasicGlitterNetProcessor_Blueprint_Install.label>基础GlitterNET处理器(蓝图)</GNBasicGlitterNetProcessor_Blueprint_Install.label>-->
+  <!--<GNBasicGlitterNetProcessor_Frame.label>基础GlitterNET处理器(建造中)</GNBasicGlitterNetProcessor_Frame.label>-->
+  <!--<GNBasicGlitterNetProcessor_Frame.description>GlitterNET系统通用的辅助处理器，能应对高强度计算。</GNBasicGlitterNetProcessor_Frame.description>-->
+  <!--<GNImprovedGlitterNetProcessor_Blueprint.label>改进GlitterNET处理器(蓝图)</GNImprovedGlitterNetProcessor_Blueprint.label>-->
+  <!--<GNImprovedGlitterNetProcessor_Blueprint_Install.label>改进GlitterNET处理器(蓝图)</GNImprovedGlitterNetProcessor_Blueprint_Install.label>-->
+  <!--<GNImprovedGlitterNetProcessor_Frame.label>改进GlitterNET处理器(建造中)</GNImprovedGlitterNetProcessor_Frame.label>-->
+  <!--<GNImprovedGlitterNetProcessor_Frame.description>GlitterNET系统通用的辅助处理器，能高速应对高强度计算。</GNImprovedGlitterNetProcessor_Frame.description>-->
+  <!--<GNAdvancedGlitterNetProcessor_Blueprint.label>先进GlitterNET处理器(蓝图)</GNAdvancedGlitterNetProcessor_Blueprint.label>-->
+  <!--<GNAdvancedGlitterNetProcessor_Blueprint_Install.label>先进GlitterNET处理器(蓝图)</GNAdvancedGlitterNetProcessor_Blueprint_Install.label>-->
+  <!--<GNAdvancedGlitterNetProcessor_Frame.label>先进GlitterNET处理器(建造中)</GNAdvancedGlitterNetProcessor_Frame.label>-->
+  <!--<GNAdvancedGlitterNetProcessor_Frame.description>GlitterNET系统通用的辅助处理器，能超高速应对高强度计算。</GNAdvancedGlitterNetProcessor_Frame.description>-->
+  <!--<GNSpecializedEfficiencyProcessor_Blueprint.label>专用效能处理器(蓝图)</GNSpecializedEfficiencyProcessor_Blueprint.label>-->
+  <!--<GNSpecializedEfficiencyProcessor_Blueprint_Install.label>专用效能处理器(蓝图)</GNSpecializedEfficiencyProcessor_Blueprint_Install.label>-->
+  <!--<GNSpecializedEfficiencyProcessor_Frame.label>专用效能处理器(建造中)</GNSpecializedEfficiencyProcessor_Frame.label>-->
+  <!--<GNSpecializedEfficiencyProcessor_Frame.description>用于GlitterNET系统的专用处理器，用以提高最大效率，一个网络中只生效一台。</GNSpecializedEfficiencyProcessor_Frame.description>-->
+  <!--<GNSpecializedOverdriveProcessor_Blueprint.label>专用超频处理器(蓝图)</GNSpecializedOverdriveProcessor_Blueprint.label>-->
+  <!--<GNSpecializedOverdriveProcessor_Blueprint_Install.label>专用超频处理器(蓝图)</GNSpecializedOverdriveProcessor_Blueprint_Install.label>-->
+  <!--<GNSpecializedOverdriveProcessor_Frame.label>专用超频处理器(建造中)</GNSpecializedOverdriveProcessor_Frame.label>-->
+  <!--<GNSpecializedOverdriveProcessor_Frame.description>用于GlitterNET系统的专用处理器，以更高的处理性能使用换取更高的最大效率，一个网络中只生效一台。</GNSpecializedOverdriveProcessor_Frame.description>-->
+  <!--<GNSpecializedConcurrencyProcessor_Blueprint.label>专用并行处理器(蓝图)</GNSpecializedConcurrencyProcessor_Blueprint.label>-->
+  <!--<GNSpecializedConcurrencyProcessor_Blueprint_Install.label>专用并行处理器(蓝图)</GNSpecializedConcurrencyProcessor_Blueprint_Install.label>-->
+  <!--<GNSpecializedConcurrencyProcessor_Frame.label>专用并行处理器(建造中)</GNSpecializedConcurrencyProcessor_Frame.label>-->
+  <!--<GNSpecializedConcurrencyProcessor_Frame.description>用于GlitterNET系统的专用处理器，用以增加单建筑可用终端数量，一个网络中只生效一台。</GNSpecializedConcurrencyProcessor_Frame.description>-->
+  <!--<GNSpecializedOverheadProcessor_Blueprint.label>专用优化处理器(蓝图)</GNSpecializedOverheadProcessor_Blueprint.label>-->
+  <!--<GNSpecializedOverheadProcessor_Blueprint_Install.label>专用优化处理器(蓝图)</GNSpecializedOverheadProcessor_Blueprint_Install.label>-->
+  <!--<GNSpecializedOverheadProcessor_Frame.label>专用优化处理器(建造中)</GNSpecializedOverheadProcessor_Frame.label>-->
+  <!--<GNSpecializedOverheadProcessor_Frame.description>用于GlitterNET系统的专用处理器，用以提高处理性能，一个网络中只生效一台。</GNSpecializedOverheadProcessor_Frame.description>-->
+
+</LanguageData>

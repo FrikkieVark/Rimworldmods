@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	
+	<!-- Networked (Bionic) Level Body Parts -->
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedArm</defName>
+		<label>Networked Arm</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic arms, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedLeg</defName>
+		<label>Networked Leg</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic legs, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>7</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedEye</defName>
+		<label>Networked Eye</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic eyes, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>0.2</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>5</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedSpine</defName>
+		<label>Networked Spine</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic spines, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedHeart</defName>
+		<label>Networked Heart</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic hearts, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>0.7</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedStomach</defName>
+		<label>Networked Stomach</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic stomachs, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNNetworkedEar</defName>
+		<label>Networked Ear</label>
+		<description>A networked prosthetic that offloads processing to remote processors. Cheaper than self contained bionic ears, and more efficient, but requires infrastructure to function.</description>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>0.07</Mass>
+		</statBases>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNNetworkedProsthetics</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+</Defs>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>PlantNeutroaleaf</defName>
+		<label>Neutroaleaf</label>
+		<description>Grows slightly faster then healroot, The leaves can be refined into neutroamine.</description>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Nutrition>0.1</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/NeutroaleafPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible />
+		<plant>
+			<growDays>15</growDays>
+			<dieIfLeafless>true</dieIfLeafless>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<neverBlightable>true</neverBlightable>
+			<harvestedThingDef>Neutroaleaves</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<sowMinSkill>12</sowMinSkill>
+			<sowResearchPrerequisites>
+				<li>NeutroaleafPlanting</li>
+			</sowResearchPrerequisites>
+		</plant>
+	</ThingDef>
+</Defs>

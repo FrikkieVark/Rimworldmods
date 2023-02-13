@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <DesignationCategoryDef>
+        <defName>GlitterNet</defName>
+        <label>GlitterNet</label>
+        <description>All GlitterNet Buildings</description>
+        <order>16</order>
+        <specialDesignatorClasses>
+            <li>Designator_Cancel</li>
+            <li>Designator_Deconstruct</li>
+            <li>Designator_DeconstructGlitterNetCable</li>
+        </specialDesignatorClasses>
+    </DesignationCategoryDef>
+    
+</Defs>

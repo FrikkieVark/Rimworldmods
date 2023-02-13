@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchProjectDef Name="CyberNetProjectBase" Abstract="True">
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+        <techLevel>Ultra</techLevel>
+        <tab>GlitterNet</tab>
+    </ResearchProjectDef>
+    
+    <!-- Base Research: Wireless Networking -->
+    
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNWirelessNetworking</defName>
+        <label>Wireless Networking</label>
+        <description>Our researchers have come up with a way to transfer information wirelessly to and from the GlitterNet system. Unfortunately, this wireless transfer doesn't have much range beyond the immediate area, and it doesn't have enough bandwidth to replace cables for most applications. Still, there may be a use for it.</description>
+        <baseCost>2000</baseCost>
+        <prerequisites>
+            <li>GNAdvancedGlitterNetProcessors</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Improved Access Points -->
+    
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNImprovedAccessPoints</defName>
+        <label>Improved Access Points</label>
+        <description>Improvements in network protocols and rapid data interpretation will allow us to get more bandwidth out of our access points. Of course, they'll be more expensive too.</description>
+        <baseCost>3000</baseCost>
+        <prerequisites>
+            <li>CNWirelessNetworking</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNAdvancedAccessPoints</defName>
+        <label>Advanced Access Points</label>
+        <description>The ultimate in networking. When efficiency gains can't be made through creative design, throw more resources at the problem. A lot more resources.</description>
+        <baseCost>4000</baseCost>
+        <prerequisites>
+            <li>CNImprovedAccessPoints</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNPacketRouter</defName>
+        <label>Packet Router</label>
+        <description>The logistics of keeping packets flowing are difficult, and get even more difficult as networks get more complex. A specialized packet router would remove overhead and increase efficiency.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNAdvancedAccessPoints</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>5</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Networked Prosthetics -->
+    
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNNetworkedProsthetics</defName>
+        <label>Networked Prosthetics</label>
+        <description>Using the wireless network, we can connect prosthetics to the GlitterNet. Each prosthetic would consume some bandwidth and processing power, but the possibilities are endless. Eventually anyway, as for now we'll have to content ourselves with good replacements.</description>
+        <baseCost>3000</baseCost>
+        <prerequisites>
+            <li>CNWirelessNetworking</li>
+            <li>GNAdvancedMedicalIntegration</li>
+            <li>Bionics</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNAdvancedNetworkedProsthetics</defName>
+        <label>Advanced Networked Prosthetics</label>
+        <description>Miniaturization of crucial components allows for more efficient prosthetics, and inclusion of increased onboard processing allows for these limbs to be as good as fleshy ones without a network.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNNetworkedProsthetics</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Blood Enhancements/Replacements -->
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNBloodEnhancement</defName>
+        <label>Blood Enhancement</label>
+        <description>Remote processing opens up several new avenues for enhancement. Effective nanomachines can now be designed since the processing they need to do is very small. Introducing such nanomachines to the blood could allow for several enhancements.</description>
+        <baseCost>4000</baseCost>
+        <prerequisites>
+            <li>CNNetworkedProsthetics</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNBloodReplacement</defName>
+        <label>Blood Replacement</label>
+        <description>Better nanomachines can not only enhance the blood but also replace it entirely, allowing for even more expansive changes.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNBloodEnhancement</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Skin & NSE, blood enhancement derivatives -->
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNSkinReplacement</defName>
+        <label>Skin Replacement</label>
+        <description>By embedding nanomachines similar to those developed for blood enhancement into artifical skin, we can create skin replacements with expansive effects.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNBloodEnhancement</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>3.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNNervousSystemEnhancement</defName>
+        <label>Nervous System Enhancement</label>
+        <description>By embedding nanomachines similar to those developed for blood enhancement into the nervous system, we can enhance it in various ways.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNBloodEnhancement</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+    
+    <!-- Brain Implants -->
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNBrainDamageRepair</defName>
+        <label>Brain Damage Repair</label>
+        <description>Connecting the brain itself directly to the GlitterNet is the most daunting enhancement possible. One promising avenue of research is repairing brain damage by replacing missing functions with remote processing. While this wouldn't be an enhancement, it could lead to further developments.</description>
+        <baseCost>5000</baseCost>
+        <prerequisites>
+            <li>CNNetworkedProsthetics</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>1.2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNCombatOptimizationImplant</defName>
+        <label>Combat Optimization Implant</label>
+        <description>The combat optimization implant processes sensory data and calculates optimal muscle motion parameters for combat. It enhances the reaction time of the user and their aim.</description>
+        <baseCost>6000</baseCost>
+        <prerequisites>
+            <li>CNBrainDamageRepair</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>0.3</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNPhasedSleepImplant</defName>
+        <label>Phased Sleep Implant</label>
+        <description>The phased sleep implant is a strange enhancement. It allows specific parts of the brain to sleep while using the GlitterNet to replace their function. It removes the need for the user to sleep, but they might seem a little... off at times.</description>
+        <baseCost>6000</baseCost>
+        <prerequisites>
+            <li>CNBrainDamageRepair</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>0.9</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNMemoryEnhancementImplant</defName>
+        <label>Memory Enhancement Implant</label>
+        <description>The memory enhancement implant indexes the user's memory and allows for instantaneous perfect recall of all indexed memories, giving the user an eidetic memory. This allows for the user to learn much faster than normally possible.</description>
+        <baseCost>6000</baseCost>
+        <prerequisites>
+            <li>CNBrainDamageRepair</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>1.5</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNSocialAnalyzerImplant</defName>
+        <label>Social Analyzer Implant</label>
+        <description>The social analyzer implant synthesises sensory data into insights into the thoughts, mood, and personality of a subject. This gives the user preternatural social insight into anyone they interact with.</description>
+        <baseCost>6000</baseCost>
+        <prerequisites>
+            <li>CNBrainDamageRepair</li>
+        </prerequisites>
+        <researchViewX>6.9</researchViewX>
+        <researchViewY>2.1</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="CyberNetProjectBase">
+        <defName>CNConsciousnessEnhancementImplant</defName>
+        <label>Consciousness Enhancement Implant</label>
+        <description>The holy grail of brain enhancement, the consciousness enhancement implant is an extremely invasive implant that integrates every part of the user's brain with the GlitterNet, allowing it to deal with highly computable processing instead of the user. This results in an overall increase in brain function in the user, making them better at just about everything.</description>
+        <baseCost>8000</baseCost>
+        <prerequisites>
+            <li>CNCombatOptimizationImplant</li>
+            <li>CNPhasedSleepImplant</li>
+            <li>CNMemoryEnhancementImplant</li>
+            <li>CNSocialAnalyzerImplant</li>
+        </prerequisites>
+        <researchViewX>7.8</researchViewX>
+        <researchViewY>1.2</researchViewY>
+    </ResearchProjectDef>
+    
+</Defs>

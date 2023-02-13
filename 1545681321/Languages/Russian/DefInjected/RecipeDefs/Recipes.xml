@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <Excavate_Steel.label>Добыча стали</Excavate_Steel.label>
+  <Excavate_Steel.description>Добывать сталь.</Excavate_Steel.description>
+  <Excavate_Steel.jobString>Добывает сталь</Excavate_Steel.jobString>
+
+  <Excavate_Plasteel.label>Добыча пластали</Excavate_Plasteel.label>
+  <Excavate_Plasteel.description>Добывать пласталь.</Excavate_Plasteel.description>
+  <Excavate_Plasteel.jobString>Добывает пласталь</Excavate_Plasteel.jobString>
+
+  <Excavate_Uranium.label>Добыча урана</Excavate_Uranium.label>
+  <Excavate_Uranium.description>Добывать уран.</Excavate_Uranium.description>
+  <Excavate_Uranium.jobString>Добывает уран</Excavate_Uranium.jobString>
+
+  <Excavate_Silver.label>Добыча серебра</Excavate_Silver.label>
+  <Excavate_Silver.description>Добывать серебро.</Excavate_Silver.description>
+  <Excavate_Silver.jobString>Добывает серебро</Excavate_Silver.jobString>
+
+  <Excavate_Gold.label>Добыча золота</Excavate_Gold.label>
+  <Excavate_Gold.description>Добывать золото.</Excavate_Gold.description>
+  <Excavate_Gold.jobString>Добывает золото</Excavate_Gold.jobString>
+
+  <Excavate_Jade.label>Добыча нефрита</Excavate_Jade.label>
+  <Excavate_Jade.description>Добывать нефрит.</Excavate_Jade.description>
+  <Excavate_Jade.jobString>Добывает нефрит</Excavate_Jade.jobString>
+  
+  <Excavate_Granite.label>Добыча гранита</Excavate_Granite.label>
+  <Excavate_Granite.description>Добывать гранит.</Excavate_Granite.description>
+  <Excavate_Granite.jobString>Добывает гранит</Excavate_Granite.jobString>
+
+  <Excavate_Sandstone.label>Добыча песчаника</Excavate_Sandstone.label>
+  <Excavate_Sandstone.description>Добывать песчаник.</Excavate_Sandstone.description>
+  <Excavate_Sandstone.jobString>Добывает песчаник</Excavate_Sandstone.jobString>
+
+  <Excavate_Limestone.label>Добыча известняка</Excavate_Limestone.label>
+  <Excavate_Limestone.description>Добывать известняк.</Excavate_Limestone.description>
+  <Excavate_Limestone.jobString>Добывает известняк</Excavate_Limestone.jobString>
+
+  <Excavate_Slate.label>Добыча сланца</Excavate_Slate.label>
+  <Excavate_Slate.description>Добывать сланец.</Excavate_Slate.description>
+  <Excavate_Slate.jobString>Добывает сланец</Excavate_Slate.jobString>
+
+  <Excavate_Marble.label>Добыча мрамора</Excavate_Marble.label>
+  <Excavate_Marble.description>Добывать мрамор.</Excavate_Marble.description>
+  <Excavate_Marble.jobString>Добывает мрамор</Excavate_Marble.jobString>
+
+  <Excavate_ComponentIndustrial.label>Добыча компонентов</Excavate_ComponentIndustrial.label>
+  <Excavate_ComponentIndustrial.description>Добывать компоненты.</Excavate_ComponentIndustrial.description>
+  <Excavate_ComponentIndustrial.jobString>Добывает компоненты</Excavate_ComponentIndustrial.jobString>
+
+</LanguageData>

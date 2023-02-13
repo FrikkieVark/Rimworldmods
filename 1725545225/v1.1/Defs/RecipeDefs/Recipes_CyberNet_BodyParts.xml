@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Networked (Bionic) Level Body Parts -->
+  
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedArm</defName>
+    <label>Install Networked Arm</label>
+    <description>Install a Networked Arm</description>
+    <jobString>Installing Networked Arm</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedArm</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedArm</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Shoulder</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedArm</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedLeg</defName>
+    <label>Install Networked Leg</label>
+    <description>Install a Networked Leg</description>
+    <jobString>Installing Networked Leg</jobString>
+    <workAmount>2500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedLeg</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedLeg</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedLeg</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedEye</defName>
+    <label>Install Networked Eye</label>
+    <description>Install a Networked Eye</description>
+    <jobString>Installing Networked Eye</jobString>
+    <workAmount>3900</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedEye</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedEye</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Eye</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedEye</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedSpine</defName>
+    <label>Install Networked Spine</label>
+    <description>Install a Networked Spine</description>
+    <jobString>Installing Networked Spine</jobString>
+    <workAmount>3400</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedSpine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedSpine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedSpine</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedHeart</defName>
+    <label>Install Networked Heart</label>
+    <description>Install a Networked Heart</description>
+    <jobString>Installing Networked Heart</jobString>
+    <workAmount>2400</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedHeart</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedHeart</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Heart</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedHeart</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedStomach</defName>
+    <label>Install Networked Stomach</label>
+    <description>Install a Networked Stomach</description>
+    <jobString>Installing Networked Stomach</jobString>
+    <workAmount>2400</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedStomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedStomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedStomach</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNInstallNetworkedEar</defName>
+    <label>Install Networked Ear</label>
+    <description>Install a Networked Ear</description>
+    <jobString>Installing Networked Ear</jobString>
+    <workAmount>2400</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNNetworkedEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNNetworkedEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNNetworkedEar</addsHediff>
+  </RecipeDef>
+  
+</Defs>

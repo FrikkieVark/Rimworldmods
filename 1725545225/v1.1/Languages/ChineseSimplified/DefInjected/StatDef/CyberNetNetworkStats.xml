@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CNWirelessEfficiencyOffset.label>无线网络效率</CNWirelessEfficiencyOffset.label>
+  <CNWirelessEfficiencyOffset.description>影响无线网络效率的因素</CNWirelessEfficiencyOffset.description>
+
+  <CNBandwidthFactor.label>带宽因子</CNBandwidthFactor.label>
+  <CNBandwidthFactor.description>总网络带宽乘以此</CNBandwidthFactor.description>
+
+
+</LanguageData>

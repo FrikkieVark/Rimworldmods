@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <InstallBrain.label>뇌 이식</InstallBrain.label>
+  <InstallBrain.description>뇌를 이식합니다.</InstallBrain.description>
+  <InstallBrain.jobString>뇌 이식 중.</InstallBrain.jobString>
+  
+    <InstallProstheticBrain.label>인공 뇌 이식</InstallProstheticBrain.label>
+  <InstallProstheticBrain.description>인공 뇌를 이식합니다.</InstallProstheticBrain.description>
+  <InstallProstheticBrain.jobString>인공 뇌 이식 중.</InstallProstheticBrain.jobString>
+
+  <InstallBionicBrain.label>생체공학 뇌 이식</InstallBionicBrain.label>
+  <InstallBionicBrain.description>생체공학 뇌를 이식합니다.</InstallBionicBrain.description>
+  <InstallBionicBrain.jobString>생체공학 뇌 이식 중.</InstallBionicBrain.jobString>
+
+  <InstallArchotechBrain.label>초월공학 뇌 이식</InstallArchotechBrain.label>
+  <InstallArchotechBrain.description>초월공학 뇌를 이식합니다.</InstallArchotechBrain.description>
+  <InstallArchotechBrain.jobString>초월공학 뇌 이식 중.</InstallArchotechBrain.jobString>
+
+</LanguageData>

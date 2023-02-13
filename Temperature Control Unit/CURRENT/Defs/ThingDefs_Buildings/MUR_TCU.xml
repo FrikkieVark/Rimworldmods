@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<DesignatorDropdownGroupDef>
+	<defName>MUR_TCU_Dropdown</defName>
+</DesignatorDropdownGroupDef>
+
+<ThingDef Abstract="True" ParentName="BuildingBase" Name="MUR_TCU_Base">
+	<thingClass>MUR_TCU.TemperatureControlUnit</thingClass>
+	<designatorDropdown>MUR_TCU_Dropdown</designatorDropdown>
+    <graphicData>
+	  <graphicClass>Graphic_Multi</graphicClass>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <blockWind>false</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <coversFloor>false</coversFloor>
+    <blockLight>false</blockLight>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <tickerType>Rare</tickerType>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+      <canPlaceOverWall>true</canPlaceOverWall>
+	  <isEdifice>false</isEdifice>
+    </building>
+    <comps>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+	<placeWorkers>
+		<li>MUR_TCU.PlaceWorker_TCU</li>
+	</placeWorkers>
+    <designationCategory>Temperature</designationCategory>
+    <clearBuildingArea>false</clearBuildingArea>
+    <researchPrerequisites>
+      <li>AirConditioning</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	<techLevel>Industrial</techLevel>
+  </ThingDef>
+  
+	<ThingDef ParentName="MUR_TCU_Base" Name="MUR_TCU">
+		<defName>MUR_TCU</defName>
+		<label>temperature control unit</label>
+		<description>A wall mounted cooler/heater combo.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/MUR_TCU</texPath>
+		</graphicData>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<costList>
+			<Steel>140</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>-21</energyPerSecond>
+			</li>
+		</comps>	
+	</ThingDef>
+  
+	<ThingDef ParentName="MUR_TCU_Base" Name = "MUR_TCU_Wide">
+		<defName>MUR_TCU_Wide</defName>
+		<label>temperature control unit (wide)</label>
+		<description>A wide wall mounted cooler/heater combo.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/MUR_TCU_Wide</texPath>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+		<size>(2,1)</size>
+		<statBases>
+			<WorkToBuild>4000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<costList>
+			<Steel>280</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>-63</energyPerSecond>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="MUR_TCU_Base" Name="MUR_TCU_Long">
+		<defName>MUR_TCU_Long</defName>
+		<label>temperature control unit (long)</label>
+		<description>A long wall mounted cooler/heater combo.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/MUR_TCU_Long</texPath>
+			<drawSize>(1,2)</drawSize>
+		</graphicData>
+		<size>(1,2)</size>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<costList>
+			<Steel>140</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>-21</energyPerSecond>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="MUR_TCU_Base" Name = "MUR_TCU_TwoByTwo">
+		<defName>MUR_TCU_TwoByTwo</defName>
+		<label>temperature control unit (2x2)</label>
+		<description>A 2x2 wall mounted cooler/heater combo.</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/TempControl/MUR_TCU_Thicc</texPath>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<size>(2,2)</size>
+		<statBases>
+			<WorkToBuild>4000</WorkToBuild>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>0.7</Flammability>
+		</statBases>
+		<costList>
+			<Steel>280</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_TempControl">
+				<energyPerSecond>-63</energyPerSecond>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+</Defs>

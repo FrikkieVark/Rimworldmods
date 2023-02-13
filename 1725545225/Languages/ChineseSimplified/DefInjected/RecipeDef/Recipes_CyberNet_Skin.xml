@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Skin Replacements -->
+
+  <CNReplaceSkinWithRhinoHide.label>以角质人造皮肤替换</CNReplaceSkinWithRhinoHide.label>
+  <CNReplaceSkinWithRhinoHide.description>以角质人造皮肤替换</CNReplaceSkinWithRhinoHide.description>
+  <CNReplaceSkinWithRhinoHide.jobString>正在以角质人造皮肤替换</CNReplaceSkinWithRhinoHide.jobString>
+
+  <CNReplaceSkinWithShockTouch.label>以电击人造皮肤替换</CNReplaceSkinWithShockTouch.label>
+  <CNReplaceSkinWithShockTouch.description>以电击人造皮肤替换</CNReplaceSkinWithShockTouch.description>
+  <CNReplaceSkinWithShockTouch.jobString>正在以电击人造皮肤替换</CNReplaceSkinWithShockTouch.jobString>
+
+  <CNReplaceSkinWithSootheAura.label>以灵能人造皮肤替换</CNReplaceSkinWithSootheAura.label>
+  <CNReplaceSkinWithSootheAura.description>以灵能人造皮肤替换</CNReplaceSkinWithSootheAura.description>
+  <CNReplaceSkinWithSootheAura.jobString>正在以灵能人造皮肤替换</CNReplaceSkinWithSootheAura.jobString>
+
+
+</LanguageData>

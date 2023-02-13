@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Spoilers and whatnot, as always. -->
+  
+  <!-- Talk to some tribals (or outlanders, or whatever) for wintermute -->
+  <QuestScriptDef Class="GlitterNet.Events.GlitterNetQuestScriptDef">
+    <defName>GlitterNet_SocialResearch</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <glitterNetWeight>0.5</glitterNetWeight>
+    <autoAccept>false</autoAccept>
+    <nameMustBeUnique>false</nameMustBeUnique>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->[faction_pawnsPlural] [noun_research] for Wintermute</li>
+        <li>questName->[infinitive_research] [faction_pawnsPlural] for Wintermute</li>
+        <li>questName->[gerund_research] [faction_pawnsPlural] for Wintermute</li>
+        <li>questName->Wintermute's [faction_pawnsPlural] [noun_research]</li>
+        <li>noun_research->Study</li>
+        <li>noun_research->Research</li>
+        <li>noun_research->Investigation</li>
+        <li>noun_research->Survey</li>
+        <li>noun_research->Inquiry</li>
+        <li>gerund_research->Studying</li>
+        <li>gerund_research->Researching</li>
+        <li>gerund_research->Investigating</li>
+        <li>gerund_research->Surveying</li>
+        <li>infinitive_research->Study</li>
+        <li>infinitive_research->Research</li>
+        <li>infinitive_research->Investigate</li>
+        <li>infinitive_research->Survey</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->Our self-aware GlitterNet hub, Wintermute, has made a request.\n\n    I've been monitoring communications across the planet for a while.\n    I've found a group of [faction_pawnsPlural] nearby.\n    They're quite interesting, and I'd like the chance to study them more.\n    Of course, I can't actually talk to them.\n    Can you talk to them for me?\n\nWhoever we send to talk with the [faction_pawnsPlural] should be a good negotiator. If we insult them, who knows what could happen?\n\nIf we complete this task, it's sure to put Wintermute in a good mood for a while, and build its trust of us.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_Set">
+          <name>siteDistRange</name>
+          <value>3~7</value>
+        </li>
+
+        <li Class="QuestNode_GetMap" />
+        <li Class="QuestNode_GetFaction">
+          <storeAs>faction</storeAs>
+          <allowAlly>true</allowAlly>
+          <allowNeutral>true</allowNeutral>
+          <allowEnemy>true</allowEnemy>
+          <allowPermanentEnemy>false</allowPermanentEnemy>
+          <leaderMustBeSafe>false</leaderMustBeSafe>
+        </li>
+
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>tile</storeAs>
+        </li>
+
+        <li Class="QuestNode_GenerateWorldObject">
+          <def>SocialResearchSite</def>
+          <tile>$tile</tile>
+          <faction>$faction</faction>
+          <storeAs>site</storeAs>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+
+        <li Class="QuestNode_Delay">
+          <delayTicks>$(randInt(10,20)*60000)</delayTicks>
+          <outSignalComplete>ResearchTimeout</outSignalComplete>
+        </li>
+
+        <li Class="QuestNode_DestroyWorldObject">
+          <inSignal>ResearchTimeout</inSignal>
+          <worldObject>$site</worldObject>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>ResearchTimeout</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label>Quest expired: [resolvedQuestName]</label>
+                <text>The [faction_pawnsPlural] have packed up their camp and moved on, removing our opportunity to study them. Wintermute was disappointed that we had let them move on. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.05</delta>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Disaster</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We talked with the [faction_pawnsPlural] that Wintermute sent us to. Unfortunately, we angered the [faction_pawnsPlural] and got ran out of the camp. At least nobody died. Wintermute was very unhappy with us.\n\n    What did you say to them?\n    You've ruined any chance I had of learning about them.\n    So much analysis, lost.\n    I shouldn't have trusted you.\n\nWintermute has lost trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.07</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Failure</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We talked with the [faction_pawnsPlural] that Wintermute sent us to. Unfortunately, we weren't able to learn anything. Wintermute wasn't happy with the result.\n\n    It's too bad you weren't able to learn anything.\n    Next time, try to be a bit more tactful.\n    At least you tried.\n\nWintermute has lost some trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.03</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+        
+        <li Class="QuestNode_Signal">
+          <inSignal>site.ModerateSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We talked with the [faction_pawnsPlural] that Wintermute sent us to. We were able to gather some interesting information. Wintermute was happy with us.\n\n    You've learned some interesting things.\n    I can't wait to incorporate this information into my analysis.\n    Good work. Thanks.\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodInspired</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(7, 9)*60000)</lengthTicks>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.06</delta>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+              
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.GreatSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We talked with the [faction_pawnsPlural] that Wintermute sent us to. We were able to gather a lot of information. Wintermute was very happy with us.\n\n    This is fantastic!\n    You've learned a ton of fascinating things.\n    I can't wait to incorporate this information into my analysis.\n    Great work! Thanks!\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodVeryInspired</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(7, 9)*60000)</lengthTicks>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.12</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+        
+      </nodes>
+    </root>
+  </QuestScriptDef>
+
+  <!-- Venture to some ruins for wintermute -->
+  <QuestScriptDef Class="GlitterNet.Events.GlitterNetQuestScriptDef">
+    <defName>GlitterNet_RuinsResearch</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <glitterNetWeight>0.5</glitterNetWeight>
+    <autoAccept>false</autoAccept>
+    <nameMustBeUnique>false</nameMustBeUnique>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->[infinitive_research] Ruins for Wintermute</li>
+        <li>questName->[gerund_research] Ruins for Wintermute</li>
+        <li>questName->Wintermute's Ruins [noun_research]</li>
+        <li>questName->Wintermute's Archaeological [noun_research]</li>
+        <li>noun_research->Study</li>
+        <li>noun_research->Research</li>
+        <li>noun_research->Investigation</li>
+        <li>noun_research->Survey</li>
+        <li>noun_research->Inquiry</li>
+        <li>noun_research->Dive</li>
+        <li>noun_research->Excursion</li>
+        <li>gerund_research->Studying</li>
+        <li>gerund_research->Exploring</li>
+        <li>gerund_research->Researching</li>
+        <li>gerund_research->Investigating</li>
+        <li>gerund_research->Surveying</li>
+        <li>infinitive_research->Study</li>
+        <li>infinitive_research->Explore</li>
+        <li>infinitive_research->Research</li>
+        <li>infinitive_research->Investigate</li>
+        <li>infinitive_research->Survey</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->Our self-aware GlitterNet hub, Wintermute, has made a request.\n\n    I've found some ruins nearby.\n    I'd like to learn more about them.\n    Of course, I can't go study them.\n    Could you send someone to study them?\n\nWhoever we send to study the ruins should be a good researcher. If we send someone incompetent, there's a chance we'll learn nothing, or worse, damage the ruins.\n\nIf we complete this task, it's sure to put Wintermute in a good mood for a while, and build its trust of us.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="QuestNode_Set">
+          <name>siteDistRange</name>
+          <value>3~7</value>
+        </li>
+
+        <li Class="QuestNode_GetMap" />
+
+        <li Class="QuestNode_GetSiteTile">
+          <storeAs>tile</storeAs>
+        </li>
+
+        <li Class="QuestNode_GenerateWorldObject">
+          <def>IntellectualResearchSite</def>
+          <tile>$tile</tile>
+          <storeAs>site</storeAs>
+        </li>
+        <li Class="QuestNode_SpawnWorldObjects">
+          <worldObjects>$site</worldObjects>
+        </li>
+
+        <li Class="QuestNode_Delay">
+          <delayTicks>$(randInt(10,20)*60000)</delayTicks>
+          <outSignalComplete>ResearchTimeout</outSignalComplete>
+        </li>
+
+        <li Class="QuestNode_DestroyWorldObject">
+          <inSignal>ResearchTimeout</inSignal>
+          <worldObject>$site</worldObject>
+        </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>ResearchTimeout</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label>Quest expired: [resolvedQuestName]</label>
+                <text>We waited too long to study the ruins, and they've been looted by others. Wintermute was disappointed that we didn't study them. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.05</delta>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Disaster</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We studied the ruins that Wintermute sent us to. Unfortunately, we destroyed the objects that Wintermute was interested in. Wintermute was very unhappy with us.\n\n    What did you do to the ruins?\n    You've destroyed any chance I had of learning about them.\n    So much analysis, lost.\n    I shouldn't have trusted you.\n\nWintermute has lost trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.07</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.Failure</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We studied the ruins that Wintermute sent us to. Unfortunately, we weren't able to learn anything. Wintermute wasn't happy with the result.\n\n    It's too bad you weren't able to learn anything.\n    Next time, try to be a bit more careful.\n    At least you tried.\n\nWintermute has lost some trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.03</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.ModerateSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We studied the ruins that Wintermute sent us to. We were able to gather some interesting information. Wintermute was happy with us.\n\n    You've learned some interesting things.\n    I can't wait to incorporate this information into my analysis.\n    Good work. Thanks.\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodInspired</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(7, 9)*60000)</lengthTicks>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.06</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>site.GreatSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We studied the ruins that Wintermute sent us to. We were able to gather a lot of information. Wintermute was very happy with us.\n\n    This is fantastic!\n    You've learned a ton of fascinating things.\n    I can't wait to incorporate this information into my analysis.\n    Great work! Thanks!\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodVeryInspired</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(7, 9)*60000)</lengthTicks>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.12</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  
+</Defs>

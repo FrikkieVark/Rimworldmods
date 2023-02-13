@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Advanced Networked (Archotech) Level Body Parts -->
+
+  <CNAdvancedNetworkedArm.label>先进电子臂</CNAdvancedNetworkedArm.label>
+  <CNAdvancedNetworkedArm.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生臂便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedArm.description>
+
+  <CNAdvancedNetworkedLeg.label>先进电子腿</CNAdvancedNetworkedLeg.label>
+  <CNAdvancedNetworkedLeg.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生腿便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedLeg.description>
+
+  <CNAdvancedNetworkedEye.label>先进电子眼</CNAdvancedNetworkedEye.label>
+  <CNAdvancedNetworkedEye.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生眼便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedEye.description>
+
+  <CNAdvancedNetworkedSpine.label>先进电子脊柱</CNAdvancedNetworkedSpine.label>
+  <CNAdvancedNetworkedSpine.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生脊柱便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedSpine.description>
+
+  <CNAdvancedNetworkedHeart.label>先进电子心脏</CNAdvancedNetworkedHeart.label>
+  <CNAdvancedNetworkedHeart.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生心脏便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedHeart.description>
+
+  <CNAdvancedNetworkedStomach.label>先进电子胃</CNAdvancedNetworkedStomach.label>
+  <CNAdvancedNetworkedStomach.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生胃便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedStomach.description>
+
+  <CNAdvancedNetworkedEar.label>先进电子耳</CNAdvancedNetworkedEar.label>
+  <CNAdvancedNetworkedEar.description>一种先进的电子假肢，可依赖远程终端进行处理，比一体化的仿生耳便宜。成本来自运行所需的基础设施</CNAdvancedNetworkedEar.description>
+
+
+</LanguageData>

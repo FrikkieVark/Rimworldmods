@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="Shelf" or defName="ShelfSmall"]/building/relatedBuildCommands</xpath>
+    <value>
+      <li>SmallShelf</li>
+      <li>OldSmallShelf</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="ElectricStove" or defName="FueledStove" or defName="TableStonecutter" or defName="Brewery" or defName="DrugLab" or defName="ElectricSmelter" or defName="BiofuelRefinery" or defName="FabricationBench" or defName="ElectricCrematorium" or defName="DeepDrill"]/building</xpath>
+    <value>
+      <relatedBuildCommands>
+        <li>SmallShelf</li>
+        <li>OldSmallShelf</li>
+      </relatedBuildCommands>
+    </value>
+  </Operation>
+
+</Patch>

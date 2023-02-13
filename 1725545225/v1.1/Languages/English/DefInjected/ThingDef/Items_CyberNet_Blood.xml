@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <CNFiltrationBloodEnhancement.label>Filtration Blood Enhancement</CNFiltrationBloodEnhancement.label>
+    <CNFiltrationBloodEnhancement.description>Tiny networked nanomachines capable of enhancing various characteristics of blood. They need remote infrastructure in order to function correctly. These ones are configured to help with blood filtration.</CNFiltrationBloodEnhancement.description>
+
+    <CNMetabolicBloodEnhancement.label>Metabolic Blood Enhancement</CNMetabolicBloodEnhancement.label>
+    <CNMetabolicBloodEnhancement.description>Tiny networked nanomachines capable of enhancing various characteristics of blood. They need remote infrastructure in order to function correctly. These ones are configured to help energy distribution, improving metabolism.</CNMetabolicBloodEnhancement.description>
+
+    <CNSynthBloodBloodReplacement.label>SynthBlood Blood Replacement</CNSynthBloodBloodReplacement.label>
+    <CNSynthBloodBloodReplacement.description>SynthBlood is a full blood replacement that utilizes remote infrastructure to function. SynthBlood is essentially a combination of the filtering and metabolic blood enhancements along with an artificial hemoglobin replacement.\n\nLike all full blood replacements, SynthBlood enhances the ability of the body to move oxygen around. However, SynthBlood does it a bit better than other blood replacements.</CNSynthBloodBloodReplacement.description>
+
+    <CNEnergyMaxBloodReplacement.label>EnergyMax Blood Replacement</CNEnergyMaxBloodReplacement.label>
+    <CNEnergyMaxBloodReplacement.description>EnergyMax is a full blood replacement that utilizes remote infrastructure to function. EnergyMax contains nanomachines that permeate through cell boundaries and optimize the mitochondrial functioning in cells, resulting in the user needing to consume less food to function.\n\nLike all full blood replacements, EnergyMax enhances the ability of the body to move oxygen around.</CNEnergyMaxBloodReplacement.description>
+
+    <CNHyperClotBloodReplacement.label>HyperClot Blood Replacement</CNHyperClotBloodReplacement.label>
+    <CNHyperClotBloodReplacement.description>HyperClot is a full blood replacement that utilizes remote infrastructure to function. HyperClot contains artifical platelets that form a meshnet with other platelets in the bloodstream. When a bleeding injury is detected, the artificial platelets are coordinated to close the wound quickly.\n\nLike all full blood replacements, HyperClot enhances the ability of the body to move oxygen around.</CNHyperClotBloodReplacement.description>
+
+    <CNThermControlBloodReplacement.label>ThermControl Blood Replacement</CNThermControlBloodReplacement.label>
+    <CNThermControlBloodReplacement.description>ThermControl is a full blood replacement that utilizes remote infrastructure to function. ThermControl contains nanomachines that operate in two different modes. Depending on the exterior temperature, the nanomachines either form an insulating layer, or channel heat out to the skin, helping to regulate the host's body temperature.\n\nLike all full blood replacements, ThermControl enhances the ability of the body to move oxygen around.</CNThermControlBloodReplacement.description>
+
+</LanguageData>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Base Research: Wireless Networking -->
+
+  <CNWirelessNetworking.label>无线网络</CNWirelessNetworking.label>
+  <CNWirelessNetworking.description>我们的研究人员提出了一种与闪耀网络系统无线传输信息的方法。不过这种方法能提供的范围与带宽非常有限，无法代替大多数电缆。但是可能可以应用在别的方面。</CNWirelessNetworking.description>
+
+
+  <!-- Improved Access Points -->
+
+  <CNImprovedAccessPoints.label>改进终端</CNImprovedAccessPoints.label>
+  <CNImprovedAccessPoints.description>改进的网络协议与更快的数据交换能力，将提供更大的带宽。当然，它们也更加昂贵。</CNImprovedAccessPoints.description>
+
+  <CNAdvancedAccessPoints.label>先进终端</CNAdvancedAccessPoints.label>
+  <CNAdvancedAccessPoints.description>终极解决方案。当创意成为瓶颈时，堆料可以解决一部分问题。</CNAdvancedAccessPoints.description>
+
+  <CNPacketRouter.label>数据路由</CNPacketRouter.label>
+  <CNPacketRouter.description>保持数据稳定和通畅是一件难事，当网络变得复杂起来更是如此。专用的数据路由可以保持网络稳定并提升性能。</CNPacketRouter.description>
+
+
+  <!-- Networked Prosthetics -->
+
+  <CNNetworkedProsthetics.label>电子假肢</CNNetworkedProsthetics.label>
+  <CNNetworkedProsthetics.description>利用无线网络，我们可以将电子假肢接入闪耀网络。虽然每个假肢都将消耗带宽与计算力，但是充满了可能性。不管怎么说，我们不得不对这些优秀的代替品感到满意。</CNNetworkedProsthetics.description>
+
+  <CNAdvancedNetworkedProsthetics.label>先进电子假肢</CNAdvancedNetworkedProsthetics.label>
+  <CNAdvancedNetworkedProsthetics.description>将关键部件小型化给我们带来了更加优秀的假肢，并且内置的处理器能让这些假肢在没有网络的情况下，也和肉体表现的一样好。</CNAdvancedNetworkedProsthetics.description>
+
+
+  <!-- Blood Enhancements/Replacements -->
+
+  <CNBloodEnhancement.label>血液强化物</CNBloodEnhancement.label>
+  <CNBloodEnhancement.description>远程处理能力给人体强化带来了新思路，现在我们设计出了这些新的纳米机械，将这些纳米机械导入血液，将获得一些强化。</CNBloodEnhancement.description>
+
+  <CNBloodReplacement.label>人造血</CNBloodReplacement.label>
+  <CNBloodReplacement.description>改进的纳米机械不仅可以提供强化，甚至可以取代血液，以提供更多的选择。</CNBloodReplacement.description>
+
+
+  <!-- Skin & NSE, blood enhancement derivatives -->
+
+  <CNSkinReplacement.label>人造皮肤</CNSkinReplacement.label>
+  <CNSkinReplacement.description>将类似于血液强化物的纳米机器嵌入到人造皮肤中，我们可以得到数种皮肤替代品。</CNSkinReplacement.description>
+
+  <CNNervousSystemEnhancement.label>神经系统增强</CNNervousSystemEnhancement.label>
+  <CNNervousSystemEnhancement.description>将类似于血液强化物的纳米机器嵌入到神经系统，我们可以得到多种强化方案。</CNNervousSystemEnhancement.description>
+
+
+  <!-- Brain Implants -->
+
+  <CNBrainDamageRepair.label>脑损伤修复</CNBrainDamageRepair.label>
+  <CNBrainDamageRepair.description>将大脑接入GlitterNET将带来无穷的潜力，其中一个选择是利用远程计算来弥补脑损伤。虽然这并不是强化，但是充满了可能性。</CNBrainDamageRepair.description>
+
+  <CNCombatOptimizationImplant.label>战斗强化植入物</CNCombatOptimizationImplant.label>
+  <CNCombatOptimizationImplant.description>战斗强化植入物将获取感官数据，并计算最佳的肌肉运动参数。这将强化用户的反应能力与瞄准能力。</CNCombatOptimizationImplant.description>
+
+  <CNPhasedSleepImplant.label>分段睡眠植入物</CNPhasedSleepImplant.label>
+  <CNPhasedSleepImplant.description>分段睡眠植入是一种非常规的植入物。它允许大脑将部分区域的功能移交给GlitterNET计算并让该区域休眠。它消除了用户睡觉的需求，但是它好像……有时会失效。</CNPhasedSleepImplant.description>
+
+  <CNMemoryEnhancementImplant.label>记忆强化植入物</CNMemoryEnhancementImplant.label>
+  <CNMemoryEnhancementImplant.description>记忆强化植入物将索引用户的记忆，并可以完美地调用，以为用户提供精确的记忆。这将强化用户的学习能力。</CNMemoryEnhancementImplant.description>
+
+  <CNSocialAnalyzerImplant.label>社交强化植入物</CNSocialAnalyzerImplant.label>
+  <CNSocialAnalyzerImplant.description>社交强化植入物将分析对象的想法、情绪和看法。这将提供超乎常理的社交能力。</CNSocialAnalyzerImplant.description>
+
+  <CNConsciousnessEnhancementImplant.label>意识强化植入物</CNConsciousnessEnhancementImplant.label>
+  <CNConsciousnessEnhancementImplant.description>超乎寻常的大脑强化物，意识强化植入是一种深层植入物，它允许用户大脑的各个部分均接入闪耀网络，使其能代替用户进行高强度的计算。这将提升大脑的综合能力，使用户在几乎所有事情上都做得更好。</CNConsciousnessEnhancementImplant.description>
+
+
+</LanguageData>

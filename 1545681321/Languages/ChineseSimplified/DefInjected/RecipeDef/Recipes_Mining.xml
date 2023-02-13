@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Design parameters
+		 * Pawn labor is worth 7.523 silver/hour
+			Ticks  = 216000/650 = 332.307692308 ticks/silver
+			Silver = 650/216000 = 0.003009259 silver/tick
+	        1hr = 2500 ticks -->
+  <Excavate_Steel.label>挖掘铁矿</Excavate_Steel.label>
+  <Excavate_Steel.description>挖掘铁矿.</Excavate_Steel.description>
+  <Excavate_Steel.jobString>挖掘铁矿.</Excavate_Steel.jobString>
+  <Excavate_Plasteel.label>挖掘玻璃钢</Excavate_Plasteel.label>
+  <Excavate_Plasteel.description>挖掘玻璃钢.</Excavate_Plasteel.description>
+  <Excavate_Plasteel.jobString>挖掘玻璃钢.</Excavate_Plasteel.jobString>
+  <Excavate_Uranium.label>挖掘铀矿</Excavate_Uranium.label>
+  <Excavate_Uranium.description>挖掘铀矿.</Excavate_Uranium.description>
+  <Excavate_Uranium.jobString>挖掘铀矿</Excavate_Uranium.jobString>
+  <Excavate_Silver.label>挖掘白银</Excavate_Silver.label>
+  <Excavate_Silver.description>挖掘白银.</Excavate_Silver.description>
+  <Excavate_Silver.jobString>挖掘白银</Excavate_Silver.jobString>
+  <Excavate_Gold.label>挖掘黄金</Excavate_Gold.label>
+  <Excavate_Gold.description>挖掘黄金.</Excavate_Gold.description>
+  <Excavate_Gold.jobString>挖掘黄金</Excavate_Gold.jobString>
+  <Excavate_Jade.label>挖掘翡翠</Excavate_Jade.label>
+  <Excavate_Jade.description>挖掘翡翠.</Excavate_Jade.description>
+  <Excavate_Jade.jobString>挖掘翡翠</Excavate_Jade.jobString>
+  <Excavate_Granite.label>挖掘花岗岩</Excavate_Granite.label>
+  <Excavate_Granite.description>挖掘花岗岩.</Excavate_Granite.description>
+  <Excavate_Granite.jobString>挖掘花岗岩</Excavate_Granite.jobString>
+  <Excavate_Sandstone.label>挖掘砂岩</Excavate_Sandstone.label>
+  <Excavate_Sandstone.description>挖掘砂岩.</Excavate_Sandstone.description>
+  <Excavate_Sandstone.jobString>挖掘砂岩</Excavate_Sandstone.jobString>
+  <Excavate_Limestone.label>挖掘石灰岩</Excavate_Limestone.label>
+  <Excavate_Limestone.description>挖掘石灰岩.</Excavate_Limestone.description>
+  <Excavate_Limestone.jobString>挖掘石灰岩</Excavate_Limestone.jobString>
+  <Excavate_Slate.label>挖掘板岩</Excavate_Slate.label>
+  <Excavate_Slate.description>挖掘板岩.</Excavate_Slate.description>
+  <Excavate_Slate.jobString>挖掘板岩</Excavate_Slate.jobString>
+  <Excavate_Marble.label>挖掘大理石</Excavate_Marble.label>
+  <Excavate_Marble.description>挖掘大理石.</Excavate_Marble.description>
+  <Excavate_Marble.jobString>挖掘大理石</Excavate_Marble.jobString>
+  <Excavate_ComponentIndustrial.label>挖掘零部件</Excavate_ComponentIndustrial.label>
+  <Excavate_ComponentIndustrial.description>挖掘零部件.</Excavate_ComponentIndustrial.description>
+  <Excavate_ComponentIndustrial.jobString>挖掘零部件</Excavate_ComponentIndustrial.jobString>
+</LanguageData>

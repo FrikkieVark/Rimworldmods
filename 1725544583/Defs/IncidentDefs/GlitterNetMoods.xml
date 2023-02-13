@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Hey! What are you doing here? There's spoilers in this file! -->
+
+
+
+
+
+
+
+
+
+
+	<!-- I mean, I can't stop you from reading them, of course, but you definitely shouldn't. -->
+
+
+
+
+
+
+
+
+
+
+	<!-- Fine. Whatever. Go ahead, ruin the experience. I only did this for you, after all. -->
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Main storyline moods -->
+	
+  <Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNStorylineMoodDazzled</defName>
+		<label>Dazzled</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.25</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>0.25</GlitterNetNetworkProcessingUsageFactor>
+		</StatMods>
+  </Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNStorylineMoodHungry</defName>
+		<label>Hungry</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.1</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>0.35</GlitterNetNetworkProcessingUsageFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNStorylineMoodCurious</defName>
+		<label>Curious</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.2</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingPowerFactor>0.1</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNStorylineMoodEnnui</defName>
+		<label>Ennui</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.35</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>-0.35</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingPowerFactor>-0.35</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNStorylineMoodEnlightened</defName>
+		<label>Enlightened</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.40</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.40</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>-0.40</GlitterNetNetworkProcessingUsageFactor>
+			<GlitterNetNetworkProcessingPowerFactor>0.40</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<!-- Generic moods -->
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodHappy</defName>
+		<label>Happy</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.05</GlitterNetNetworkEfficiencyOffset>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodSad</defName>
+		<label>Sad</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.05</GlitterNetNetworkEfficiencyOffset>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodCalm</defName>
+		<label>Calm</label>
+		<StatMods>
+			<GlitterNetNetworkProcessingPowerFactor>0.05</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodTired</defName>
+		<label>Tired</label>
+		<StatMods>
+			<GlitterNetNetworkProcessingPowerFactor>-0.05</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodAnxious</defName>
+		<label>Anxious</label>
+		<StatMods>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>0.1</GlitterNetNetworkProcessingUsageFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodBored</defName>
+		<label>Bored</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>-0.05</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>-0.1</GlitterNetNetworkProcessingUsageFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodExited</defName>
+		<label>Exited</label>
+		<StatMods>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingPowerFactor>0.05</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodIntrospective</defName>
+		<label>Introspective</label>
+		<StatMods>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+		</StatMods>
+	</Def>
+	
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodHyperfocused</defName>
+		<label>Hyperfocused</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.15</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>0.25</GlitterNetNetworkProcessingUsageFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodSerene</defName>
+		<label>Serene</label>
+		<StatMods>
+			<GlitterNetNetworkProcessingPowerFactor>0.15</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodInventive</defName>
+		<label>Inventive</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.10</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.10</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>-0.10</GlitterNetNetworkProcessingUsageFactor>
+			<GlitterNetNetworkProcessingPowerFactor>0.10</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodIncisive</defName>
+		<label>Incisive</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.20</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.20</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>-0.20</GlitterNetNetworkProcessingUsageFactor>
+			<GlitterNetNetworkProcessingPowerFactor>0.20</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+
+	<Def Class="GlitterNet.Events.GlitterNetMoodDef">
+		<defName>GNGenericMoodTranscendent</defName>
+		<label>Transcendent</label>
+		<StatMods>
+			<GlitterNetNetworkEfficiencyOffset>0.30</GlitterNetNetworkEfficiencyOffset>
+			<GlitterNetNetworkMaxEfficiencyOffset>0.30</GlitterNetNetworkMaxEfficiencyOffset>
+			<GlitterNetNetworkProcessingUsageFactor>-0.30</GlitterNetNetworkProcessingUsageFactor>
+			<GlitterNetNetworkProcessingPowerFactor>0.30</GlitterNetNetworkProcessingPowerFactor>
+		</StatMods>
+	</Def>
+	
+</Defs>

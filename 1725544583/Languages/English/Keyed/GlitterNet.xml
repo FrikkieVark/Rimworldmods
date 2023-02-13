@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <GlitterNet.Disconnected>Not connected to a functioning GlitterNet Hub.</GlitterNet.Disconnected>
+    <GlitterNet.Malfunctioning>Network malfunctioning. Check GlitterNet Hub for information.</GlitterNet.Malfunctioning>
+    <GlitterNet.Functioning>Connected to a GlitterNet Hub. Efficiency: {0}%</GlitterNet.Functioning>
+    <GlitterNet.MultipleHubs>Too many hubs connected. Only one hub may be connected per network. Current number of hubs: {0}</GlitterNet.MultipleHubs>
+    <GlitterNet.ProcessingPower>Processing Power: {0} PetaFLOPS</GlitterNet.ProcessingPower>
+    <GlitterNet.TotalProcessingPower>Total Processing Power:  {0} PetaFLOPS</GlitterNet.TotalProcessingPower>
+    <GlitterNet.ProcessingUsage>Processing Usage: {0} PetaFLOPS</GlitterNet.ProcessingUsage>
+    <GlitterNet.ConnectedTo>Currently connected to: {0}</GlitterNet.ConnectedTo>
+    <GlitterNet.TotalProcessingUsage>Total Processing Usage: {0} PetaFLOPS</GlitterNet.TotalProcessingUsage>
+    <GlitterNet.HubFunctioning>System functioning. Current Efficiency: {0}%</GlitterNet.HubFunctioning>
+    <GlitterNet.MalfunctioningPower>GlitterNet device malfunction: Not Powered.</GlitterNet.MalfunctioningPower>
+    <GlitterNet.MalfunctioningBroken>GlitterNet device malfunction: Broken.</GlitterNet.MalfunctioningBroken>
+    <GlitterNet.MalfunctioningTemp>GlitterNet device malfunction: Overheating. Max operating temperature: {0}</GlitterNet.MalfunctioningTemp>
+    <GlitterNet.ConnectedDevices>Connected to {0} GlitterNet devices.</GlitterNet.ConnectedDevices>
+    <GlitterNet.ConnectToNext>Connect to next building.</GlitterNet.ConnectToNext>
+    <GlitterNet.ConnectToNextDesc>Connects this integrator to the next available building.</GlitterNet.ConnectToNextDesc>
+    <GlitterNet.MaxSimultaneousProcessor>Concurrency Processor increases maximum simultaneous integrators by {0}.</GlitterNet.MaxSimultaneousProcessor>
+    <GlitterNet.EfficiencyProcessor>Efficiency Processor increases maximum possible efficiency by {0}.</GlitterNet.EfficiencyProcessor>
+    <GlitterNet.OverdriveProcessor>Overdrive Processor increases efficiency by {0}, and processor usage by {1}.</GlitterNet.OverdriveProcessor>
+    <GlitterNet.ProcessingPowerProcessor>Overhead Processor increases processor power by {0}.</GlitterNet.ProcessingPowerProcessor>
+    <GlitterNet.IntegratorsReport>GlitterNet Integrators</GlitterNet.IntegratorsReport>
+    <GlitterNet.AwokenStatus>Awoken!</GlitterNet.AwokenStatus>
+    <GlitterNet.CurrentMood>Current mood: {0}</GlitterNet.CurrentMood>
+    
+    <GlitterNet.EnableSystemWake_title>Enable System Wake</GlitterNet.EnableSystemWake_title>
+    <GlitterNet.EnableSystemWake_desc>System Wake is a storyline for GlitterNet. If you would like this storyline to be present in your game, enable this setting. This setting can be changed any time during a game.</GlitterNet.EnableSystemWake_desc>
+    <GlitterNet.EnableThermalManagement_title>Enable Thermal Management</GlitterNet.EnableThermalManagement_title>
+    <GlitterNet.EnableThermalManagement_desc>If thermal management is enabled, GlitterNet hubs, processors, and specialized processors will produce heat and have maximum operating temperatures. It's recommended to play with anoher mod that adds more advanced temperature control if you want to enable thermal management. This setting can be changed any time during a game.</GlitterNet.EnableThermalManagement_desc>
+    <GlitterNet.ShutoffTemperature_title>Shutoff Temperature</GlitterNet.ShutoffTemperature_title>
+    <GlitterNet.ShutoffTemperature_desc>The temperature devices shut down at, in celsius, if thermal management is enabled.</GlitterNet.ShutoffTemperature_desc>
+    <GlitterNet.HeatProductionMultiplier_title>Heat Production Multiplier</GlitterNet.HeatProductionMultiplier_title>
+    <GlitterNet.HeatProductionMultiplier_desc>The heat produced by devices is scaled by this value, as a percentage, if thermal management is enabled.</GlitterNet.HeatProductionMultiplier_desc>
+
+</LanguageData>

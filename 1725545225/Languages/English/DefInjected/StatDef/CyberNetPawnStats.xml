@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <CNBleedingHealRate.label>Bleeding Wound Heal Rate</CNBleedingHealRate.label>
+    <CNBleedingHealRate.description>The rate at which bleeding wounds heal.</CNBleedingHealRate.description>
+  
+</LanguageData>

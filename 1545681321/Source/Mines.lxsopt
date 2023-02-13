@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProjectOptions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="7.0.2.746">
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Defs\Mines.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Defs\Work.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Patches\patches.xml"/>
+</XmlStudioProjectOptions>

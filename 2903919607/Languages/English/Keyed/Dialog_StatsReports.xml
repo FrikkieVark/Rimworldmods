@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<EnterHemogenExtractor>Enter Hemogen Extractor</EnterHemogenExtractor>
+	<CarryToHemogenExtractor>Carry {1_label} to Hemogen Extractor</CarryToHemogenExtractor>
+	<CannotCarryToHemogenExtractor>Cannot carry to Hemogen Extractor</CannotCarryToHemogenExtractor>
+	<RefuelTitle>Nutrition Filter</RefuelTitle>
+	<RefuelTab>Nutrition</RefuelTab>
+	<Eject>Auto-Eject in: </Eject>
+	<AutoEjected>Pawn was auto-ejected from Hemogen Extractor to prevent death from malnutrition.</AutoEjected>
+	
+	<CommandCopyHemogenExtractorSettingsLabel>Copy settings</CommandCopyHemogenExtractorSettingsLabel>
+	<CommandCopyHemogenExtractorSettingsDesc>Copy this Hemogen Extractor's settings to the clipboard so you can paste them onto another Hemogen Extractor.</CommandCopyHemogenExtractorSettingsDesc>
+
+	<CommandPasteHemogenExtractorSettingsLabel>Paste settings</CommandPasteHemogenExtractorSettingsLabel>
+	<CommandPasteHemogenExtractorSettingsDesc>Overwrite this Hemogen Extractor's settings with those previously copied to the clipboard.</CommandPasteHemogenExtractorSettingsDesc>
+</LanguageData>

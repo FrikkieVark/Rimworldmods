@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<RecipeDef Name="DrawBlood" ParentName="SurgeryFlesh" Abstract="True">
+	    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+        <deathOnFailedSurgeryChance>0</deathOnFailedSurgeryChance>
+		<recipeUsers>
+         <li>Human</li>
+        </recipeUsers>
+		<workerClass>IV.Recipe_DrawBlood</workerClass>
+		<workAmount>0</workAmount>
+		<targetsBodyPart>false</targetsBodyPart>
+		<ingredients>
+         <li>
+           <filter>
+              <categories>
+                 <li>Medicine</li>
+              </categories>
+           </filter>
+           <count>1</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <categories>
+            <li>Medicine</li>
+         </categories>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DrawBlood">
+      <defName>DrawBloodChild</defName>
+      <label>Draw blood</label>
+	  <description>Draw blood from pawn.</description>
+      <jobString>Drawing blood...</jobString>
+   </RecipeDef>
+   
+</Defs>

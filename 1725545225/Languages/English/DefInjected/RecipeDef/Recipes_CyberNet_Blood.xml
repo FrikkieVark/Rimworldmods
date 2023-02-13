@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <CNAddFiltrationBloodEnhancement.label>Add Filtration Blood Enhancement</CNAddFiltrationBloodEnhancement.label>
+  <CNAddFiltrationBloodEnhancement.description>Add a Filtration Blood Enhancement</CNAddFiltrationBloodEnhancement.description>
+  <CNAddFiltrationBloodEnhancement.jobString>Adding a Filtration Blood Enhancement</CNAddFiltrationBloodEnhancement.jobString>
+
+  <CNAddMetabolicBloodEnhancement.label>Add Metabolic Blood Enhancement</CNAddMetabolicBloodEnhancement.label>
+  <CNAddMetabolicBloodEnhancement.description>Add a Metabolic Blood Enhancement</CNAddMetabolicBloodEnhancement.description>
+  <CNAddMetabolicBloodEnhancement.jobString>Adding a Metabolic Blood Enhancement</CNAddMetabolicBloodEnhancement.jobString>
+
+  <CNReplaceBloodWithSynthBlood.label>Replace Blood with SynthBlood</CNReplaceBloodWithSynthBlood.label>
+  <CNReplaceBloodWithSynthBlood.description>Replace Blood with SynthBlood</CNReplaceBloodWithSynthBlood.description>
+  <CNReplaceBloodWithSynthBlood.jobString>Replacing Blood with SynthBlood</CNReplaceBloodWithSynthBlood.jobString>
+
+  <CNReplaceBloodWithEnergyMax.label>Replace Blood with EnergyMax</CNReplaceBloodWithEnergyMax.label>
+  <CNReplaceBloodWithEnergyMax.description>Replace Blood with EnergyMax</CNReplaceBloodWithEnergyMax.description>
+  <CNReplaceBloodWithEnergyMax.jobString>Replacing Blood with EnergyMax</CNReplaceBloodWithEnergyMax.jobString>
+  
+  <CNReplaceBloodWithHyperClot.label>Replace Blood with HyperClot</CNReplaceBloodWithHyperClot.label>
+  <CNReplaceBloodWithHyperClot.description>Replace Blood with HyperClot</CNReplaceBloodWithHyperClot.description>
+  <CNReplaceBloodWithHyperClot.jobString>Replacing Blood with HyperClot</CNReplaceBloodWithHyperClot.jobString>
+
+  <CNReplaceBloodWithThermControl.label>Replace Blood with ThermControl</CNReplaceBloodWithThermControl.label>
+  <CNReplaceBloodWithThermControl.description>Replace Blood with ThermControl</CNReplaceBloodWithThermControl.description>
+  <CNReplaceBloodWithThermControl.jobString>Replacing Blood with ThermControl</CNReplaceBloodWithThermControl.jobString>
+
+</LanguageData>

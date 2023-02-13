@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Networked (Bionic) Level Body Parts -->
+
+  <CNInstallNetworkedArm.label>安装电子臂</CNInstallNetworkedArm.label>
+  <CNInstallNetworkedArm.description>安装一个电子臂</CNInstallNetworkedArm.description>
+  <CNInstallNetworkedArm.jobString>正在安装电子臂</CNInstallNetworkedArm.jobString>
+
+  <CNInstallNetworkedLeg.label>安装电子腿</CNInstallNetworkedLeg.label>
+  <CNInstallNetworkedLeg.description>安装一个电子腿</CNInstallNetworkedLeg.description>
+  <CNInstallNetworkedLeg.jobString>正在安装电子腿</CNInstallNetworkedLeg.jobString>
+
+  <CNInstallNetworkedEye.label>安装电子眼</CNInstallNetworkedEye.label>
+  <CNInstallNetworkedEye.description>安装一个电子眼</CNInstallNetworkedEye.description>
+  <CNInstallNetworkedEye.jobString>正在安装电子眼</CNInstallNetworkedEye.jobString>
+
+  <CNInstallNetworkedSpine.label>安装电子脊柱</CNInstallNetworkedSpine.label>
+  <CNInstallNetworkedSpine.description>安装一个电子脊柱</CNInstallNetworkedSpine.description>
+  <CNInstallNetworkedSpine.jobString>正在安装电子脊柱</CNInstallNetworkedSpine.jobString>
+
+  <CNInstallNetworkedHeart.label>安装电子心脏</CNInstallNetworkedHeart.label>
+  <CNInstallNetworkedHeart.description>安装一个电子心脏</CNInstallNetworkedHeart.description>
+  <CNInstallNetworkedHeart.jobString>正在安装电子心脏</CNInstallNetworkedHeart.jobString>
+
+  <CNInstallNetworkedStomach.label>安装电子胃</CNInstallNetworkedStomach.label>
+  <CNInstallNetworkedStomach.description>安装一个电子胃</CNInstallNetworkedStomach.description>
+  <CNInstallNetworkedStomach.jobString>正在安装电子胃</CNInstallNetworkedStomach.jobString>
+
+  <CNInstallNetworkedEar.label>安装电子耳</CNInstallNetworkedEar.label>
+  <CNInstallNetworkedEar.description>安装一个电子耳</CNInstallNetworkedEar.description>
+  <CNInstallNetworkedEar.jobString>正在安装电子耳</CNInstallNetworkedEar.jobString>
+
+
+</LanguageData>

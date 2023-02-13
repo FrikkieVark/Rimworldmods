@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingCategoryDef>
+    <defName>CyberNetNetworkedProsthetics</defName>
+    <label>Networked Prosthetics</label>
+    <parent>BodyParts</parent>
+  </ThingCategoryDef>
+
+</Defs>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- GlitterNet Cable -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>GNGlitterNetCable</defName>
+        <label>GlitterNet Cable</label>
+        <description>High-speed cables capable of connecting GlitterNet devices together.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetCable</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/GlitterNetCable_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Basic</linkType>
+            <linkFlags>
+                <li>Custom8</li>
+            </linkFlags>
+            <damageData>
+                <rect>(0,0.35,1,0.3)</rect>
+            </damageData>
+        </graphicData>
+        <uiIconPath>UI/GlitterNetCable_Icon</uiIconPath>
+        <building>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <blueprintGraphicData>
+                <texPath>Things/Buildings/GlitterNetInfrastructure/GlitterNetCable_Blueprint_Atlas</texPath>
+            </blueprintGraphicData>
+        </building>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToBuild>35</WorkToBuild>
+            <Flammability>1.0</Flammability>
+            <Beauty>-1</Beauty>
+        </statBases>
+        <placingDraggableDimensions>1</placingDraggableDimensions>
+        <costList>
+            <Steel>1</Steel>
+            <Plasteel>1</Plasteel>
+        </costList>
+        <comps>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetCable</compClass>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>GlitterNet.PlaceWorkerGlitterNetCable</li>
+        </placeWorkers>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <neverMultiSelect>true</neverMultiSelect>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>GlitterNet</designationCategory>
+        <constructEffect>ConstructMetal</constructEffect>
+        <clearBuildingArea>false</clearBuildingArea>
+        <researchPrerequisites><li>GNGlitterNetHubs</li></researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>GNGlitterNetCableHidden</defName>
+        <label>GlitterNet Cable (Hidden)</label>
+        <description>High-speed cables capable of connecting GlitterNet devices together. This version is hidden underground.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetCableHidden</thingClass>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/EmptyAtlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <linkType>Basic</linkType>
+            <linkFlags>
+                <li>Custom8</li>
+            </linkFlags>
+            <damageData>
+                <rect>(0,0.35,1,0.3)</rect>
+            </damageData>
+        </graphicData>
+        <uiIconPath>UI/GlitterNetCable_Icon</uiIconPath>
+        <building>
+            <isInert>true</isInert>
+            <isEdifice>false</isEdifice>
+            <blueprintGraphicData>
+                <texPath>Things/Buildings/GlitterNetInfrastructure/GlitterNetCable_Blueprint_Atlas</texPath>
+            </blueprintGraphicData>
+        </building>
+        <altitudeLayer>FloorEmplacement</altitudeLayer>
+        <passability>Standable</passability>
+        <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <WorkToBuild>70</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Beauty>0</Beauty>
+        </statBases>
+        <placingDraggableDimensions>1</placingDraggableDimensions>
+        <costList>
+            <Steel>2</Steel>
+            <Plasteel>2</Plasteel>
+        </costList>
+        <comps>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetCable</compClass>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>GlitterNet.PlaceWorkerGlitterNetCable</li>
+        </placeWorkers>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <neverMultiSelect>true</neverMultiSelect>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>GlitterNet</designationCategory>
+        <constructEffect>ConstructMetal</constructEffect>
+        <clearBuildingArea>false</clearBuildingArea>
+        <researchPrerequisites><li>GNGlitterNetHubs</li></researchPrerequisites>
+    </ThingDef>
+    
+    <!-- GlitterNet Base Building for Infrastructure -->
+	
+    <ThingDef Name="GNInfrastructureBase" ParentName="BuildingBase" Abstract="True">
+        <tickerType>Never</tickerType>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>Buildings</li>
+        </thingCategories>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <castEdgeShadows>true</castEdgeShadows>
+        <fillPercent>0.5</fillPercent>
+        <designationCategory>GlitterNet</designationCategory>
+        <canOverlapZones>false</canOverlapZones>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef>
+    
+    <!-- GlitterNet Hub -->
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNGlitterNetHub</defName>
+        <label>GlitterNet Hub</label>
+        <description>The core of a GlitterNet system. A powerful computing system capable of coordinating the processing of massive amounts of data. Unfortunately, the architecture of the GlitterNet system requires only one hub be connected to any given device.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetHub</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/GlitterNetHub</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+		<rotatable>false</rotatable>
+        <researchPrerequisites><li>GNGlitterNetHubs</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>1600</MaxHitPoints>
+            <WorkToBuild>120000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>250</Steel>
+            <Plasteel>100</Plasteel>
+            <Gold>50</Gold>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>1000</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetHub</compClass>
+                <ProcessingValue>2</ProcessingValue>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>10</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    </ThingDef>
+    
+    <!-- GlitterNet Processors -->
+	
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNBasicGlitterNetProcessor</defName>
+        <label>Basic GlitterNet Processor</label>
+        <description>A general auxiliary processor for the GlitterNet system. Capable of processing highly demanding calculations.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetProcessor</thingClass>
+        <graphicData>
+          <texPath>Things/Buildings/GlitterNetInfrastructure/BasicGlitterNetProcessor</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(1,2)</drawSize>
+          <damageData>
+          <cornerTL>Damage/Corner</cornerTL>
+          <cornerTR>Damage/Corner</cornerTR>
+          <cornerBL>Damage/Corner</cornerBL>
+          <cornerBR>Damage/Corner</cornerBR>
+          </damageData>
+        </graphicData>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <designatorDropdown>GlitterNet_Processors</designatorDropdown>
+        <researchPrerequisites><li>GNGlitterNetHubs</li></researchPrerequisites>
+        <size>(1,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>30000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>15</Steel>
+            <Plasteel>10</Plasteel>
+            <Gold>5</Gold>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetProcessor</compClass>
+                <ProcessingValue>1</ProcessingValue>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>2</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNImprovedGlitterNetProcessor</defName>
+        <label>Improved GlitterNet Processor</label>
+        <description>A general auxiliary processor for the GlitterNet system. Capable of processing large amounts of highly demanding calculations at high speeds.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/ImprovedGlitterNetProcessor</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,2)</drawSize>
+          <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+          </damageData>
+            </graphicData>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <designatorDropdown>GlitterNet_Processors</designatorDropdown>
+        <researchPrerequisites><li>GNImprovedGlitterNetProcessors</li></researchPrerequisites>
+        <size>(1,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>60000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>120</Steel>
+            <Plasteel>80</Plasteel>
+            <Gold>40</Gold>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>400</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetProcessor</compClass>
+                <ProcessingValue>4</ProcessingValue>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>4</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    </ThingDef>
+    
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNAdvancedGlitterNetProcessor</defName>
+        <label>Advanced GlitterNet Processor</label>
+        <description>An advanced general auxiliary processor for the GlitterNet system. Capable of processing immense amounts of highly demanding calculations at very high speeds.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/AdvancedGlitterNetProcessor</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+        </graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+        <designatorDropdown>GlitterNet_Processors</designatorDropdown>
+        <researchPrerequisites><li>GNAdvancedGlitterNetProcessors</li></researchPrerequisites>
+        <size>(1,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>120000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>720</Steel>
+            <Plasteel>480</Plasteel>
+            <Gold>240</Gold>
+            <ComponentIndustrial>48</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>800</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetProcessor</compClass>
+                <ProcessingValue>16</ProcessingValue>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>8</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <!-- Specialized Processors -->
+	
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNSpecializedEfficiencyProcessor</defName>
+        <label>Specialized Efficiency Processor</label>
+        <description>A specialized processor for the GlitterNet system. This one increases maximum efficiency. Does not stack.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetSpecializedProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/SpecializedEfficiencyProcessor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+		    <rotatable>false</rotatable>
+        <researchPrerequisites><li>GNEfficiencyProcessor</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>120000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>500</Steel>
+            <Plasteel>200</Plasteel>
+            <Gold>100</Gold>
+            <ComponentIndustrial>20</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>1000</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetSpecializedProcessor</compClass>
+                <SpecializedProcessorType>EfficiencyProcessor</SpecializedProcessorType>
+                <MaxEffects>
+                    <GlitterNetNetworkMaxEfficiencyOffset>0.1</GlitterNetNetworkMaxEfficiencyOffset>
+                </MaxEffects>
+                <MaxSimultaneous>1</MaxSimultaneous>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>10</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNSpecializedOverdriveProcessor</defName>
+        <label>Specialized Overdrive Processor</label>
+        <description>A specialized processor for the GlitterNet system. This one increases efficiency at the cost of increased processor usage. Does not stack.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetSpecializedProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/SpecializedOverdriveProcessor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <researchPrerequisites><li>GNOverdriveProcessor</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>120000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>500</Steel>
+            <Plasteel>200</Plasteel>
+            <Gold>100</Gold>
+            <ComponentIndustrial>20</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>1000</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetSpecializedProcessor</compClass>
+                <SpecializedProcessorType>OverdriveProcessor</SpecializedProcessorType>
+                <MaxEffects>
+                    <GlitterNetNetworkEfficiencyOffset>0.15</GlitterNetNetworkEfficiencyOffset>
+                    <GlitterNetNetworkProcessingUsageFactor>0.25</GlitterNetNetworkProcessingUsageFactor>
+                </MaxEffects>
+                <MaxSimultaneous>1</MaxSimultaneous>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>10</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNSpecializedConcurrencyProcessor</defName>
+        <label>Specialized Concurrency Processor</label>
+        <description>A specialized processor for the GlitterNet system. This one increases the maximum simultaneous integrator connections allowed. Does not stack.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetSpecializedProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/SpecializedConcurrencyProcessor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+		    <rotatable>false</rotatable>
+        <researchPrerequisites><li>GNMaxSimultaneousProcessor</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>240000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>500</Steel>
+            <Plasteel>200</Plasteel>
+            <Gold>100</Gold>
+            <ComponentIndustrial>20</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>1000</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetSpecializedProcessor</compClass>
+                <SpecializedProcessorType>MaxSimultaneousProcessor</SpecializedProcessorType>
+                <MaxEffects>
+                    <GlitterNetNetworkMaxSimultaneousOffset>1</GlitterNetNetworkMaxSimultaneousOffset>
+                </MaxEffects>
+                <MaxSimultaneous>1</MaxSimultaneous>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>10</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+    </ThingDef>
+
+    <ThingDef ParentName="GNInfrastructureBase">
+        <defName>GNSpecializedOverheadProcessor</defName>
+        <label>Specialized Overhead Processor</label>
+        <description>A specialized processor for the GlitterNet system. This one increases processing power. Does not stack.</description>
+        <thingClass>GlitterNet.BuildingGlitterNetSpecializedProcessor</thingClass>
+        <graphicData>
+            <texPath>Things/Buildings/GlitterNetInfrastructure/SpecializedOverheadProcessor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+		    <rotatable>false</rotatable>
+        <researchPrerequisites><li>GNProcessingPowerProcessor</li></researchPrerequisites>
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>240000</WorkToBuild>
+            <Mass>100</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <costList>
+            <Steel>500</Steel>
+            <Plasteel>200</Plasteel>
+            <Gold>100</Gold>
+            <ComponentIndustrial>20</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>1000</basePowerConsumption>
+            </li>
+            <li Class="GlitterNet.CompPropertiesGlitterNetConnected">
+                <compClass>GlitterNet.CompGlitterNetSpecializedProcessor</compClass>
+                <SpecializedProcessorType>ProcessingPowerProcessor</SpecializedProcessorType>
+                <MaxEffects>
+                    <GlitterNetNetworkProcessingPowerFactor>0.15</GlitterNetNetworkProcessingPowerFactor>
+                </MaxEffects>
+                <MaxSimultaneous>1</MaxSimultaneous>
+                <TickFrequency>120</TickFrequency>
+                <HeatPerSecondOperating>10</HeatPerSecondOperating>
+                <ThermalShutoff>true</ThermalShutoff>
+            </li>
+        </comps>
+        <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+    </ThingDef>
+    
+</Defs>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>NeutroaleafRefining</defName>
+		<label>Neutroaleaf Refining</label>
+		<description>Learn how to refine Neutroaleaf into Neutroamine, A helpful resource in medical supplies.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0.5</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>NeutroaleafPlanting</defName>
+		<label>Neutroaleaf Planting</label>
+		<description>Learn how to plant the neutroaleaf crop.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>DrugProduction</li>
+		</prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.25</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

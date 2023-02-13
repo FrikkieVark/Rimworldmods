@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HediffDef>
+		<defName>GR_UrsineGenetrainerEffect</defName>
+		<label>ursine genetrainer (bear resilience)</label>
+		<description>This genetrainer gives a series of health states related to bear resilience.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<painFactor>0.85</painFactor>
+				<statOffsets>
+					<PainShockThreshold>.10</PainShockThreshold>
+					<CarryingCapacity>5</CarryingCapacity>		
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_BoomGenetrainerEffect</defName>
+		<label>boom genetrainer (chemfuel production)</label>
+		<description>This genetrainer gives the ability to produce chemfuel like a boomalope.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+		
+			<li>
+			<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<painOffset>0.1</painOffset>
+			</li>
+		</stages>
+		<comps>
+			<li Class="GeneticRimAddOn.HediffCompProperties_GenericHatcher">
+				<hatcherDaystoHatch>.4</hatcherDaystoHatch>
+				<thingToHatch>Chemfuel</thingToHatch>
+				<amount>2</amount>
+			</li>
+		</comps>
+
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_FelineGenetrainerEffect</defName>
+		<label>feline genetrainer (keen sight)</label>
+		<description>This genetrainer gives the keen sight health state, increasing shooting accuracy.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<statOffsets>
+					<MeleeDodgeChance>10</MeleeDodgeChance>
+					<ShootingAccuracyPawn>5</ShootingAccuracyPawn>							
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_AvianGenetrainerEffect</defName>
+		<label>avian genetrainer (birdlike curiosity)</label>
+		<description>This genetrainer gives the birdlike curiosity health state, increasing global learning speed.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<statOffsets>
+					<GlobalLearningFactor>0.1</GlobalLearningFactor>							
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_MuffaloGenetrainerEffect</defName>
+		<label>muffalo genetrainer (wild attunement)</label>
+		<description>This genetrainer gives the wild attunement health state, increasing plant work speed, carrying capacity, foraging and... leather amount.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<statOffsets>
+					<CarryingCapacity>10</CarryingCapacity>		
+					<LeatherAmount>30</LeatherAmount>	
+					<ForagedNutritionPerDay>0.5</ForagedNutritionPerDay>
+					<PlantWorkSpeed>0.1</PlantWorkSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_CanineGenetrainerEffect</defName>
+		<label>canine genetrainer (wolf speed)</label>
+		<description>This genetrainer gives the wolf speed health state, increasing movement speed, eating speed and immunity gain speed.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<EatingSpeed>0.2</EatingSpeed>	
+					<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_RodentGenetrainerEffect</defName>
+		<label>rodent genetrainer (gregarious)</label>
+		<description>This genetrainer gives the gregarious health state, increasing all social capacities.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<NegotiationAbility>0.2</NegotiationAbility>	
+					<TradePriceImprovement>0.2</TradePriceImprovement>
+					<SocialImpact>0.2</SocialImpact>
+
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_ReptileGenetrainerEffect</defName>
+		<label>reptile genetrainer (cold blood)</label>
+		<description>This genetrainer gives the cold blood health state, making the subject more stealthy and resistant to high temperatures.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<HuntingStealth>0.25</HuntingStealth>	
+					<ComfyTemperatureMax>25</ComfyTemperatureMax>
+					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_InsectoidGenetrainerEffect</defName>
+		<label>insectoid genetrainer (eusocial mind)</label>
+		<description>This genetrainer gives the eusocial mind health state, making the subject specialized in construction and repair at the expense of plant and animal skills.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<SocialImpact>0.1</SocialImpact>
+					<ConstructionSpeed>0.15</ConstructionSpeed>	
+					<SmoothingSpeed>0.2</SmoothingSpeed>
+					<FixBrokenDownBuildingSuccessChance>0.2</FixBrokenDownBuildingSuccessChance>
+					<ConstructSuccessChance>0.2</ConstructSuccessChance>
+					<AnimalGatherSpeed>-0.2</AnimalGatherSpeed>
+					<TameAnimalChance>-0.2</TameAnimalChance>
+					<TrainAnimalChance>-0.2</TrainAnimalChance>
+					<PlantWorkSpeed>-0.2</PlantWorkSpeed>
+
+					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_EquineGenetrainerEffect</defName>
+		<label>equine genetrainer (tireless)</label>
+		<description>This genetrainer gives the tireless health state, making the subject need less rest.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<RestRateMultiplier>0.8</RestRateMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>GR_ColossalGenetrainerEffect</defName>
+		<label>colossal genetrainer (animal affinity)</label>
+		<description>This genetrainer gives the animal empathy health state, making the subject much more efficient when dealing with animals.\n\nGenetrainers are implants that do not take the place of any given organ. Only one can be "installed" at a time. Using a second genetrainer will have no effect and the genetrainer will be wasted. Bear in mind that a genetrainer modifies the genes of the human subject, and only death will get rid of its effects.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1.0</maxSeverity>   
+		<stages>
+			<li>
+				
+				<statOffsets>
+					
+					<TameAnimalChance>0.2</TameAnimalChance>
+					<TrainAnimalChance>0.2</TrainAnimalChance>
+					<AnimalGatherSpeed>0.2</AnimalGatherSpeed>
+					<AnimalGatherYield>0.2</AnimalGatherYield>
+					
+					
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

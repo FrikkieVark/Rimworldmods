@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=============== Animal Hybrid Implants ====================-->
+	
+	<RecipeDef ParentName="GR_HybridProsthesisBase">
+		<defName>GR_MakeAnimalControlImplant</defName>
+		<label>animal mind controller</label>
+		<description>Craft an animal mind controller implant. This implant will allow this creature to be drafted and controlled by the player.</description>
+		<jobString>Making animal mind controller implant.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ComponentSpacer</li>
+				
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_AnimalControlImplant>1</GR_AnimalControlImplant>
+		</products>		
+		
+	</RecipeDef>
+</Defs>

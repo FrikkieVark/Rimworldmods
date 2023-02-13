@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Other beaten -->
+
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten.stages.0.label>заключенный избит</CM_Beat_Prisoners_Thought_Prisoner_Beaten.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten.stages.0.description>Заключенного избили. Это варварство.</CM_Beat_Prisoners_Thought_Prisoner_Beaten.stages.0.description>
+
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten_Mild.stages.0.label>заключенный избит</CM_Beat_Prisoners_Thought_Prisoner_Beaten_Mild.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten_Mild.stages.0.description>Заключенного избили. Это отвратительно.</CM_Beat_Prisoners_Thought_Prisoner_Beaten_Mild.stages.0.description>
+
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten_Spicy.stages.0.label>заключенный избит</CM_Beat_Prisoners_Thought_Prisoner_Beaten_Spicy.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Prisoner_Beaten_Spicy.stages.0.description>Заключенного избили. Они подчинятся, так или иначе.</CM_Beat_Prisoners_Thought_Prisoner_Beaten_Spicy.stages.0.description>
+
+
+  <!-- Self beaten -->
+
+  <CM_Beat_Prisoners_Thought_Self_Beaten.stages.0.label>избит</CM_Beat_Prisoners_Thought_Self_Beaten.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Self_Beaten.stages.0.description>Меня избили.. Эти люди действительно настроены серьезно.</CM_Beat_Prisoners_Thought_Self_Beaten.stages.0.description>
+
+  <CM_Beat_Prisoners_Thought_Self_Beaten_Mild.stages.0.label>избит</CM_Beat_Prisoners_Thought_Self_Beaten_Mild.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Self_Beaten_Mild.stages.0.description>Меня избили. Я не знаю, сколько я смогу выдержать...</CM_Beat_Prisoners_Thought_Self_Beaten_Mild.stages.0.description>
+
+  <CM_Beat_Prisoners_Thought_Self_Beaten_Kinky.stages.0.label>избит</CM_Beat_Prisoners_Thought_Self_Beaten_Kinky.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Self_Beaten_Kinky.stages.0.description>Я получил побои. Не могу дождаться следующего!</CM_Beat_Prisoners_Thought_Self_Beaten_Kinky.stages.0.description>
+
+
+  <!-- Gave Beating -->
+
+  <CM_Beat_Prisoners_Thought_Give_Beating_Mild.stages.0.label>наносил побои</CM_Beat_Prisoners_Thought_Give_Beating_Mild.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Give_Beating_Mild.stages.0.description>Я избил заключенного. Хотел бы я, чтобы мне не пришлось этого делать.</CM_Beat_Prisoners_Thought_Give_Beating_Mild.stages.0.description>
+
+  <CM_Beat_Prisoners_Thought_Give_Beating_Spicy.stages.0.label>наносил побои</CM_Beat_Prisoners_Thought_Give_Beating_Spicy.stages.0.label>
+  <CM_Beat_Prisoners_Thought_Give_Beating_Spicy.stages.0.description>Я избил заключенного. Я люблю свою работу!</CM_Beat_Prisoners_Thought_Give_Beating_Spicy.stages.0.description>
+
+  <!-- Special -->
+
+  <CM_Beat_Prisoners_Thought_Enmity_Built.stages.0.label>вражда нарастала</CM_Beat_Prisoners_Thought_Enmity_Built.stages.0.label>
+
+
+</LanguageData>

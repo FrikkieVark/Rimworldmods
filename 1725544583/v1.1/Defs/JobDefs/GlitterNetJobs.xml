@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <JobDef>
+        <defName>GNJob_TalkWithHub</defName>
+        <driverClass>GlitterNet.Events.Misc.JobDriver_TalkWithHub</driverClass>
+        <reportString>Talking with Wintermute</reportString>
+    </JobDef>
+    
+</Defs>

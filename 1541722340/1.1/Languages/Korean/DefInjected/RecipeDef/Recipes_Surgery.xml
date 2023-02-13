@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Injury: Burn -->
+
+  <CureInjuryBurn.label>화상 치료 (2 의약품)</CureInjuryBurn.label>
+  <CureInjuryBurn.description>화상을 치료합니다.</CureInjuryBurn.description>
+  <CureInjuryBurn.jobString>화상 치료중.</CureInjuryBurn.jobString>
+  <CureInjuryBurn.successfullyRemovedHediffMessage>{0}은/는 {1}의 화상을 치료하는데 성공했습니다.</CureInjuryBurn.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Chemical Burn -->
+
+  <CureInjuryChemicalBurn.label>화학 화상을 치료 (2 의약품)</CureInjuryChemicalBurn.label>
+  <CureInjuryChemicalBurn.description>화학 화상 치료.</CureInjuryChemicalBurn.description>
+  <CureInjuryChemicalBurn.jobString>화학 화상 치료.</CureInjuryChemicalBurn.jobString>
+  <CureInjuryChemicalBurn.successfullyRemovedHediffMessage>{0}이/는 {1}의 화학 화상을 성공적으로 치료했습니다.</CureInjuryChemicalBurn.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Crush -->
+
+  <CureInjuryCrush.label>으스러진 부위 치료 (2 의약품)</CureInjuryCrush.label>
+  <CureInjuryCrush.description>으스러진 부위를 치료합니다.</CureInjuryCrush.description>
+  <CureInjuryCrush.jobString>으스러진 부위 치료중.</CureInjuryCrush.jobString>
+  <CureInjuryCrush.successfullyRemovedHediffMessage>{0}은/는 {1}의 으스러진 부위를 치료하는데 성공했습니다.</CureInjuryCrush.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Crack -->
+
+  <CureInjuryCrack.label>골절 치료 (2 의약품)</CureInjuryCrack.label>
+  <CureInjuryCrack.description>골절 부위를 치료합니다.</CureInjuryCrack.description>
+  <CureInjuryCrack.jobString>골절 부위 치료중.</CureInjuryCrack.jobString>
+  <CureInjuryCrack.successfullyRemovedHediffMessage>{0}은/는 {1}의 골절 부위를 치료하는데 성공했습니다.</CureInjuryCrack.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Cut -->
+
+  <CureInjuryCut.label>베인 상처 치료 (2 의약품)</CureInjuryCut.label>
+  <CureInjuryCut.description>베인 상처를 치료합니다.</CureInjuryCut.description>
+  <CureInjuryCut.jobString>베인 상처 치료중.</CureInjuryCut.jobString>
+  <CureInjuryCut.successfullyRemovedHediffMessage>{0}은/는 {1}의 베안 상처를 치료하는데 성공했습니다.</CureInjuryCut.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: SurgicalCut -->
+
+  <CureInjurySurgicalCut.label>의료사고로 절단된 부위 치료 (2 의약품)</CureInjurySurgicalCut.label>
+  <CureInjurySurgicalCut.description>의료사고로 절단된 부위를 치료합니다.</CureInjurySurgicalCut.description>
+  <CureInjurySurgicalCut.jobString>의료사고로 절단된 부위 치료중.</CureInjurySurgicalCut.jobString>
+  <CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0}은/는 {1}의 의료사고로 절단된 부위를 치료하는데 성공했습니다.</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Scratch -->
+
+  <CureInjuryScratch.label>긁힌 상처 치료 (2 의약품)</CureInjuryScratch.label>
+  <CureInjuryScratch.description>긁힌 상처를 치료합니다.</CureInjuryScratch.description>
+  <CureInjuryScratch.jobString>긁힌 상처 치료중.</CureInjuryScratch.jobString>
+  <CureInjuryScratch.successfullyRemovedHediffMessage>{0}은/는 {1}의 긁힌 상처를 치료하는데 성공했습니다.</CureInjuryScratch.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Bite -->
+
+  <CureInjuryBite.label>물린 상처 치료 (2 의약품)</CureInjuryBite.label>
+  <CureInjuryBite.description>물린 상처를 치료합니다.</CureInjuryBite.description>
+  <CureInjuryBite.jobString>물린 상처 치료중.</CureInjuryBite.jobString>
+  <CureInjuryBite.successfullyRemovedHediffMessage>{0}은/는 {1}의 물린 상처를 치료하는데 성공했습니다.</CureInjuryBite.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Stab -->
+
+  <CureInjuryStab.label>찔린 상처 치료 (2 의약품)</CureInjuryStab.label>
+  <CureInjuryStab.description>찔린 상처를 치료합니다.</CureInjuryStab.description>
+  <CureInjuryStab.jobString>찔린 상처 치료중.</CureInjuryStab.jobString>
+  <CureInjuryStab.successfullyRemovedHediffMessage>{0}은/는 {1}의 찔린 상처를 치료하는데 성공했습니다.</CureInjuryStab.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Gunshot -->
+
+  <CureInjuryGunshot.label>총상 치료 (2 의약품)</CureInjuryGunshot.label>
+  <CureInjuryGunshot.description>총상을 치료합니다.</CureInjuryGunshot.description>
+  <CureInjuryGunshot.jobString>총상 치료중.</CureInjuryGunshot.jobString>
+  <CureInjuryGunshot.successfullyRemovedHediffMessage>{0}은/는 {1}의 총상을 치료하는데 성공했습니다.</CureInjuryGunshot.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Shredded -->
+
+  <CureInjuryShredded.label>조각남 치료 (2 의약품)</CureInjuryShredded.label>
+  <CureInjuryShredded.description>조각난 부위를 치료합니다.</CureInjuryShredded.description>
+  <CureInjuryShredded.jobString>조각남 치료중.</CureInjuryShredded.jobString>
+  <CureInjuryShredded.successfullyRemovedHediffMessage>{0}은/는 {1}의 조각난 부위를 치료하는데 성공했습니다.</CureInjuryShredded.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Bruise -->
+
+  <CureInjuryBruise.label>타박상 치료 (2 의약품)</CureInjuryBruise.label>
+  <CureInjuryBruise.description>타박상을 치료합니다.</CureInjuryBruise.description>
+  <CureInjuryBruise.jobString>타박상 치료중.</CureInjuryBruise.jobString>
+  <CureInjuryBruise.successfullyRemovedHediffMessage>{0}은/는 {1}의 타박상을 치료하는데 성공했습니다.</CureInjuryBruise.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Frostbite -->
+
+  <CureInjuryFrostbite.label>동상 치료 (2 의약품)</CureInjuryFrostbite.label>
+  <CureInjuryFrostbite.description>동상을 치료합니다.</CureInjuryFrostbite.description>
+  <CureInjuryFrostbite.jobString>동상 치료중.</CureInjuryFrostbite.jobString>
+  <CureInjuryFrostbite.successfullyRemovedHediffMessage>{0}은/는 {1}의 동상을 치료하는데 성공했습니다.</CureInjuryFrostbite.successfullyRemovedHediffMessage>
+
+
+  <!-- Bone/limb: Mandible -->
+
+  <RepairBonesMandible.label>턱 복원 (10 플라스틸/2 의약품 - 생약 불가)</RepairBonesMandible.label>
+  <RepairBonesMandible.description>턱을 복원합니다.</RepairBonesMandible.description>
+  <RepairBonesMandible.jobString>턱 복원중.</RepairBonesMandible.jobString>
+
+
+  <!-- Bone/limb: clavicle -->
+
+  <RepairBonesClavicle.label>쇄골 복원 (10 플라스틸/2 의약품 - 생약 불가/)</RepairBonesClavicle.label>
+  <RepairBonesClavicle.description>쇄골을 복원합니다.</RepairBonesClavicle.description>
+  <RepairBonesClavicle.jobString>쇄골 복원중</RepairBonesClavicle.jobString>
+
+
+  <!-- Bone/limb finger -->
+
+  <RepairFinger.label>손가락 복원 (2 의약품 - 생약 불가)</RepairFinger.label>
+  <RepairFinger.description>손가락을 복원합니다.</RepairFinger.description>
+  <RepairFinger.jobString>손가락 복원중</RepairFinger.jobString>
+
+
+  <!-- Bone/limb toe -->
+
+  <RepairToe.label>발가락 복원 (2 의약품 - 생약 불가)</RepairToe.label>
+  <RepairToe.description>발가락을 복원합니다.</RepairToe.description>
+  <RepairToe.jobString>발가락 복원중</RepairToe.jobString>
+
+
+  <!-- Chronic: HearingLoss -->
+
+  <CureChronicHearingLoss.label>청력 손실 치료 (2 의약품 - 생약 불가)</CureChronicHearingLoss.label>
+  <CureChronicHearingLoss.description>청력 손실을 치료합니다.</CureChronicHearingLoss.description>
+  <CureChronicHearingLoss.jobString>청력 손실 치료중.</CureChronicHearingLoss.jobString>
+  <CureChronicHearingLoss.successfullyRemovedHediffMessage>{0}은/는 {1}의 청력 손상을 치료하는데 성공했습니다.</CureChronicHearingLoss.successfullyRemovedHediffMessage>
+
+
+  <!-- Cosmetic: Ear -->
+
+  <RepairCosmeticEar.label>귀 복원 (2 의약품 - 생약 불가)</RepairCosmeticEar.label>
+  <RepairCosmeticEar.description>귀를 복원합니다. (성형 시술)</RepairCosmeticEar.description>
+  <RepairCosmeticEar.jobString>귀 복원중</RepairCosmeticEar.jobString>
+
+
+  <!-- Cosmetic: Nose -->
+
+  <RepairCosmeticNose.label>코 복원 (2 의약품 - 생약 불가)</RepairCosmeticNose.label>
+  <RepairCosmeticNose.description>코를 복원합니다. (성형 시술)</RepairCosmeticNose.description>
+  <RepairCosmeticNose.jobString>코 복원중</RepairCosmeticNose.jobString>
+
+
+  <!-- Chronic: Cataract -->
+
+  <CureChronicCataract.label>백내장 치료 (3 의약품 - 생약 불가)</CureChronicCataract.label>
+  <CureChronicCataract.description>백내장을 치료합니다.</CureChronicCataract.description>
+  <CureChronicCataract.jobString>백내장 치료중.</CureChronicCataract.jobString>
+  <CureChronicCataract.successfullyRemovedHediffMessage>{0}은/는 {1}의 백내장을 치료하는데 성공했습니다.</CureChronicCataract.successfullyRemovedHediffMessage>
+
+
+  <!-- Bones: RibCage -->
+
+  <RepairBonesRibCage.label>갈비뼈 복원 (8 플라스틸/1 의약품 - 생약 불가)</RepairBonesRibCage.label>
+  <RepairBonesRibCage.description>갈비뼈를 복원합니다</RepairBonesRibCage.description>
+  <RepairBonesRibCage.jobString>갈비뼈 복원중</RepairBonesRibCage.jobString>
+
+
+  <!-- Bone/limb: Sternum -->
+
+  <RepairBonesSternum.label>흉골 복원 (24 플라스틸/3 의약품 - 생약 불가)</RepairBonesSternum.label>
+  <RepairBonesSternum.description>흉골을 복원합니다.</RepairBonesSternum.description>
+  <RepairBonesSternum.jobString>흉골 복원중.</RepairBonesSternum.jobString>
+
+
+  <!-- Bone/limb: Radius -->
+
+  <RepairBonesRadius.label>요골 복원 (10 플라스틸/2 의약품 - 생약 불가)</RepairBonesRadius.label>
+  <RepairBonesRadius.description>요골을 복원합니다.</RepairBonesRadius.description>
+  <RepairBonesRadius.jobString>요골 복원중.</RepairBonesRadius.jobString>
+
+
+  <!-- Bone/limb: Humerus -->
+
+  <RepairBonesHumerus.label>상완골 복원 (10 플라스틸/2 의약품 - 생약 불가)</RepairBonesHumerus.label>
+  <RepairBonesHumerus.description>상완골을 복원합니다.</RepairBonesHumerus.description>
+  <RepairBonesHumerus.jobString>상완골 복원중.</RepairBonesHumerus.jobString>
+
+
+  <!-- Bone/limb: Femur -->
+
+  <RepairBonesFemur.label>대퇴골 복원 (10 플라스틸/2 의약품 - 생약 불가)</RepairBonesFemur.label>
+  <RepairBonesFemur.description>대퇴골을 복원합니다.</RepairBonesFemur.description>
+  <RepairBonesFemur.jobString>대퇴골 복원중.</RepairBonesFemur.jobString>
+
+
+  <!-- Bone/limb: Tibia -->
+
+  <RepairBonesTibia.label>경골 복원 (10 플라스틸/2 의약품 - 생약 불가)</RepairBonesTibia.label>
+  <RepairBonesTibia.description>경골을 복원합니다.</RepairBonesTibia.description>
+  <RepairBonesTibia.jobString>경골 복원중.</RepairBonesTibia.jobString>
+
+
+  <!-- Chronic: Asthma -->
+
+  <CureChronicAsthma.label>천식 치료 (3 의약품 - 생약 불가)</CureChronicAsthma.label>
+  <CureChronicAsthma.description>천식을 치료합니다.</CureChronicAsthma.description>
+  <CureChronicAsthma.jobString>천식 치료중.</CureChronicAsthma.jobString>
+  <CureChronicAsthma.successfullyRemovedHediffMessage>{0}은/는 {1}의 천식을 치료하는데 성공했습니다.</CureChronicAsthma.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Muscle Parasites -->
+
+  <CureMuscleParasites.label>근기생충 치료 (5 의약품 - 생약 불가)</CureMuscleParasites.label>
+  <CureMuscleParasites.description>근기생충을 한 번에 치료합니다. 매우 위험하지만 회복이 빠릅니다.</CureMuscleParasites.description>
+  <CureMuscleParasites.jobString>근기생충 치료중.</CureMuscleParasites.jobString>
+  <CureMuscleParasites.successfullyRemovedHediffMessage>{0}은/는 {1}의 근기생충을 치료하는데 성공했습니다.</CureMuscleParasites.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Gut Worms -->
+
+  <CureGutWorms.label>기생충 치료 (5 의약품 - 생약 불가)</CureGutWorms.label>
+  <CureGutWorms.description>한 방에 기생충을 치료합니다. 위험하지만 빠르게 회복할 수 있습니다.</CureGutWorms.description>
+  <CureGutWorms.jobString>기생충 치료중.</CureGutWorms.jobString>
+  <CureGutWorms.successfullyRemovedHediffMessage>{0}은/는 {1}의 기생충을 치료하는데 성공했습니다.</CureGutWorms.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: HeartArteryBlockage -->
+
+  <CureChronicHeartArteryBlockage.label>심근경색 치료 (3 의약품 - 생약 불가)</CureChronicHeartArteryBlockage.label>
+  <CureChronicHeartArteryBlockage.description>심근경색을 치료합니다.</CureChronicHeartArteryBlockage.description>
+  <CureChronicHeartArteryBlockage.jobString>심근경색 치료중.</CureChronicHeartArteryBlockage.jobString>
+  <CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>{0}은/는 {1}의 심근경색을 치료하는데 성공했습니다.</CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure: Wound infection -->
+
+  <CureWoundInfections.label>상처 감염 치료 (5 패녹시실린)</CureWoundInfections.label>
+  <CureWoundInfections.description>상처 감염을 치료하는 것은 매우 편리합니다. 하지만 주의하세요! 만약 정착지 의사가 치료에 실패하면 환자는 심각한 폐혈증을 겪거나 심지어 사망할 수도 있습니다(수술 난이도 어려움).</CureWoundInfections.description>
+  <CureWoundInfections.jobString>상처 감염 치료중.</CureWoundInfections.jobString>
+  <CureWoundInfections.successfullyRemovedHediffMessage>{0}은/는 {1}의 상처 감염을 치료하는데 성공했습니다.</CureWoundInfections.successfullyRemovedHediffMessage>
+
+
+  <!-- Bones: Spine -->
+
+  <RepairBoneSpine.label>척추 복원 (80 플라스틸/3 의약품 - 생약 불가)</RepairBoneSpine.label>
+  <RepairBoneSpine.description>척추를 복원합니다.</RepairBoneSpine.description>
+  <RepairBoneSpine.jobString>척추 복원중.</RepairBoneSpine.jobString>
+
+
+  <!-- Bones: Pelvis -->
+
+  <RepairBonesPelvis.label>골반 복원 (80 플라스틸/3 의약품 - 생약 불가)</RepairBonesPelvis.label>
+  <RepairBonesPelvis.description>골반을 복원합니다.</RepairBonesPelvis.description>
+  <RepairBonesPelvis.jobString>골반 복원중</RepairBonesPelvis.jobString>
+
+
+  <!-- Chronic: Dementia -->
+
+  <CureChronicDementia.label>치매 치료 (3 번화계 약품)</CureChronicDementia.label>
+  <CureChronicDementia.description>치매를 치료합니다.</CureChronicDementia.description>
+  <CureChronicDementia.jobString>치매 치료중.</CureChronicDementia.jobString>
+  <CureChronicDementia.successfullyRemovedHediffMessage>{0}은/는 {1}의 치매를 치료하는데 성공했습니다.</CureChronicDementia.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Alzheimers -->
+
+  <CureChronicAlzheimers.label>알츠하이머 치료 (3 번화계 약품)</CureChronicAlzheimers.label>
+  <CureChronicAlzheimers.description>알츠하이머를 치료합니다.</CureChronicAlzheimers.description>
+  <CureChronicAlzheimers.jobString>알츠하이머 치료중.</CureChronicAlzheimers.jobString>
+  <CureChronicAlzheimers.successfullyRemovedHediffMessage>{0}은/는 {1}의 알츠하이머를 치료하는데 성공했습니다.</CureChronicAlzheimers.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Badback -->
+
+  <CureChronicBadBack.label>요통 치료 (80 플라스틸/3 의약품 - 생약 불가)</CureChronicBadBack.label>
+  <CureChronicBadBack.description>요통을 치료합니다.</CureChronicBadBack.description>
+  <CureChronicBadBack.jobString>요통 치료중.</CureChronicBadBack.jobString>
+  <CureChronicBadBack.successfullyRemovedHediffMessage>{0}은/는 {1}의 요통을 치료하는데 성공했습니다.</CureChronicBadBack.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Frail -->
+
+  <CureChronicFrail.label>노쇠 치료 (120 플라스틸/3 의약품 - 생약 불가/)</CureChronicFrail.label>
+  <CureChronicFrail.description>노쇠를 치료합니다.</CureChronicFrail.description>
+  <CureChronicFrail.jobString>노쇠 치료중.</CureChronicFrail.jobString>
+  <CureChronicFrail.successfullyRemovedHediffMessage>{0}은/는 {1}의 노쇠를 치료하는데 성공했습니다.</CureChronicFrail.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Cirrhosis -->
+
+  <CureCirrhosis.label>간경변 치료 (3 번화계 약품)</CureCirrhosis.label>
+  <CureCirrhosis.description>간경변을 치료합니다.</CureCirrhosis.description>
+  <CureCirrhosis.jobString>간경변 치료중.</CureCirrhosis.jobString>
+  <CureCirrhosis.successfullyRemovedHediffMessage>{0}은/는 {1}의 간경변을 치료하는데 성공했습니다.</CureCirrhosis.successfullyRemovedHediffMessage>
+
+</LanguageData>

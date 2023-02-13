@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <CNBrainDamageRepairSystem.label>Brain Damage Repair System</CNBrainDamageRepairSystem.label>
+    <CNBrainDamageRepairSystem.labelNoun>Brain Damage Repair System</CNBrainDamageRepairSystem.labelNoun>
+    <CNBrainDamageRepairSystem.stages.disconnected.label>Disconnected</CNBrainDamageRepairSystem.stages.disconnected.label>
+    <CNBrainDamageRepairSystem.stages.throttled.label>Throttled</CNBrainDamageRepairSystem.stages.throttled.label>
+    <CNBrainDamageRepairSystem.stages.sluggish.label>Sluggish</CNBrainDamageRepairSystem.stages.sluggish.label>
+    <CNBrainDamageRepairSystem.stages.connected.label>Connected</CNBrainDamageRepairSystem.stages.connected.label>
+    <CNBrainDamageRepairSystem.stages.overclocked.label>Overclocked</CNBrainDamageRepairSystem.stages.overclocked.label>
+    <CNBrainDamageRepairSystem.stages.supercharged.label>Supercharged</CNBrainDamageRepairSystem.stages.supercharged.label>
+
+    <CNCombatOptimizationImplant.label>Combat Optimization Implant</CNCombatOptimizationImplant.label>
+    <CNCombatOptimizationImplant.labelNoun>Combat Optimization Implant</CNCombatOptimizationImplant.labelNoun>
+    <CNCombatOptimizationImplant.stages.disconnected.label>Disconnected</CNCombatOptimizationImplant.stages.disconnected.label>
+    <CNCombatOptimizationImplant.stages.throttled.label>Throttled</CNCombatOptimizationImplant.stages.throttled.label>
+    <CNCombatOptimizationImplant.stages.sluggish.label>Sluggish</CNCombatOptimizationImplant.stages.sluggish.label>
+    <CNCombatOptimizationImplant.stages.connected.label>Connected</CNCombatOptimizationImplant.stages.connected.label>
+    <CNCombatOptimizationImplant.stages.overclocked.label>Overclocked</CNCombatOptimizationImplant.stages.overclocked.label>
+    <CNCombatOptimizationImplant.stages.supercharged.label>Supercharged</CNCombatOptimizationImplant.stages.supercharged.label>
+
+    <CNPhasedSleepImplant.label>Phased Sleep Implant</CNPhasedSleepImplant.label>
+    <CNPhasedSleepImplant.labelNoun>Phased Sleep Implant</CNPhasedSleepImplant.labelNoun>
+    <CNPhasedSleepImplant.stages.disconnected.label>Disconnected</CNPhasedSleepImplant.stages.disconnected.label>
+    <CNPhasedSleepImplant.stages.throttled.label>Throttled</CNPhasedSleepImplant.stages.throttled.label>
+    <CNPhasedSleepImplant.stages.sluggish.label>Sluggish</CNPhasedSleepImplant.stages.sluggish.label>
+    <CNPhasedSleepImplant.stages.connected.label>Connected</CNPhasedSleepImplant.stages.connected.label>
+    <CNPhasedSleepImplant.stages.overclocked.label>Overclocked</CNPhasedSleepImplant.stages.overclocked.label>
+    <CNPhasedSleepImplant.stages.supercharged.label>Supercharged</CNPhasedSleepImplant.stages.supercharged.label>
+
+    <CNMemoryEnhancementImplant.label>Memory Enhancement Implant</CNMemoryEnhancementImplant.label>
+    <CNMemoryEnhancementImplant.labelNoun>Memory Enhancement Implant</CNMemoryEnhancementImplant.labelNoun>
+    <CNMemoryEnhancementImplant.stages.disconnected.label>Disconnected</CNMemoryEnhancementImplant.stages.disconnected.label>
+    <CNMemoryEnhancementImplant.stages.throttled.label>Throttled</CNMemoryEnhancementImplant.stages.throttled.label>
+    <CNMemoryEnhancementImplant.stages.sluggish.label>Sluggish</CNMemoryEnhancementImplant.stages.sluggish.label>
+    <CNMemoryEnhancementImplant.stages.connected.label>Connected</CNMemoryEnhancementImplant.stages.connected.label>
+    <CNMemoryEnhancementImplant.stages.overclocked.label>Overclocked</CNMemoryEnhancementImplant.stages.overclocked.label>
+    <CNMemoryEnhancementImplant.stages.supercharged.label>Supercharged</CNMemoryEnhancementImplant.stages.supercharged.label>
+
+    <CNSocialAnalyzerImplant.label>Social Analyzer Implant</CNSocialAnalyzerImplant.label>
+    <CNSocialAnalyzerImplant.labelNoun>Social Analyzer Implant</CNSocialAnalyzerImplant.labelNoun>
+    <CNSocialAnalyzerImplant.stages.disconnected.label>Disconnected</CNSocialAnalyzerImplant.stages.disconnected.label>
+    <CNSocialAnalyzerImplant.stages.throttled.label>Throttled</CNSocialAnalyzerImplant.stages.throttled.label>
+    <CNSocialAnalyzerImplant.stages.sluggish.label>Sluggish</CNSocialAnalyzerImplant.stages.sluggish.label>
+    <CNSocialAnalyzerImplant.stages.connected.label>Connected</CNSocialAnalyzerImplant.stages.connected.label>
+    <CNSocialAnalyzerImplant.stages.overclocked.label>Overclocked</CNSocialAnalyzerImplant.stages.overclocked.label>
+    <CNSocialAnalyzerImplant.stages.supercharged.label>Supercharged</CNSocialAnalyzerImplant.stages.supercharged.label>
+
+    <CNConsciousnessEnhancementImplant.label>Consciousness Enhancement Implant</CNConsciousnessEnhancementImplant.label>
+    <CNConsciousnessEnhancementImplant.labelNoun>Consciousness Enhancement Implant</CNConsciousnessEnhancementImplant.labelNoun>
+    <CNConsciousnessEnhancementImplant.stages.disconnected.label>Disconnected</CNConsciousnessEnhancementImplant.stages.disconnected.label>
+    <CNConsciousnessEnhancementImplant.stages.throttled.label>Throttled</CNConsciousnessEnhancementImplant.stages.throttled.label>
+    <CNConsciousnessEnhancementImplant.stages.sluggish.label>Sluggish</CNConsciousnessEnhancementImplant.stages.sluggish.label>
+    <CNConsciousnessEnhancementImplant.stages.connected.label>Connected</CNConsciousnessEnhancementImplant.stages.connected.label>
+    <CNConsciousnessEnhancementImplant.stages.overclocked.label>Overclocked</CNConsciousnessEnhancementImplant.stages.overclocked.label>
+    <CNConsciousnessEnhancementImplant.stages.supercharged.label>Supercharged</CNConsciousnessEnhancementImplant.stages.supercharged.label>
+
+</LanguageData>

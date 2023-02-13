@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Spoilers and whatnot, as always. -->
+  
+  <!-- Talk with wintermute about some topic (skill) -->
+  <QuestScriptDef Class="GlitterNet.Events.GlitterNetQuestScriptDef">
+    <defName>GlitterNet_TalkWithWintermute</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <glitterNetWeight>0.7</glitterNetWeight>
+    <autoAccept>false</autoAccept>
+    <nameMustBeUnique>false</nameMustBeUnique>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->[verb_phrase] Wintermute about [skill_label]</li>
+        <li>questName->[verb_single] [skill_label] with Wintermute</li>
+        <li>questName->Wintermute's [skill_label] [noun_research]</li>
+        <li>verb_phrase->Chat with</li>
+        <li>verb_phrase->Talk with</li>
+        <li>verb_phrase->Converse with</li>
+        <li>verb_single->Discuss</li>
+        <li>verb_single->Talk about</li>
+        <li>verb_single->Chat about</li>
+        <li>verb_single->Converse about</li>
+        <li>noun_research->Study</li>
+        <li>noun_research->Research</li>
+        <li>noun_research->Investigation</li>
+        <li>noun_research->Survey</li>
+        <li>noun_research->Inquiry</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->Our self-aware GlitterNet hub, Wintermute, has made a request.\n\n    Recently I've been studying how humans develop their [skill_label] skill.\n    I've hit a wall in my studies though.\n    I think it would be really helpful to interview someone.\n    Could you send someone skilled in [skill_label] to talk with me?\n\nWhoever we send to talk with Wintermute should be skilled in [skill_label]. If they're not, Wintermute might not be able to learn what it wants.\n\nIf we complete this task, it's sure to put Wintermute in a good mood for a while, and build its trust of us.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+
+        <li Class="GlitterNet.Events.QuestNodes.QuestNode_GetRandomSkill">
+          <storeAs>skill</storeAs>
+        </li>
+        
+        <li Class="GlitterNet.Events.QuestNodes.QuestNode_CreateTalkWithHubJob">
+          <hub>$hub</hub>
+          <skill>$skill</skill>
+        </li>
+        
+        <li Class="QuestNode_Delay">
+          <delayTicks>$(randInt(3,5)*60000)</delayTicks>
+          <outSignalComplete>TalkTimeout</outSignalComplete>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>TalkTimeout</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label>Quest expired: [resolvedQuestName]</label>
+                <text>We didn't send anyone to talk with Wintermute. It was disappointed that we hadn't. The quest [resolvedQuestName] has expired.</text>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.05</delta>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>Disaster</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We sent someone to talk about [skill_label] with Wintermute. Unfortunately, they were unable to provide any information that Wintermute wanted. It was very unhappy with us.\n\n    Why did you send someone with no knowledge to talk with me?\n    This was a total waste of time.\n    I'll have to progress my analysis without your help.\n\nWintermute has lost trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.07</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>Failure</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest failed: [resolvedQuestName]</label>
+                <text>We sent someone to talk about [skill_label] with Wintermute. Unfortunately, they were unable to provide much information to Wintermute. It was unhappy with the outcome.\n\n    That wasn't really the level of expertice I was looking for.\n    Next time, please send someone more skilled.\n    I appreciate the effort, though.\n\nWintermute has lost some trust in us.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>-0.03</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+        
+        <li Class="QuestNode_Signal">
+          <inSignal>ModerateSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We sent someone to talk about [skill_label] with Wintermute. They were able to provide some information to Wintermute. Wintermute was happy with us.\n\n    That was a productive interview.\n    I've learned some things new things about the [skill_label] skill.\n    I can't wait to incorporate this information into my analysis.\n    Good work. Thanks.\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodIntrospective</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(5, 7)*60000)</lengthTicks>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.05</delta>
+              </li>
+              
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+              
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>GreatSuccess</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>We sent someone to talk about [skill_label] with Wintermute. They were able to provide a lot information to Wintermute. Wintermute was very happy with us.\n\n    That was a very productive interview!\n    I've learned a lot things new things about the [skill_label] skill.\n    I can't wait to incorporate this information into my analysis.\n    You've helped me understand [skill_label] much better.\n    Great work! Thanks!\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodIncisive</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(5, 7)*60000)</lengthTicks>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.10</delta>
+              </li>
+
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+
+            </nodes>
+          </node>
+        </li>
+        
+      </nodes>
+    </root>
+  </QuestScriptDef>
+</Defs>

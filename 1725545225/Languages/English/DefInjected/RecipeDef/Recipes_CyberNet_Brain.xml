@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <CNInstallBrainDamageRepairSystem.label>Install Brain Damage Repair System</CNInstallBrainDamageRepairSystem.label>
+  <CNInstallBrainDamageRepairSystem.description>Install a Brain Damage Repair System</CNInstallBrainDamageRepairSystem.description>
+  <CNInstallBrainDamageRepairSystem.jobString>Installing a Brain Damage Repair System</CNInstallBrainDamageRepairSystem.jobString>
+
+  <CNInstallCombatOptimizationImplant.label>Install Combat Optimization Implant</CNInstallCombatOptimizationImplant.label>
+  <CNInstallCombatOptimizationImplant.description>Install Combat Optimization Implant</CNInstallCombatOptimizationImplant.description>
+  <CNInstallCombatOptimizationImplant.jobString>Install Combat Optimization Implant</CNInstallCombatOptimizationImplant.jobString>
+
+  <CNInstallPhasedSleepImplant.label>Install Phased Sleep Implant</CNInstallPhasedSleepImplant.label>
+  <CNInstallPhasedSleepImplant.description>Install Phased Sleep Implant</CNInstallPhasedSleepImplant.description>
+  <CNInstallPhasedSleepImplant.jobString>Install Phased Sleep Implant</CNInstallPhasedSleepImplant.jobString>
+
+  <CNInstallMemoryEnhancementImplant.label>Install Memory Enhancment Implant</CNInstallMemoryEnhancementImplant.label>
+  <CNInstallMemoryEnhancementImplant.description>Install Memory Enhancment Implant</CNInstallMemoryEnhancementImplant.description>
+  <CNInstallMemoryEnhancementImplant.jobString>Install Memory Enhancment Implant</CNInstallMemoryEnhancementImplant.jobString>
+
+  <CNInstallSocialAnalyzerImplant.label>Install Social Analyzer Implant</CNInstallSocialAnalyzerImplant.label>
+  <CNInstallSocialAnalyzerImplant.description>Install Social Analyzer Implant</CNInstallSocialAnalyzerImplant.description>
+  <CNInstallSocialAnalyzerImplant.jobString>Install Social Analyzer Implant</CNInstallSocialAnalyzerImplant.jobString>
+
+  <CNInstallConsciousnessEnhancementImplant.label>Install Consciousness Enhancment Implant</CNInstallConsciousnessEnhancementImplant.label>
+  <CNInstallConsciousnessEnhancementImplant.description>Install Consciousness Enhancment Implant</CNInstallConsciousnessEnhancementImplant.description>
+  <CNInstallConsciousnessEnhancementImplant.jobString>Install Consciousness Enhancment Implant</CNInstallConsciousnessEnhancementImplant.jobString>
+
+</LanguageData>

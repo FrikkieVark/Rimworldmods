@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Normal Animal Surgery -->
+  <!-- Cure animal HearingLoss -->
+
+  <CureAnimalChronicHearingLoss.label>동물 청력 손실을 치료합니다 (3 번화계 약품)</CureAnimalChronicHearingLoss.label>
+  <CureAnimalChronicHearingLoss.description>동물 청력 손실을 치료합니다. 수술을하기 위해서는 Lv3의 동물 기술이 필요합니다.</CureAnimalChronicHearingLoss.description>
+  <CureAnimalChronicHearingLoss.jobString>동물 청력 손실 치료중.</CureAnimalChronicHearingLoss.jobString>
+  <CureAnimalChronicHearingLoss.successfullyRemovedHediffMessage>{0}은/는 {1}의 동물 청력 상실을 치료하는데 성공했습니다.</CureAnimalChronicHearingLoss.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure animal Blindness -->
+
+  <CureAnimalChronicBlindness.label>동물성 실명을 치료 (3 번화계 약품)</CureAnimalChronicBlindness.label>
+  <CureAnimalChronicBlindness.description>동물성 실명을 치료. 수술을하기 위해서는 Lv3의 동물 기술이 필요합니다.</CureAnimalChronicBlindness.description>
+  <CureAnimalChronicBlindness.jobString>동물성 실명을 치료중</CureAnimalChronicBlindness.jobString>
+  <CureAnimalChronicBlindness.successfullyRemovedHediffMessage>{0}은/는 {1}의 동물 실명을 치료하는데 성공했습니다.</CureAnimalChronicBlindness.successfullyRemovedHediffMessage>
+
+</LanguageData>

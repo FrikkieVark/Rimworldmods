@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cure animal flu -->
+
+  <CureAnimalFlu.label>동물성 독감 치료 (5 의약품)</CureAnimalFlu.label>
+  <CureAnimalFlu.description>동물성 독감 치료. 수술을하기 위해서는 Lv5 동물 기술과 Lv15 의학 기술이 필요합니다.</CureAnimalFlu.description>
+  <CureAnimalFlu.jobString>동물성 독감 치료중.</CureAnimalFlu.jobString>
+  <CureAnimalFlu.successfullyRemovedHediffMessage>{0}이 {1}의 동물성 독감을 성공적으로 치료했습니다.</CureAnimalFlu.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure animal plague -->
+
+  <CureAnimalPlague.label>동물성 흑사병 치료 (5 패녹시실린/2 번화계 약품)</CureAnimalPlague.label>
+  <CureAnimalPlague.description>동물성 흑사병 치료. 수술을하기 위해서는 Lv5 동물 기술과 Lv15 의학 기술이 필요합니다.</CureAnimalPlague.description>
+  <CureAnimalPlague.jobString>동물성 흑사병 치료중.</CureAnimalPlague.jobString>
+  <CureAnimalPlague.successfullyRemovedHediffMessage>{0}이 {1}의 동물성 흑사병을 성공적으로 치료했습니다.</CureAnimalPlague.successfullyRemovedHediffMessage>
+
+</LanguageData>

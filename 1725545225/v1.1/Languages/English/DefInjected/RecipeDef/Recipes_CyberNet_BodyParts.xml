@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <CNInstallNetworkedArm.label>Install Networked Arm</CNInstallNetworkedArm.label>
+  <CNInstallNetworkedArm.description>Install a Networked Arm</CNInstallNetworkedArm.description>
+  <CNInstallNetworkedArm.jobString>Installing Networked Arm</CNInstallNetworkedArm.jobString>
+
+  <CNInstallNetworkedLeg.label>Install Networked Leg</CNInstallNetworkedLeg.label>
+  <CNInstallNetworkedLeg.description>Install a Networked Leg</CNInstallNetworkedLeg.description>
+  <CNInstallNetworkedLeg.jobString>Installing Networked Leg</CNInstallNetworkedLeg.jobString>
+
+  <CNInstallNetworkedEye.label>Install Networked Eye</CNInstallNetworkedEye.label>
+  <CNInstallNetworkedEye.description>Install a Networked Eye</CNInstallNetworkedEye.description>
+  <CNInstallNetworkedEye.jobString>Installing Networked Eye</CNInstallNetworkedEye.jobString>
+
+  <CNInstallNetworkedSpine.label>Install Networked Spine</CNInstallNetworkedSpine.label>
+  <CNInstallNetworkedSpine.description>Install a Networked Spine</CNInstallNetworkedSpine.description>
+  <CNInstallNetworkedSpine.jobString>Installing Networked Spine</CNInstallNetworkedSpine.jobString>
+
+  <CNInstallNetworkedHeart.label>Install Networked Heart</CNInstallNetworkedHeart.label>
+  <CNInstallNetworkedHeart.description>Install a Networked Heart</CNInstallNetworkedHeart.description>
+  <CNInstallNetworkedHeart.jobString>Installing Networked Heart</CNInstallNetworkedHeart.jobString>
+
+  <CNInstallNetworkedStomach.label>Install Networked Stomach</CNInstallNetworkedStomach.label>
+  <CNInstallNetworkedStomach.description>Install a Networked Stomach</CNInstallNetworkedStomach.description>
+  <CNInstallNetworkedStomach.jobString>Installing Networked Stomach</CNInstallNetworkedStomach.jobString>
+
+  <CNInstallNetworkedEar.label>Install Networked Ear</CNInstallNetworkedEar.label>
+  <CNInstallNetworkedEar.description>Install a Networked Ear</CNInstallNetworkedEar.description>
+  <CNInstallNetworkedEar.jobString>Installing Networked Ear</CNInstallNetworkedEar.jobString>
+
+</LanguageData>

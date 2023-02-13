@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <!-- Spoilers and whatnot, as always. -->
+  
+  <!-- Fight some mechanoids for Wintermute -->
+  <QuestScriptDef Class="GlitterNet.Events.GlitterNetQuestScriptDef">
+    <defName>GlitterNet_FightMechanoids</defName>
+    <rootSelectionWeight>0</rootSelectionWeight>
+    <glitterNetWeight>0.6</glitterNetWeight>
+    <expireDaysRange>0.3</expireDaysRange>
+    <autoAccept>false</autoAccept>
+    <nameMustBeUnique>false</nameMustBeUnique>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->[verb] Mechanoids for Wintermute</li>
+        <li>questName->Wintermute's Mechanoid [noun_plot]</li>
+        <li>verb->Fight</li>
+        <li>verb->Bait</li>
+        <li>verb->Distract</li>
+        <li>verb->Combat</li>
+        <li>verb->Battle</li>
+        <li>noun_plot->Plan</li>
+        <li>noun_plot->Ploy</li>
+        <li>noun_plot->Gambit</li>
+        <li>noun_plot->Tactic</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->Our self-aware GlitterNet hub, Wintermute, has made a request.\n\n    I've picked up some mechanoids passing nearby.\n    I'd really like the chance to study them.\n    I can bring them here, but then you'll have to fight them.\n    Are you alright if I bring them here?\n\nIf we complete this task, it's sure to put Wintermute in a good mood for a while, and build its trust of us.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+
+        <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+        </li>
+        <li Class="QuestNode_GetMap" />
+        
+        <!-- Get a walk-in spot for the raid -->
+        <li Class="QuestNode_GetWalkInSpot" />
+
+        <!-- Get mechanoids -->
+        <li Class="GlitterNet.Events.QuestNodes.QuestNode_GetMechanoidFaction">
+          <storeAs>enemyFaction</storeAs>
+        </li>
+
+        <!-- Raid arrives -->
+        <li Class="QuestNode_Set">
+          <name>raidDelayTicks</name>
+          <value>$(roundToTicksRough(randInt(1200, 1800)))</value>
+        </li>
+        
+        <li Class="QuestNode_Delay">
+          <delayTicks>$raidDelayTicks</delayTicks>
+          <node Class="QuestNode_SubScript">
+            <def>Util_Raid</def>
+            <prefix>raid</prefix>
+            <parms>
+              <inSignal>$inSignal</inSignal>
+              <map>$map</map>
+              <points>$points</points>
+              <enemyFaction>$enemyFaction</enemyFaction>
+              <walkInSpot>$walkInSpot</walkInSpot>
+            </parms>
+          </node>
+        </li>
+
+        <!-- End a few seconds after raid arrives -->
+        <li Class="QuestNode_Delay">
+          <delayTicks>$($raidDelayTicks+600)</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label>Quest completed: [resolvedQuestName]</label>
+                <text>Wintermute baited the mechanoids to attack us, and it was happy to have the opportunity to study them.\n\n    Thanks for letting me do that.\n    Good luck fighting them!\n    I'll be watching from the server room, where it's safe.\n\nWintermute's mood has been improved, and its trust in us has increased.</text>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_AddTrust">
+                <hub>$hub</hub>
+                <delta>0.07</delta>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_SetHubMood">
+                <hub>$hub</hub>
+                <moodDef>GNGenericMoodContemplative</moodDef>
+                <expires>true</expires>
+                <lengthTicks>$(randInt(7, 9)*60000)</lengthTicks>
+              </li>
+              <li Class="GlitterNet.Events.QuestNodes.QuestNode_ConcludeLastQuest">
+                <hub>$hub</hub>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        
+      </nodes>
+    </root>
+  </QuestScriptDef>
+
+</Defs>

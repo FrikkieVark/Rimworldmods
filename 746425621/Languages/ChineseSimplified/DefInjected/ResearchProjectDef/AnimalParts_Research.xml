@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Animal Bionics -->
+  <AnimalBionics.label>动物仿生学</AnimalBionics.label>
+  <!-- EN: Learn to use and craft animal bionics -->
+  <AnimalBionics.description>学习如何制作和使用动物仿生假体</AnimalBionics.description>
+  
+  <!-- EN: Animal Healing -->
+  <AnimalHeal.label>动物治疗</AnimalHeal.label>
+  <!-- EN: Learn to heal old wounds on animals -->
+  <AnimalHeal.description>学习如何治疗动物的旧伤</AnimalHeal.description>
+  
+  <!-- EN: Simple Animal Prosthetics -->
+  <SimpleAnimalProsthetics.label>简易动物假体</SimpleAnimalProsthetics.label>
+  <!-- EN: Learn to use and craft simple animal prosthetics -->
+  <SimpleAnimalProsthetics.description>学习如何制作和使用动物假体</SimpleAnimalProsthetics.description>
+  
+</LanguageData>

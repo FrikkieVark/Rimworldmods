@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Workspeed Integrators -->
+
+  <GNBasicWorkspeedIntegrator.label>基础工程终端</GNBasicWorkspeedIntegrator.label>
+  <GNBasicWorkspeedIntegrator.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicWorkspeedIntegrator.description>
+
+  <GNImprovedWorkspeedIntegrator.label>改进工程终端</GNImprovedWorkspeedIntegrator.label>
+  <GNImprovedWorkspeedIntegrator.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedWorkspeedIntegrator.description>
+
+  <GNAdvancedWorkspeedIntegrator.label>先进工程终端</GNAdvancedWorkspeedIntegrator.label>
+  <GNAdvancedWorkspeedIntegrator.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedWorkspeedIntegrator.description>
+
+
+  <!-- Research Integrators -->
+
+  <GNBasicResearchIntegrator.label>基础科研终端</GNBasicResearchIntegrator.label>
+  <GNBasicResearchIntegrator.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicResearchIntegrator.description>
+
+  <GNImprovedResearchIntegrator.label>改进科研终端</GNImprovedResearchIntegrator.label>
+  <GNImprovedResearchIntegrator.description>一个改进的闪耀网络终端。 提供更高的加成。在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedResearchIntegrator.description>
+
+  <GNAdvancedResearchIntegrator.label>先进科研终端</GNAdvancedResearchIntegrator.label>
+  <GNAdvancedResearchIntegrator.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedResearchIntegrator.description>
+
+
+  <!-- Power integrators -->
+
+  <GNBasicPowerIntegrator.label>基础发电终端</GNBasicPowerIntegrator.label>
+  <GNBasicPowerIntegrator.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicPowerIntegrator.description>
+
+  <GNImprovedPowerIntegrator.label>改进发电终端</GNImprovedPowerIntegrator.label>
+  <GNImprovedPowerIntegrator.description>一个改进的闪耀网络终端。 提供更高的加成。在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedPowerIntegrator.description>
+
+  <GNAdvancedPowerIntegrator.label>先进发电终端</GNAdvancedPowerIntegrator.label>
+  <GNAdvancedPowerIntegrator.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedPowerIntegrator.description>
+
+
+  <!-- Bed integrators -->
+
+  <GNBasicBedIntegrator.label>基础睡眠辅助终端</GNBasicBedIntegrator.label>
+  <GNBasicBedIntegrator.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicBedIntegrator.description>
+
+  <GNImprovedBedIntegrator.label>改进睡眠辅助终端</GNImprovedBedIntegrator.label>
+  <GNImprovedBedIntegrator.description>一个改进的闪耀网络终端。 提供更高的加成。在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedBedIntegrator.description>
+
+  <GNAdvancedBedIntegrator.label>先进睡眠辅助终端</GNAdvancedBedIntegrator.label>
+  <GNAdvancedBedIntegrator.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedBedIntegrator.description>
+
+
+  <!-- Medical integrators -->
+
+  <GNBasicMedicalIntegrator.label>基础医疗终端</GNBasicMedicalIntegrator.label>
+  <GNBasicMedicalIntegrator.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicMedicalIntegrator.description>
+
+  <GNImprovedMedicalIntegrator.label>改进医疗终端</GNImprovedMedicalIntegrator.label>
+  <GNImprovedMedicalIntegrator.description>一个改进的闪耀网络终端。 提供更高的加成。在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedMedicalIntegrator.description>
+
+  <GNAdvancedMedicalIntegrator.label>先进医疗终端</GNAdvancedMedicalIntegrator.label>
+  <GNAdvancedMedicalIntegrator.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedMedicalIntegrator.description>
+
+
+  <!--<GNBasicWorkspeedIntegrator_Blueprint.label>基础工程终端(蓝图)</GNBasicWorkspeedIntegrator_Blueprint.label>-->
+  <!--<GNBasicWorkspeedIntegrator_Blueprint_Install.label>基础工程终端(蓝图)</GNBasicWorkspeedIntegrator_Blueprint_Install.label>-->
+  <!--<GNBasicWorkspeedIntegrator_Frame.label>基础工程终端(建造中)</GNBasicWorkspeedIntegrator_Frame.label>-->
+  <!--<GNBasicWorkspeedIntegrator_Frame.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicWorkspeedIntegrator_Frame.description>-->
+  <!--<GNImprovedWorkspeedIntegrator_Blueprint.label>改进工程终端(蓝图)</GNImprovedWorkspeedIntegrator_Blueprint.label>-->
+  <!--<GNImprovedWorkspeedIntegrator_Blueprint_Install.label>改进工程终端(蓝图)</GNImprovedWorkspeedIntegrator_Blueprint_Install.label>-->
+  <!--<GNImprovedWorkspeedIntegrator_Frame.label>改进工程终端(建造中)</GNImprovedWorkspeedIntegrator_Frame.label>-->
+  <!--<GNImprovedWorkspeedIntegrator_Frame.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedWorkspeedIntegrator_Frame.description>-->
+  <!--<GNAdvancedWorkspeedIntegrator_Blueprint.label>先进工程终端(蓝图)</GNAdvancedWorkspeedIntegrator_Blueprint.label>-->
+  <!--<GNAdvancedWorkspeedIntegrator_Blueprint_Install.label>先进工程终端(蓝图)</GNAdvancedWorkspeedIntegrator_Blueprint_Install.label>-->
+  <!--<GNAdvancedWorkspeedIntegrator_Frame.label>先进工程终端(建造中)</GNAdvancedWorkspeedIntegrator_Frame.label>-->
+  <!--<GNAdvancedWorkspeedIntegrator_Frame.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedWorkspeedIntegrator_Frame.description>-->
+  <!--<GNBasicResearchIntegrator_Blueprint.label>基础科研终端(蓝图)</GNBasicResearchIntegrator_Blueprint.label>-->
+  <!--<GNBasicResearchIntegrator_Blueprint_Install.label>基础科研终端(蓝图)</GNBasicResearchIntegrator_Blueprint_Install.label>-->
+  <!--<GNBasicResearchIntegrator_Frame.label>基础科研终端(建造中)</GNBasicResearchIntegrator_Frame.label>-->
+  <!--<GNBasicResearchIntegrator_Frame.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicResearchIntegrator_Frame.description>-->
+  <!--<GNImprovedResearchIntegrator_Blueprint.label>改进科研终端(蓝图)</GNImprovedResearchIntegrator_Blueprint.label>-->
+  <!--<GNImprovedResearchIntegrator_Blueprint_Install.label>改进科研终端(蓝图)</GNImprovedResearchIntegrator_Blueprint_Install.label>-->
+  <!--<GNImprovedResearchIntegrator_Frame.label>改进科研终端(建造中)</GNImprovedResearchIntegrator_Frame.label>-->
+  <!--<GNImprovedResearchIntegrator_Frame.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedResearchIntegrator_Frame.description>-->
+  <!--<GNAdvancedResearchIntegrator_Blueprint.label>先进科研终端(蓝图)</GNAdvancedResearchIntegrator_Blueprint.label>-->
+  <!--<GNAdvancedResearchIntegrator_Blueprint_Install.label>先进科研终端(蓝图)</GNAdvancedResearchIntegrator_Blueprint_Install.label>-->
+  <!--<GNAdvancedResearchIntegrator_Frame.label>先进科研终端(建造中)</GNAdvancedResearchIntegrator_Frame.label>-->
+  <!--<GNAdvancedResearchIntegrator_Frame.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedResearchIntegrator_Frame.description>-->
+  <!--<GNBasicPowerIntegrator_Blueprint.label>基础发电终端(蓝图)</GNBasicPowerIntegrator_Blueprint.label>-->
+  <!--<GNBasicPowerIntegrator_Blueprint_Install.label>基础发电终端(蓝图)</GNBasicPowerIntegrator_Blueprint_Install.label>-->
+  <!--<GNBasicPowerIntegrator_Frame.label>基础发电终端(建造中)</GNBasicPowerIntegrator_Frame.label>-->
+  <!--<GNBasicPowerIntegrator_Frame.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicPowerIntegrator_Frame.description>-->
+  <!--<GNImprovedPowerIntegrator_Blueprint.label>改进发电终端(蓝图)</GNImprovedPowerIntegrator_Blueprint.label>-->
+  <!--<GNImprovedPowerIntegrator_Blueprint_Install.label>改进发电终端(蓝图)</GNImprovedPowerIntegrator_Blueprint_Install.label>-->
+  <!--<GNImprovedPowerIntegrator_Frame.label>改进发电终端(建造中)</GNImprovedPowerIntegrator_Frame.label>-->
+  <!--<GNImprovedPowerIntegrator_Frame.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedPowerIntegrator_Frame.description>-->
+  <!--<GNAdvancedPowerIntegrator_Blueprint.label>先进发电终端(蓝图)</GNAdvancedPowerIntegrator_Blueprint.label>-->
+  <!--<GNAdvancedPowerIntegrator_Blueprint_Install.label>先进发电终端(蓝图)</GNAdvancedPowerIntegrator_Blueprint_Install.label>-->
+  <!--<GNAdvancedPowerIntegrator_Frame.label>先进发电终端(建造中)</GNAdvancedPowerIntegrator_Frame.label>-->
+  <!--<GNAdvancedPowerIntegrator_Frame.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedPowerIntegrator_Frame.description>-->
+  <!--<GNBasicBedIntegrator_Blueprint.label>基础发电终端(蓝图)</GNBasicBedIntegrator_Blueprint.label>-->
+  <!--<GNBasicBedIntegrator_Blueprint_Install.label>基础发电终端(蓝图)</GNBasicBedIntegrator_Blueprint_Install.label>-->
+  <!--<GNBasicBedIntegrator_Frame.label>基础发电终端(建造中)</GNBasicBedIntegrator_Frame.label>-->
+  <!--<GNBasicBedIntegrator_Frame.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicBedIntegrator_Frame.description>-->
+  <!--<GNImprovedBedIntegrator_Blueprint.label>改进发电终端(蓝图)</GNImprovedBedIntegrator_Blueprint.label>-->
+  <!--<GNImprovedBedIntegrator_Blueprint_Install.label>改进发电终端(蓝图)</GNImprovedBedIntegrator_Blueprint_Install.label>-->
+  <!--<GNImprovedBedIntegrator_Frame.label>改进发电终端(建造中)</GNImprovedBedIntegrator_Frame.label>-->
+  <!--<GNImprovedBedIntegrator_Frame.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedBedIntegrator_Frame.description>-->
+  <!--<GNAdvancedBedIntegrator_Blueprint.label>先进发电终端(蓝图)</GNAdvancedBedIntegrator_Blueprint.label>-->
+  <!--<GNAdvancedBedIntegrator_Blueprint_Install.label>先进发电终端(蓝图)</GNAdvancedBedIntegrator_Blueprint_Install.label>-->
+  <!--<GNAdvancedBedIntegrator_Frame.label>先进发电终端(建造中)</GNAdvancedBedIntegrator_Frame.label>-->
+  <!--<GNAdvancedBedIntegrator_Frame.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedBedIntegrator_Frame.description>-->
+  <!--<GNBasicMedicalIntegrator_Blueprint.label>基础医疗终端(蓝图)</GNBasicMedicalIntegrator_Blueprint.label>-->
+  <!--<GNBasicMedicalIntegrator_Blueprint_Install.label>基础医疗终端(蓝图)</GNBasicMedicalIntegrator_Blueprint_Install.label>-->
+  <!--<GNBasicMedicalIntegrator_Frame.label>基础医疗终端(建造中)</GNBasicMedicalIntegrator_Frame.label>-->
+  <!--<GNBasicMedicalIntegrator_Frame.description>一个基础的闪耀网络终端。能够改善相连建筑的性能。在没有专用处理器时，最多可以连接两个终端到建筑。</GNBasicMedicalIntegrator_Frame.description>-->
+  <!--<GNImprovedMedicalIntegrator_Blueprint.label>改进医疗终端(蓝图)</GNImprovedMedicalIntegrator_Blueprint.label>-->
+  <!--<GNImprovedMedicalIntegrator_Blueprint_Install.label>改进医疗终端(蓝图)</GNImprovedMedicalIntegrator_Blueprint_Install.label>-->
+  <!--<GNImprovedMedicalIntegrator_Frame.label>改进医疗终端(建造中)</GNImprovedMedicalIntegrator_Frame.label>-->
+  <!--<GNImprovedMedicalIntegrator_Frame.description>一个改进的闪耀网络终端。 提供更高的加成。 在没有专用处理器时，最多可以连接两个终端到建筑。</GNImprovedMedicalIntegrator_Frame.description>-->
+  <!--<GNAdvancedMedicalIntegrator_Blueprint.label>先进医疗终端(蓝图)</GNAdvancedMedicalIntegrator_Blueprint.label>-->
+  <!--<GNAdvancedMedicalIntegrator_Blueprint_Install.label>先进医疗终端(蓝图)</GNAdvancedMedicalIntegrator_Blueprint_Install.label>-->
+  <!--<GNAdvancedMedicalIntegrator_Frame.label>先进医疗终端(建造中)</GNAdvancedMedicalIntegrator_Frame.label>-->
+  <!--<GNAdvancedMedicalIntegrator_Frame.description>一个先进的闪耀网络终端。 提供最高的加成，也拥有最高的处理性能使用率。在没有专用处理器时，最多可以连接两个终端到建筑。</GNAdvancedMedicalIntegrator_Frame.description>-->
+
+</LanguageData>

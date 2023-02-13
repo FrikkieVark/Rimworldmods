@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>GR_GenetrainerRepurposing</defName>
+		<label>genetrainer repurposing</label>
+		<tab>GR_GeneticReseach</tab>
+		<techLevel>Spacer</techLevel>
+		<description>Genetrainer repurposing unlocks the jury rigging of mech serum neurotrainers, healers, psytrainers and resurrectors to craft genetrainers, single use artifacts that inject animal genetic material in a human being, acting as a powerful implant that doesn't take the place of any organ in the body.</description>
+		<baseCost>2500</baseCost>
+		<prerequisites>
+			<li>GR_GeneticCompatibility</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+</Defs>

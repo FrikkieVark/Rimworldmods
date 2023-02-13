@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlitterNetNetworkMaxEfficiencyOffset.label>终端最大效率</GlitterNetNetworkMaxEfficiencyOffset.label>
+  <GlitterNetNetworkMaxEfficiencyOffset.description>终端最大效率被此影响。</GlitterNetNetworkMaxEfficiencyOffset.description>
+
+  <GlitterNetNetworkEfficiencyOffset.label>终端效率</GlitterNetNetworkEfficiencyOffset.label>
+  <GlitterNetNetworkEfficiencyOffset.description>终端效率被此影响。</GlitterNetNetworkEfficiencyOffset.description>
+
+  <GlitterNetNetworkMaxSimultaneousOffset.label>网络并行终端数量</GlitterNetNetworkMaxSimultaneousOffset.label>
+  <GlitterNetNetworkMaxSimultaneousOffset.description>网络并行终端数量被此影响。</GlitterNetNetworkMaxSimultaneousOffset.description>
+
+  <GlitterNetNetworkProcessingPowerFactor.label>网络综合运算力</GlitterNetNetworkProcessingPowerFactor.label>
+  <GlitterNetNetworkProcessingPowerFactor.description>网络综合运算力被此影响。</GlitterNetNetworkProcessingPowerFactor.description>
+
+  <GlitterNetNetworkProcessingUsageFactor.label>网络已使用计算力</GlitterNetNetworkProcessingUsageFactor.label>
+  <GlitterNetNetworkProcessingUsageFactor.description>网络已使用计算力被此值影响。</GlitterNetNetworkProcessingUsageFactor.description>
+
+
+</LanguageData>

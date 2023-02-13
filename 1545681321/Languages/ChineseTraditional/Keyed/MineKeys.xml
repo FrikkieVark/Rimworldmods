@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Mineshaft.defName>Mine</Mineshaft.defName>
+  <Mineshaft.label>mine</Mineshaft.label>
+  <Mining>Mining {0}.</Mining>
+  <Mine>mine {0}{1}</Mine>
+  <LogMessageFoundResource>[Mines]Found something to mine: {0}</LogMessageFoundResource>
+  <LogMessageAddedRecipe> -- added recipe for {0}</LogMessageAddedRecipe>
+  <Excavate>Excavate_{0}</Excavate>
+
+</LanguageData>

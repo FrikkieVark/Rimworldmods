@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cure flu -->
+
+  <CureInfectionFlu.label>вылечить грипп (5 мед.)</CureInfectionFlu.label>
+  <CureInfectionFlu.description>Лечит грипп.</CureInfectionFlu.description>
+  <CureInfectionFlu.jobString>Лечит гриппа.</CureInfectionFlu.jobString>
+  <CureInfectionFlu.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} грипп.</CureInfectionFlu.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Disease: Chemical Damage -->
+
+  <CureChemicalDamageModerate.label>вылечить химического ожога (5 мед.)</CureChemicalDamageModerate.label>
+  <CureChemicalDamageModerate.description>Лечит химического ожога.</CureChemicalDamageModerate.description>
+  <CureChemicalDamageModerate.jobString>Лечит химического ожога.</CureChemicalDamageModerate.jobString>
+  <CureChemicalDamageModerate.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} химическое повреждение.</CureChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure plague -->
+
+  <CureInfectionPlague.label>вылечить чума (5 Пено./2 Продв. мед.)</CureInfectionPlague.label>
+  <CureInfectionPlague.description>Лечит чума.</CureInfectionPlague.description>
+  <CureInfectionPlague.jobString>Лечит чума.</CureInfectionPlague.jobString>
+  <CureInfectionPlague.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} чума.</CureInfectionPlague.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure malaria -->
+
+  <CureInfectionMalaria.label>вылечить малярия (5 Пено./2 Продв. мед.)</CureInfectionMalaria.label>
+  <CureInfectionMalaria.description>Лечит малярия.</CureInfectionMalaria.description>
+  <CureInfectionMalaria.jobString>Лечит малярия.</CureInfectionMalaria.jobString>
+  <CureInfectionMalaria.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} малярия.</CureInfectionMalaria.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Disease: Chemical Damage Severe -->
+
+  <CureChemicalDamageSevere.label>вылечить тяжелого химического ожога (5 Продв. мед.)</CureChemicalDamageSevere.label>
+  <CureChemicalDamageSevere.description>Лечит тяжелого химического ожога.</CureChemicalDamageSevere.description>
+  <CureChemicalDamageSevere.jobString>Лечит тяжелого химического ожога.</CureChemicalDamageSevere.jobString>
+  <CureChemicalDamageSevere.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} тяжелого химическое повреждение.</CureChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Sleeping Sickness -->
+
+  <CureInfectionSleepingSickness.label>вылечить сонная болезнь (5 Пено./3 Продв. мед.)</CureInfectionSleepingSickness.label>
+  <CureInfectionSleepingSickness.description>Лечит сонная болезнь.</CureInfectionSleepingSickness.description>
+  <CureInfectionSleepingSickness.jobString>Лечит сонная болезнь.</CureInfectionSleepingSickness.jobString>
+  <CureInfectionSleepingSickness.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} сонная болезнь.</CureInfectionSleepingSickness.successfullyRemovedHediffMessage>
+
+</LanguageData>

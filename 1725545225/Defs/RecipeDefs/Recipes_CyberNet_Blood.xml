@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Blood Enhancements/Replacements -->
+  
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNAddFiltrationBloodEnhancement</defName>
+    <label>Add Filtration Blood Enhancement</label>
+    <description>Add a Filtration Blood Enhancement</description>
+    <jobString>Adding a Filtration Blood Enhancement</jobString>
+    <workAmount>4000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNFiltrationBloodEnhancement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNFiltrationBloodEnhancement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNFiltrationBloodEnhancement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNAddMetabolicBloodEnhancement</defName>
+    <label>Add Metabolic Blood Enhancement</label>
+    <description>Add a Metabolic Blood Enhancement</description>
+    <jobString>Adding a Metabolic Blood Enhancement</jobString>
+    <workAmount>4000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNMetabolicBloodEnhancement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNMetabolicBloodEnhancement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNMetabolicBloodEnhancement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceBloodWithSynthBlood</defName>
+    <label>Replace Blood with SynthBlood</label>
+    <description>Replace Blood with SynthBlood</description>
+    <jobString>Replacing Blood with SynthBlood</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNSynthBloodBloodReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNSynthBloodBloodReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNSynthBloodBloodReplacement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceBloodWithEnergyMax</defName>
+    <label>Replace Blood with EnergyMax</label>
+    <description>Replace Blood with EnergyMax</description>
+    <jobString>Replacing Blood with EnergyMax</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNEnergyMaxBloodReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNEnergyMaxBloodReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNEnergyMaxBloodReplacement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceBloodWithHyperClot</defName>
+    <label>Replace Blood with HyperClot</label>
+    <description>Replace Blood with HyperClot</description>
+    <jobString>Replacing Blood with HyperClot</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNHyperClotBloodReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNHyperClotBloodReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNHyperClotBloodReplacement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceBloodWithThermControl</defName>
+    <label>Replace Blood with ThermControl</label>
+    <description>Replace Blood with ThermControl</description>
+    <jobString>Replacing Blood with ThermControl</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNThermControlBloodReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNThermControlBloodReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNBlood</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNThermControlBloodReplacement</addsHediff>
+  </RecipeDef>
+
+</Defs>

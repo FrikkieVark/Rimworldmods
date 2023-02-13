@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <CNWirelessEfficiencyOffset.label>Wireless Network Efficiency Offset</CNWirelessEfficiencyOffset.label>
+    <CNWirelessEfficiencyOffset.description>The wireless network efficiency is offset by this value.</CNWirelessEfficiencyOffset.description>
+    
+    <CNBandwidthFactor.label>Bandwidth Factor</CNBandwidthFactor.label>
+    <CNBandwidthFactor.description>The total network bandwidth is multiplied by this value.</CNBandwidthFactor.description>
+    
+</LanguageData>

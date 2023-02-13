@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install animal brain stimulator -->
+  <InstallAnimalBrainStimulator.label>安装动物大脑刺激器</InstallAnimalBrainStimulator.label>
+  <!-- EN: Installs an animal brain stimulator. Requires a min skill in medicine of 10. -->
+  <InstallAnimalBrainStimulator.description>安装动物大脑刺激器。需要最低10点医疗技能。</InstallAnimalBrainStimulator.description>
+  <!-- EN: Installing animal brain stimulator. -->
+  <InstallAnimalBrainStimulator.jobString>正在安装动物大脑刺激器。</InstallAnimalBrainStimulator.jobString>
+  
+  <!-- EN: install bionic animal heart -->
+  <InstallBionicAnimalHeart.label>安装仿生动物心脏</InstallBionicAnimalHeart.label>
+  <!-- EN: Installs a bionic animal heart. Requires a min skill in medicine of 10. -->
+  <InstallBionicAnimalHeart.description>安装仿生动物心脏。需要最低10点医疗技能。</InstallBionicAnimalHeart.description>
+  <!-- EN: Installing bionic animal heart. -->
+  <InstallBionicAnimalHeart.jobString>正在安装仿生动物心脏。</InstallBionicAnimalHeart.jobString>
+  
+  <!-- EN: install bionic animal kidney -->
+  <InstallBionicAnimalKidney.label>安装仿生动物肾</InstallBionicAnimalKidney.label>
+  <!-- EN: Installs a bionic animal kidney Requires a min skill in medicine of 10. -->
+  <InstallBionicAnimalKidney.description>安装仿生动物肾。需要最低10点医疗技能。</InstallBionicAnimalKidney.description>
+  <!-- EN: Installing bionic animal kidney. -->
+  <InstallBionicAnimalKidney.jobString>Installing bionic animal kidney.</InstallBionicAnimalKidney.jobString>
+  
+  <!-- EN: install bionic animal liver -->
+  <InstallBionicAnimalLiver.label>安装仿生动物肝</InstallBionicAnimalLiver.label>
+  <!-- EN: Installs a bionic animal liver. Requires a min skill in medicine of 10. -->
+  <InstallBionicAnimalLiver.description>安装仿生动物肝。需要最低10点医疗技能。</InstallBionicAnimalLiver.description>
+  <!-- EN: Installing bionic animal liver. -->
+  <InstallBionicAnimalLiver.jobString>正在安装仿生动物肝</InstallBionicAnimalLiver.jobString>
+  
+  <!-- EN: install bionic animal lung -->
+  <InstallBionicAnimalLung.label>安装仿生动物肺</InstallBionicAnimalLung.label>
+  <!-- EN: Installs a bionic animal lung. Requires a min skill in medicine of 10. -->
+  <InstallBionicAnimalLung.description>安装仿生动物肺。需要最低10点医疗技能。</InstallBionicAnimalLung.description>
+  <!-- EN: Installing bionic animal lung. -->
+  <InstallBionicAnimalLung.jobString>正在安装仿生动物肺</InstallBionicAnimalLung.jobString>
+  
+  <!-- EN: install bionic animal stomach -->
+  <InstallBionicAnimalStomach.label>安装仿生动物胃</InstallBionicAnimalStomach.label>
+  <!-- EN: Installs a bionic animal stomach. Requires a min skill in medicine of 10. -->
+  <InstallBionicAnimalStomach.description>安装仿生动物胃。需要最低10点医疗技能。</InstallBionicAnimalStomach.description>
+  <!-- EN: Installing bionic animal stomach. -->
+  <InstallBionicAnimalStomach.jobString>正在安装仿生动物胃。</InstallBionicAnimalStomach.jobString>
+  
+  <!-- EN: install animal bionic arm -->
+  <InstallBionicArmAnimal.label>安装仿生动物臂</InstallBionicArmAnimal.label>
+  <!-- EN: Installs animal bionic arm. Requires a min skill in medicine of 8. -->
+  <InstallBionicArmAnimal.description>安装仿生动物臂。 需要最低8点医疗技能。</InstallBionicArmAnimal.description>
+  <!-- EN: Installing bionic animal arm. -->
+  <InstallBionicArmAnimal.jobString>安装仿生动物臂。</InstallBionicArmAnimal.jobString>
+  
+  <!-- EN: install bionic animal eye -->
+  <InstallBionicEyeAnimal.label>安装仿生动物眼</InstallBionicEyeAnimal.label>
+  <!-- EN: Installs bionic animal eye. Requires a min skill in medicine of 8. -->
+  <InstallBionicEyeAnimal.description>安装仿生动物眼。需要最低8点医疗技能。</InstallBionicEyeAnimal.description>
+  <!-- EN: Installing bionic animal eye. -->
+  <InstallBionicEyeAnimal.jobString>正在安装仿生动物眼。</InstallBionicEyeAnimal.jobString>
+  
+  <!-- EN: install bionic animal leg -->
+  <InstallBionicLegAnimal.label>安装仿生动物腿</InstallBionicLegAnimal.label>
+  <!-- EN: Installs bionic animal leg. Requires min skill in medicine of 8. -->
+  <InstallBionicLegAnimal.description>安装仿生动物腿。需要最低8点医疗技能。</InstallBionicLegAnimal.description>
+  <!-- EN: Installing bionic leg. -->
+  <InstallBionicLegAnimal.jobString>正在安装仿生动物腿。</InstallBionicLegAnimal.jobString>
+  
+  <!-- EN: install bionic animal ear implant -->
+  <InstallEarAnimalBionic.label>安装仿生动物耳</InstallEarAnimalBionic.label>
+  <!-- EN: Installs an improved bionic animal ear implant. Requires a min skill in medicine of 8. -->
+  <InstallEarAnimalBionic.description>安装仿生动物耳。需要最低8点医疗技能。</InstallEarAnimalBionic.description>
+  <!-- EN: Installing bionic animal ear implant. -->
+  <InstallEarAnimalBionic.jobString>正在安装仿生动物耳。</InstallEarAnimalBionic.jobString>
+  
+  <!-- EN: install simple animal ear implant -->
+  <InstallEarAnimalSimple.label>安装简易动物耳</InstallEarAnimalSimple.label>
+  <!-- EN: Installs a simple animal ear implant. Requires a min skill in medicine of 4. -->
+  <InstallEarAnimalSimple.description>安装简易动物耳。需要最低4点医疗技能。</InstallEarAnimalSimple.description>
+  <!-- EN: Installing simple animal ear implant. -->
+  <InstallEarAnimalSimple.jobString>正在安装简易动物耳。</InstallEarAnimalSimple.jobString>
+  
+  <!-- EN: install bionic animal jaw -->
+  <InstallJawAnimalBionic.label>安装仿生动物下颚</InstallJawAnimalBionic.label>
+  <!-- EN: Installs an improved bionic animal jaw. Requires a min skill in medicine of 8. -->
+  <InstallJawAnimalBionic.description>安装强化的仿生动物下颚。需要最低8点医疗技能。</InstallJawAnimalBionic.description>
+  <!-- EN: Installing bionic animal jaw. -->
+  <InstallJawAnimalBionic.jobString>正在安装仿生动物下颚。</InstallJawAnimalBionic.jobString>
+  
+  <!-- EN: install simple animal jaw -->
+  <InstallJawAnimalSimple.label>安装简易动物下颚</InstallJawAnimalSimple.label>
+  <!-- EN: Installs a simple animal jaw. Requires a min skill in medicine of 4. -->
+  <InstallJawAnimalSimple.description>安装简易动物下颚。需要最低4点医疗技能。</InstallJawAnimalSimple.description>
+  <!-- EN: Installing simple animal jaw. -->
+  <InstallJawAnimalSimple.jobString>正在安装简易动物下颚。</InstallJawAnimalSimple.jobString>
+  
+  <!-- EN: install simple animal nose -->
+  <InstallNoseAnimalSimple.label>安装简易动物鼻</InstallNoseAnimalSimple.label>
+  <!-- EN: Installs a simple animal animal nose. Requires a min skill in medicine of 4. -->
+  <InstallNoseAnimalSimple.description>安装简易动物鼻。需要最低4点医疗技能。</InstallNoseAnimalSimple.description>
+  <!-- EN: Installing simple animal nose. -->
+  <InstallNoseAnimalSimple.jobString>正在安装简易动物鼻。</InstallNoseAnimalSimple.jobString>
+  
+  <!-- EN: install animal peg leg -->
+  <InstallPegLegAnimal.label>安装动物木腿</InstallPegLegAnimal.label>
+  <!-- EN: Installs animal peg leg. -->
+  <InstallPegLegAnimal.description>安装动物木腿。</InstallPegLegAnimal.description>
+  <!-- EN: Installing peg leg. -->
+  <InstallPegLegAnimal.jobString>正在安装动物木腿。</InstallPegLegAnimal.jobString>
+  
+  <!-- EN: install power claw -->
+  <InstallPowerClawAnimal.label>安装动力爪</InstallPowerClawAnimal.label>
+  <!-- EN: Installs power claw. -->
+  <InstallPowerClawAnimal.description>安装动力爪。</InstallPowerClawAnimal.description>
+  <!-- EN: Installing power claw. -->
+  <InstallPowerClawAnimal.jobString>正在安装动力爪。</InstallPowerClawAnimal.jobString>
+  
+  <!-- EN: install simple animal prosthetic arm -->
+  <InstallSimpleProstheticArmAnimal.label>安装简易动物假臂</InstallSimpleProstheticArmAnimal.label>
+  <!-- EN: Installs simple prosthetic animal arm. Requires a min skill in medicine of 4. -->
+  <InstallSimpleProstheticArmAnimal.description>安装简易动物假臂。需要最低4点医疗技能。</InstallSimpleProstheticArmAnimal.description>
+  <!-- EN: Installing simple prostethic animal arm. -->
+  <InstallSimpleProstheticArmAnimal.jobString>安装简易动物假臂。</InstallSimpleProstheticArmAnimal.jobString>
+  
+  <!-- EN: install simple prosthetic animal leg -->
+  <InstallSimpleProstheticLegAnimal.label>安装简易动物假腿</InstallSimpleProstheticLegAnimal.label>
+  <!-- EN: Installs simple prosthetic animal leg. Requires min skill in medicine of 4. -->
+  <InstallSimpleProstheticLegAnimal.description>安装简易动物假腿。需要最低4点医疗技能。</InstallSimpleProstheticLegAnimal.description>
+  <!-- EN: Installing simple prostethic animal leg. -->
+  <InstallSimpleProstheticLegAnimal.jobString>正在安装简易动物假腿。</InstallSimpleProstheticLegAnimal.jobString>
+  
+  <!-- EN: install simple animal prosthetic tail -->
+  <InstallSimpleProstheticTailAnimal.label>安装假尾巴</InstallSimpleProstheticTailAnimal.label>
+  <!-- EN: Installs simple prosthetic tail. Requires a min skill in medicine of 4. -->
+  <InstallSimpleProstheticTailAnimal.description>安装假尾巴。需要最低4点医疗技能。</InstallSimpleProstheticTailAnimal.description>
+  <!-- EN: Installing simple prostethic tail. -->
+  <InstallSimpleProstheticTailAnimal.jobString>正在安装假尾巴。</InstallSimpleProstheticTailAnimal.jobString>
+  
+  <!-- EN: install bionic animal spine -->
+  <InstallSpineAnimalBionic.label>安装仿生动物脊椎</InstallSpineAnimalBionic.label>
+  <!-- EN: Installs an improved bionic animal spine. Requires a min skill in medicine of 10. -->
+  <InstallSpineAnimalBionic.description>安装强化的仿生动物脊椎。需要最低10点医疗技能。</InstallSpineAnimalBionic.description>
+  <!-- EN: Installing bionic animal spine. -->
+  <InstallSpineAnimalBionic.jobString>正在安装仿生动物脊椎。</InstallSpineAnimalBionic.jobString>
+  
+  <!-- EN: install simple animal spine -->
+  <InstallSpineAnimalSimple.label>安装简易动物脊椎</InstallSpineAnimalSimple.label>
+  <!-- EN: Installs a simple animal spine. Requires a min skill in medicine of 6. -->
+  <InstallSpineAnimalSimple.description>安装简易动物脊椎。需要最低6点医疗技能。</InstallSpineAnimalSimple.description>
+  <!-- EN: Installing simple animal spine. -->
+  <InstallSpineAnimalSimple.jobString>正在安装简易动物脊椎。</InstallSpineAnimalSimple.jobString>
+  
+</LanguageData>

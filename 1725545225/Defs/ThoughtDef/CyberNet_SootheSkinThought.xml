@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>CNSootheSkinThought</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>0.25</durationDays>
+        <stackedEffectMultiplier>0</stackedEffectMultiplier>
+        <stackLimit>1</stackLimit>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Soothing Feeling (Disconnected)</label>
+                <description>I was near a SootheAura Skin, but it was disconnected.</description>
+                <baseMoodEffect>0</baseMoodEffect>
+                <visible>false</visible>
+            </li>
+            <li>
+                <label>Soothing Feeling (Throttled)</label>
+                <description>I was near a SootheAura Skin. It gave me a nice feeling.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+            <li>
+                <label>Soothing Feeling (Sluggish)</label>
+                <description>I was near a SootheAura Skin. It gave me a nice feeling.</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            <li>
+                <label>Soothing Feeling (Connected)</label>
+                <description>I was near a SootheAura Skin. It gave me a nice feeling.</description>
+                <baseMoodEffect>15</baseMoodEffect>
+            </li>
+            <li>
+                <label>Soothing Feeling (Overclocked)</label>
+                <description>I was near a SootheAura Skin. It gave me a nice feeling.</description>
+                <baseMoodEffect>17.5</baseMoodEffect>
+            </li>
+            <li>
+                <label>Soothing Feeling (Supercharged)</label>
+                <description>I was near a SootheAura Skin. It gave me a nice feeling.</description>
+                <baseMoodEffect>20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    
+</Defs>

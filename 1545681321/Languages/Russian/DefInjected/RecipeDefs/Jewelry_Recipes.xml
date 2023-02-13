@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <Excavate_Diamond.label>Добыча алмазов</Excavate_Diamond.label>
+  <Excavate_Diamond.description>Добывать алмазы.</Excavate_Diamond.description>
+  <Excavate_Diamond.jobString>Добывает алмазы</Excavate_Diamond.jobString>
+
+  <Excavate_Ruby.label>Добыча рубинов</Excavate_Ruby.label>
+  <Excavate_Ruby.description>Добывать рубин.</Excavate_Ruby.description>
+  <Excavate_Ruby.jobString>Добывает рубин</Excavate_Ruby.jobString>
+
+  <Excavate_Sapphire.label>Добыча сапфиров</Excavate_Sapphire.label>
+  <Excavate_Sapphire.description>Добывать сапфир.</Excavate_Sapphire.description>
+  <Excavate_Sapphire.jobString>Добывает сапфир</Excavate_Sapphire.jobString>
+
+</LanguageData>

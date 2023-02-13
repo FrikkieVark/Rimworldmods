@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Blood Enhancements/Replacements -->
+
+  <CNFiltrationBloodEnhancement.label>血液强化物 血液过滤</CNFiltrationBloodEnhancement.label>
+  <CNFiltrationBloodEnhancement.description>这些纳米机械可以增强血液的各种特性，这是个强化血液过滤的类型</CNFiltrationBloodEnhancement.description>
+
+  <CNMetabolicBloodEnhancement.label>血液强化物 新陈代谢</CNMetabolicBloodEnhancement.label>
+  <CNMetabolicBloodEnhancement.description>这些纳米机械可以增强血液的各种特性，这是个强化新城代谢的类型。</CNMetabolicBloodEnhancement.description>
+
+  <CNSynthBloodBloodReplacement.label>人造血 合成血液</CNSynthBloodBloodReplacement.label>
+  <CNSynthBloodBloodReplacement.description>合成血液是一种利用远程终端运行的全血代替品。合成血液是两种血液强化物与人工血红蛋白的组合。\n\n就像所有的全血替代品，合成血强化了氧气输送能力，甚至比别的全血替代品表现更好。</CNSynthBloodBloodReplacement.description>
+
+  <CNEnergyMaxBloodReplacement.label>人造血 高能血液</CNEnergyMaxBloodReplacement.label>
+  <CNEnergyMaxBloodReplacement.description>高能血液是一种利用远程终端运行的全血代替品。高能血液可以渗透细胞膜并强化细胞中的线粒体，降低用户的食物消耗。\n\n就像所有的全血替代品，高能血液强化了氧气输送能力。</CNEnergyMaxBloodReplacement.description>
+
+  <CNHyperClotBloodReplacement.label>人造血 超织血液</CNHyperClotBloodReplacement.label>
+  <CNHyperClotBloodReplacement.description>超织血液是一种利用远程终端运行的全血代替品。超织血液含有额外的人造血小板，当存在出血伤口的时候，人造血小板会迅速填补伤口止血。\n\n就像所有的全血代替品，超织血液强化了氧气的输送能力。</CNHyperClotBloodReplacement.description>
+
+  <CNThermControlBloodReplacement.label>人造血 恒温血液</CNThermControlBloodReplacement.label>
+  <CNThermControlBloodReplacement.description>恒温血液是一种利用远程终端运行的全血代替品。恒温血液包含两种不同的纳米机械，稳定用户的体温。\n\n就像所有的全血代替品，恒温血液强化了氧气的输送能力。</CNThermControlBloodReplacement.description>
+
+
+</LanguageData>

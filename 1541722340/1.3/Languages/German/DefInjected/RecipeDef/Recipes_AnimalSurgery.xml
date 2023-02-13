@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Normal Animal Surgery -->
+  <!-- Cure animal HearingLoss -->
+
+  <CureAnimalChronicHearingLoss.label>Behandel Gehörverlust</CureAnimalChronicHearingLoss.label>
+  <CureAnimalChronicHearingLoss.description>Behandel den Gehörverlust eines Tieres. Es wird mindestens Stufe 3 in der Kategorie Tiere benötigt, um diese Behandlung durchzuführen.</CureAnimalChronicHearingLoss.description>
+  <CureAnimalChronicHearingLoss.jobString>Behandelt Gehörverlust.</CureAnimalChronicHearingLoss.jobString>
+  <CureAnimalChronicHearingLoss.successfullyRemovedHediffMessage>{0} hat erfolgreich den Gehörverlust von {1} behandelt.</CureAnimalChronicHearingLoss.successfullyRemovedHediffMessage>
+
+  <!-- Cure animal Blindness -->
+
+  <CureAnimalChronicBlindness.label>Behandel Blindheit</CureAnimalChronicBlindness.label>
+  <CureAnimalChronicBlindness.description>Behandel die Blindheit eines Tieres. Es wird mindestens Stufe 3 in der Kategorie Tiere benötigt, um diese Behandlung durchzuführen.</CureAnimalChronicBlindness.description>
+  <CureAnimalChronicBlindness.jobString>Behandelt Blindheit.</CureAnimalChronicBlindness.jobString>
+  <CureAnimalChronicBlindness.successfullyRemovedHediffMessage>{0} hat erfolgreich die Blindheit von {1} behandelt.</CureAnimalChronicBlindness.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

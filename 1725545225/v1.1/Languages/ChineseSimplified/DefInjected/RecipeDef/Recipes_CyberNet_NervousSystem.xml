@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Nervous System Enhancements (NSE) -->
+
+  <CNInstallReflexNSE.label>安装 反射神经系统增强</CNInstallReflexNSE.label>
+  <CNInstallReflexNSE.description>安装 反射神经系统增强</CNInstallReflexNSE.description>
+  <CNInstallReflexNSE.jobString>正在安装 反射神经系统增强</CNInstallReflexNSE.jobString>
+
+  <CNInstallComfortNSE.label>安装 感知神经系统增强</CNInstallComfortNSE.label>
+  <CNInstallComfortNSE.description>安装 感知神经系统增强</CNInstallComfortNSE.description>
+  <CNInstallComfortNSE.jobString>正在安装 感知神经系统增强</CNInstallComfortNSE.jobString>
+
+  <CNInstallSpeedNSE.label>安装 运动神经系统增强</CNInstallSpeedNSE.label>
+  <CNInstallSpeedNSE.description>安装 运动神经系统增强</CNInstallSpeedNSE.description>
+  <CNInstallSpeedNSE.jobString>正在安装 运动神经系统增强</CNInstallSpeedNSE.jobString>
+
+
+</LanguageData>

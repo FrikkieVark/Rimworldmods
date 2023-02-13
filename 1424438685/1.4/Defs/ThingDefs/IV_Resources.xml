@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>Bloodstem</defName>
+    <label>Bloodstem Leaf</label>
+    <description>An exotic red leaf with coagulating properties.</description>
+	<tickerType>Rare</tickerType>
+    <graphicData>
+      <texPath>Things/Item/Resource/IV_Bloodstem</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>CrushedStem</defName>
+    <label>Crushed Bloodstem</label>
+    <description>Well crushed bloodstem leaves. Looks gooey and red.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/IV_BloodstemPowder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>1.5</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>IV_BloodBag</defName>
+    <label>Blood Bag</label>
+    <description>A plastic bag containing a viscous red liquid. Used to fuel blood IVs.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/IV_BloodBag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>1</MarketValue>
+      <Mass>0.026</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Medicine</li>
+    </thingCategories>
+  </ThingDef>
+  
+</Defs>

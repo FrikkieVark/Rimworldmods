@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bionic animal brain stimulator -->
+  <AnimalBrainStimulator.label>仿生动物大脑刺激器</AnimalBrainStimulator.label>
+  <!-- EN: Brain stimulator for animals. Improves conciousness. Fits all animals. -->
+  <AnimalBrainStimulator.description>一个动物的大脑刺激器，强化意识。适用于所有动物。</AnimalBrainStimulator.description>
+  
+  <!-- EN: bionic animal heart -->
+  <BionicAnimalHeart.label>仿生动物心脏</BionicAnimalHeart.label>
+  <!-- EN: Improved bionic heart for animals. Fits all animals. -->
+  <BionicAnimalHeart.description>一个先进的仿生动物心脏。适用于所有动物。</BionicAnimalHeart.description>
+  
+  <!-- EN: bionic animal kidney -->
+  <BionicAnimalKidney.label>仿生动物肾</BionicAnimalKidney.label>
+  <!-- EN: Improved bionic kidney for animals. Fits all animals. -->
+  <BionicAnimalKidney.description>一个先进的仿生动物肾。适用于所有动物。</BionicAnimalKidney.description>
+  
+  <!-- EN: bionic animal liver -->
+  <BionicAnimalLiver.label>仿生动物肝</BionicAnimalLiver.label>
+  <!-- EN: Improved bionic liver for animals. Fits all animals. -->
+  <BionicAnimalLiver.description>一个先进的仿生动物肝。适用于所有动物。</BionicAnimalLiver.description>
+  
+  <!-- EN: bionic animal lung -->
+  <BionicAnimalLung.label>仿生动物肺</BionicAnimalLung.label>
+  <!-- EN: Improved bionic lung for animals. Fits all animals. -->
+  <BionicAnimalLung.description>一个先进的仿生动物肺。适用于所有动物。</BionicAnimalLung.description>
+  
+  <!-- EN: bionic animal stomach -->
+  <BionicAnimalStomach.label>仿生动物胃</BionicAnimalStomach.label>
+  <!-- EN: Improved bionic stomach for animals. Fits all animals. -->
+  <BionicAnimalStomach.description>一个先进的仿生动物胃。适用于所有动物。</BionicAnimalStomach.description>
+  
+  <!-- EN: bionic animal arm -->
+  <BionicArmAnimal.label>仿生动物臂</BionicArmAnimal.label>
+  <!-- EN: Improved bionic animal arm. Fits monkeys and megatherium. -->
+  <BionicArmAnimal.description>一个先进的仿生动物手臂。只适用于猴子。</BionicArmAnimal.description>
+  
+  <!-- EN: bionic animal eye -->
+  <BionicEyeAnimal.label>仿生动物眼</BionicEyeAnimal.label>
+  <!-- EN: Improved bionic animal eye. Fits all animals. -->
+  <BionicEyeAnimal.description>一个先进的仿生动物眼。适用于所有动物。</BionicEyeAnimal.description>
+  
+  <!-- EN: bionic animal leg -->
+  <BionicLegAnimal.label>仿生动物腿</BionicLegAnimal.label>
+  <!-- EN: Improved bionic leg for animals. Fits all animals. -->
+  <BionicLegAnimal.description>一个先进的仿生动物腿。适用于所有动物。</BionicLegAnimal.description>
+  
+  <!-- EN: bionic animal ear implant -->
+  <EarAnimalBionic.label>仿生动物耳</EarAnimalBionic.label>
+  <!-- EN: Improved bionic ear implant for animals. Fits all animals. -->
+  <EarAnimalBionic.description>一个先进的仿生动物耳。适用于所有动物。</EarAnimalBionic.description>
+  
+  <!-- EN: simple animal ear implant -->
+  <EarAnimalSimple.label>简易动物耳</EarAnimalSimple.label>
+  <!-- EN: Simple ear implant for animals. Fits all animals. -->
+  <EarAnimalSimple.description>一个简易的动物耳朵。适用于所有动物。</EarAnimalSimple.description>
+  
+  <!-- EN: bionic animal jaw -->
+  <JawAnimalBionic.label>仿生动物下颚</JawAnimalBionic.label>
+  <!-- EN: Improved jaw for animals. Fits all animals. -->
+  <JawAnimalBionic.description>一个先进的仿生动物下颚。适用于所有动物。</JawAnimalBionic.description>
+  
+  <!-- EN: simple animal jaw implant -->
+  <JawAnimalSimple.label>简易动物下颚</JawAnimalSimple.label>
+  <!-- EN: Functional jaw for animals. Fits all animals. -->
+  <JawAnimalSimple.description>一个能够正常运作的动物下颚。适用于所有动物。</JawAnimalSimple.description>
+  
+  <!-- EN: simple animal nose -->
+  <NoseAnimalSimple.label>简易动物鼻</NoseAnimalSimple.label>
+  <!-- EN: Simple nose for animals. Fits all animals except birds and insects. -->
+  <NoseAnimalSimple.description>一个简易的动物鼻子。适用于除鸟类和虫族以外的所有动物。</NoseAnimalSimple.description>
+  
+  <!-- EN: simple prosthetic animal tail -->
+  <ProstheticTailAnimal.label>简易假尾</ProstheticTailAnimal.label>
+  <!-- EN: Simple prosthetic animal tail. Fits all animals. -->
+  <ProstheticTailAnimal.description>一个简易的假肢尾巴。适用于所有动物。</ProstheticTailAnimal.description>
+  
+  <!-- EN: simple prosthetic animal arm -->
+  <SimpleProstheticArmAnimal.label>简易动物假臂</SimpleProstheticArmAnimal.label>
+  <!-- EN: Simple prosthetic animal arm. Fits monkeys and megatherium. -->
+  <SimpleProstheticArmAnimal.description>一个简易的动物假手臂。只适用于猴子。</SimpleProstheticArmAnimal.description>
+  
+  <!-- EN: simple prosthetic animal leg -->
+  <SimpleProstheticLegAnimal.label>简易动物假腿</SimpleProstheticLegAnimal.label>
+  <!-- EN: Simple prosthetic animal leg. Fits all animals. -->
+  <SimpleProstheticLegAnimal.description>一个简易的动物假腿。适用于所有动物。</SimpleProstheticLegAnimal.description>
+  
+  <!-- EN: bionic animal spine -->
+  <SpineAnimalBionic.label>仿生动物脊椎</SpineAnimalBionic.label>
+  <!-- EN: Improved bionic spine for animals. Fits all animals. -->
+  <SpineAnimalBionic.description>一个先进的仿生动物脊椎。适用于所有动物。</SpineAnimalBionic.description>
+  
+  <!-- EN: simple animal spine -->
+  <SpineAnimalSimple.label>简易动物脊椎</SpineAnimalSimple.label>
+  <!-- EN: Functional spine for animals. Fits all animals. -->
+  <SpineAnimalSimple.description>一个能够正常运作的动物脊椎。适用于所有动物。</SpineAnimalSimple.description>
+  
+</LanguageData>

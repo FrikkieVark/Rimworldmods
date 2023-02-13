@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/RecipeDef[@Name="SurgeryFlesh"]</xpath>
+    <value>
+		<fixedIngredientFilter>
+		  <categories>
+			<li>Medicine</li>
+		  </categories>
+		  <disallowedThingDefs>
+			<li>IV_BloodBag</li>
+		  </disallowedThingDefs>
+		</fixedIngredientFilter>
+    </value>
+  </Operation>
+  
+</Patch>

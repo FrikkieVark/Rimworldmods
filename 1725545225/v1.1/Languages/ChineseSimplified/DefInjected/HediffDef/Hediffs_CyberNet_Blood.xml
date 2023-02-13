@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Blood Enhancements/Replacements -->
+
+  <CNFiltrationBloodEnhancement.label>血液强化物 血液过滤</CNFiltrationBloodEnhancement.label>
+  <CNFiltrationBloodEnhancement.stages.0.label>未连接</CNFiltrationBloodEnhancement.stages.0.label>
+  <CNFiltrationBloodEnhancement.stages.1.label>受限</CNFiltrationBloodEnhancement.stages.1.label>
+  <CNFiltrationBloodEnhancement.stages.2.label>缓慢</CNFiltrationBloodEnhancement.stages.2.label>
+  <CNFiltrationBloodEnhancement.stages.3.label>已连接</CNFiltrationBloodEnhancement.stages.3.label>
+  <CNFiltrationBloodEnhancement.stages.4.label>超频</CNFiltrationBloodEnhancement.stages.4.label>
+  <CNFiltrationBloodEnhancement.stages.5.label>增压</CNFiltrationBloodEnhancement.stages.5.label>
+  <CNFiltrationBloodEnhancement.labelNoun>血液强化物 血液过滤</CNFiltrationBloodEnhancement.labelNoun>
+
+  <CNMetabolicBloodEnhancement.label>血液强化物 新陈代谢</CNMetabolicBloodEnhancement.label>
+  <CNMetabolicBloodEnhancement.stages.0.label>未连接</CNMetabolicBloodEnhancement.stages.0.label>
+  <CNMetabolicBloodEnhancement.stages.1.label>受限</CNMetabolicBloodEnhancement.stages.1.label>
+  <CNMetabolicBloodEnhancement.stages.2.label>缓慢</CNMetabolicBloodEnhancement.stages.2.label>
+  <CNMetabolicBloodEnhancement.stages.3.label>已连接</CNMetabolicBloodEnhancement.stages.3.label>
+  <CNMetabolicBloodEnhancement.stages.4.label>超频</CNMetabolicBloodEnhancement.stages.4.label>
+  <CNMetabolicBloodEnhancement.stages.5.label>增压</CNMetabolicBloodEnhancement.stages.5.label>
+  <CNMetabolicBloodEnhancement.labelNoun>血液强化物 新陈代谢</CNMetabolicBloodEnhancement.labelNoun>
+
+  <CNSynthBloodBloodReplacement.label>人造血 合成血液</CNSynthBloodBloodReplacement.label>
+  <CNSynthBloodBloodReplacement.stages.0.label>未连接</CNSynthBloodBloodReplacement.stages.0.label>
+  <CNSynthBloodBloodReplacement.stages.1.label>受限</CNSynthBloodBloodReplacement.stages.1.label>
+  <CNSynthBloodBloodReplacement.stages.2.label>缓慢</CNSynthBloodBloodReplacement.stages.2.label>
+  <CNSynthBloodBloodReplacement.stages.3.label>已连接</CNSynthBloodBloodReplacement.stages.3.label>
+  <CNSynthBloodBloodReplacement.stages.4.label>超频</CNSynthBloodBloodReplacement.stages.4.label>
+  <CNSynthBloodBloodReplacement.stages.5.label>增压</CNSynthBloodBloodReplacement.stages.5.label>
+  <CNSynthBloodBloodReplacement.labelNoun>人造血 合成血液</CNSynthBloodBloodReplacement.labelNoun>
+
+  <CNEnergyMaxBloodReplacement.label>人造血 高能血液</CNEnergyMaxBloodReplacement.label>
+  <CNEnergyMaxBloodReplacement.stages.0.label>未连接</CNEnergyMaxBloodReplacement.stages.0.label>
+  <CNEnergyMaxBloodReplacement.stages.1.label>受限</CNEnergyMaxBloodReplacement.stages.1.label>
+  <CNEnergyMaxBloodReplacement.stages.2.label>缓慢</CNEnergyMaxBloodReplacement.stages.2.label>
+  <CNEnergyMaxBloodReplacement.stages.3.label>已连接</CNEnergyMaxBloodReplacement.stages.3.label>
+  <CNEnergyMaxBloodReplacement.stages.4.label>超频</CNEnergyMaxBloodReplacement.stages.4.label>
+  <CNEnergyMaxBloodReplacement.stages.5.label>增压</CNEnergyMaxBloodReplacement.stages.5.label>
+  <CNEnergyMaxBloodReplacement.labelNoun>人造血 高能血液</CNEnergyMaxBloodReplacement.labelNoun>
+
+  <CNHyperClotBloodReplacement.label>人造血 超织血液</CNHyperClotBloodReplacement.label>
+  <CNHyperClotBloodReplacement.stages.0.label>未连接</CNHyperClotBloodReplacement.stages.0.label>
+  <CNHyperClotBloodReplacement.stages.1.label>受限</CNHyperClotBloodReplacement.stages.1.label>
+  <CNHyperClotBloodReplacement.stages.2.label>缓慢</CNHyperClotBloodReplacement.stages.2.label>
+  <CNHyperClotBloodReplacement.stages.3.label>已连接</CNHyperClotBloodReplacement.stages.3.label>
+  <CNHyperClotBloodReplacement.stages.4.label>超频</CNHyperClotBloodReplacement.stages.4.label>
+  <CNHyperClotBloodReplacement.stages.5.label>增压</CNHyperClotBloodReplacement.stages.5.label>
+  <CNHyperClotBloodReplacement.labelNoun>人造血 超织血液</CNHyperClotBloodReplacement.labelNoun>
+
+  <CNThermControlBloodReplacement.label>人造血 恒温血液</CNThermControlBloodReplacement.label>
+  <CNThermControlBloodReplacement.stages.0.label>未连接</CNThermControlBloodReplacement.stages.0.label>
+  <CNThermControlBloodReplacement.stages.1.label>受限</CNThermControlBloodReplacement.stages.1.label>
+  <CNThermControlBloodReplacement.stages.2.label>缓慢</CNThermControlBloodReplacement.stages.2.label>
+  <CNThermControlBloodReplacement.stages.3.label>已连接</CNThermControlBloodReplacement.stages.3.label>
+  <CNThermControlBloodReplacement.stages.4.label>超频</CNThermControlBloodReplacement.stages.4.label>
+  <CNThermControlBloodReplacement.stages.5.label>增压</CNThermControlBloodReplacement.stages.5.label>
+  <CNThermControlBloodReplacement.labelNoun>人造血 恒温血液</CNThermControlBloodReplacement.labelNoun>
+
+
+  <!--<CNFiltrationBloodEnhancement.stages.未连接.label>未连接</CNFiltrationBloodEnhancement.stages.未连接.label>-->
+  <!--<CNFiltrationBloodEnhancement.stages.受限.label>阻塞</CNFiltrationBloodEnhancement.stages.受限.label>-->
+  <!--<CNFiltrationBloodEnhancement.stages.缓慢.label>迟缓</CNFiltrationBloodEnhancement.stages.缓慢.label>-->
+  <!--<CNFiltrationBloodEnhancement.stages.已连接.label>已连接</CNFiltrationBloodEnhancement.stages.已连接.label>-->
+  <!--<CNFiltrationBloodEnhancement.stages.超频.label>超频</CNFiltrationBloodEnhancement.stages.超频.label>-->
+  <!--<CNFiltrationBloodEnhancement.stages.增压.label>增压</CNFiltrationBloodEnhancement.stages.增压.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.未连接.label>未连接</CNMetabolicBloodEnhancement.stages.未连接.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.受限.label>阻塞</CNMetabolicBloodEnhancement.stages.受限.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.缓慢.label>迟缓</CNMetabolicBloodEnhancement.stages.缓慢.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.已连接.label>已连接</CNMetabolicBloodEnhancement.stages.已连接.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.超频.label>超频</CNMetabolicBloodEnhancement.stages.超频.label>-->
+  <!--<CNMetabolicBloodEnhancement.stages.增压.label>增压</CNMetabolicBloodEnhancement.stages.增压.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.未连接.label>未连接</CNSynthBloodBloodReplacement.stages.未连接.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.受限.label>阻塞</CNSynthBloodBloodReplacement.stages.受限.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.缓慢.label>迟缓</CNSynthBloodBloodReplacement.stages.缓慢.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.已连接.label>已连接</CNSynthBloodBloodReplacement.stages.已连接.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.超频.label>超频</CNSynthBloodBloodReplacement.stages.超频.label>-->
+  <!--<CNSynthBloodBloodReplacement.stages.增压.label>增压</CNSynthBloodBloodReplacement.stages.增压.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.未连接.label>未连接</CNEnergyMaxBloodReplacement.stages.未连接.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.受限.label>阻塞</CNEnergyMaxBloodReplacement.stages.受限.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.缓慢.label>迟缓</CNEnergyMaxBloodReplacement.stages.缓慢.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.已连接.label>已连接</CNEnergyMaxBloodReplacement.stages.已连接.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.超频.label>超频</CNEnergyMaxBloodReplacement.stages.超频.label>-->
+  <!--<CNEnergyMaxBloodReplacement.stages.增压.label>增压</CNEnergyMaxBloodReplacement.stages.增压.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.未连接.label>未连接</CNHyperClotBloodReplacement.stages.未连接.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.受限.label>阻塞</CNHyperClotBloodReplacement.stages.受限.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.缓慢.label>迟缓</CNHyperClotBloodReplacement.stages.缓慢.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.已连接.label>已连接</CNHyperClotBloodReplacement.stages.已连接.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.超频.label>超频</CNHyperClotBloodReplacement.stages.超频.label>-->
+  <!--<CNHyperClotBloodReplacement.stages.增压.label>增压</CNHyperClotBloodReplacement.stages.增压.label>-->
+  <!--<CNThermControlBloodReplacement.stages.未连接.label>未连接</CNThermControlBloodReplacement.stages.未连接.label>-->
+  <!--<CNThermControlBloodReplacement.stages.受限.label>阻塞</CNThermControlBloodReplacement.stages.受限.label>-->
+  <!--<CNThermControlBloodReplacement.stages.缓慢.label>迟缓</CNThermControlBloodReplacement.stages.缓慢.label>-->
+  <!--<CNThermControlBloodReplacement.stages.已连接.label>已连接</CNThermControlBloodReplacement.stages.已连接.label>-->
+  <!--<CNThermControlBloodReplacement.stages.超频.label>超频</CNThermControlBloodReplacement.stages.超频.label>-->
+  <!--<CNThermControlBloodReplacement.stages.增压.label>增压</CNThermControlBloodReplacement.stages.增压.label>-->
+
+</LanguageData>

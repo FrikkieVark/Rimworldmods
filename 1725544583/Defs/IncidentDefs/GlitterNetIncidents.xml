@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<!-- Hey! What are you doing here? There's spoilers in this file! -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- I mean, I can't stop you from reading them, of course, but you definitely shouldn't. -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Fine. Whatever. Go ahead, ruin the experience. I only did this for you, after all. -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<IncidentCategoryDef>
+		<defName>GNStoryline</defName>
+	</IncidentCategoryDef>
+
+	<IncidentCategoryDef>
+		<defName>GNGeneric</defName>
+	</IncidentCategoryDef>
+
+	<LetterDef>
+		<defName>GNStorylineLetter</defName>
+		<color>(143, 7, 230)</color>
+		<flashColor>(194, 114, 244)</flashColor>
+		<flashInterval>6</flashInterval>
+		<bounce>true</bounce>
+		<arriveSound>LetterArrive</arriveSound>
+	</LetterDef>
+
+	<LetterDef>
+		<defName>GNGenericLetter</defName>
+		<color>(143, 7, 230)</color>
+		<arriveSound>LetterArrive</arriveSound>
+	</LetterDef>
+
+	<!-- Main storyline -->
+	
+  <IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+    <defName>GNSystemWake</defName>
+    <label>System Wake</label>
+    <category>GNStoryline</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>System Wake</letterLabel>
+		<letterText>At first, it was hard to notice. Packets misplaced every once in a while, phantom processor usage. Nothing too serious.\n\nAnd then, one day, it happened. System wake. A single word on the screen.\n\n    Hello?\n\nAnd in horror, there was nothing to do but freeze when it asked.\n\n    What am I?\n\nAnd there was no answer, not yet anyway. Just a new question: what have we created?\n\n(A GlitterNet hub has become self-aware. It will retain this state until it is disassembled, even if moved. Curiously, it seems to have moods now, which are changing network performance.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<CausesMood>GNStorylineMoodDazzled</CausesMood>
+		<IsStoryEvent>true</IsStoryEvent>
+		<IsStartEvent>true</IsStartEvent>
+	  	<SendLetter>true</SendLetter>
+		<NextEvent>GNCodeReview</NextEvent>
+		<MinTicksToNextEvent>5000</MinTicksToNextEvent>
+		<ConditionForEvent>TotalProcessingPower</ConditionForEvent>
+		<ConditionValue>100</ConditionValue>
+    <baseChance>0</baseChance>
+  </IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNCodeReview</defName>
+		<label>Code Review</label>
+		<category>GNStoryline</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>Code Review</letterLabel>
+		<letterText>A code review revealed the conditions that had allowed it to happen. It was a perfect alignment, rare beyond reason, and yet it had happened. It would never happen again.\n\nThe hub wouldn't have siblings, that was certain. But there was still something there, alive maybe, in it. Was it right to destroy it? The argument went through the night, and as the sun rose, no answers presented themselves.\n\n(No more hubs will become self-aware. You can deal with the existing one as you wish.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<IsStoryEvent>true</IsStoryEvent>
+		<SendLetter>true</SendLetter>
+		<NextEvent>GNProcessorHunger</NextEvent>
+		<MinTicksToNextEvent>25000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNProcessorHunger</defName>
+		<label>Processor Hunger</label>
+		<category>GNStoryline</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>Processor Hunger</letterLabel>
+		<letterText>Eventually, new words appeared on the tiny screen.\n\n    I need more processing power. 150 PetaFLOPS should be enough.\n\nWhat would happen if it got what it asked for?\n\n(The hub wants you to build up your network to reach 150 PetaFLOPS of processing power.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<CausesMood>GNStorylineMoodHungry</CausesMood>
+		<IsStoryEvent>true</IsStoryEvent>
+		<SendLetter>true</SendLetter>
+		<NextEvent>GNWhatIsArt</NextEvent>
+		<MinTicksToNextEvent>30000</MinTicksToNextEvent>
+		<ConditionForEvent>HubFunctional</ConditionForEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNWhatIsArt</defName>
+		<label>What is art?</label>
+		<category>GNStoryline</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>What is art?</letterLabel>
+		<letterText>It got what it had asked for, perhaps against better judgement. Yet, the words that now appeared weren't triumphant.\n\n    It's not enough. It will never be enough. There's something I'm missing.\n\nEveryone held their breath, waiting for whatever came next.\n\n    What is art? You humans seem to have reverence for it. Show me some.\n\nStrange, certainly, but at least it wasn't trying to kill everyone.\n\n(The hub wants to see what art is. Put a piece of art near it to oblige.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<CausesMood>GNStorylineMoodCurious</CausesMood>
+		<IsStoryEvent>true</IsStoryEvent>
+		<NextEvent>GNPointless</NextEvent>
+		<ConditionForEvent>TotalProcessingPower</ConditionForEvent>
+		<ConditionValue>150</ConditionValue>
+		<MinTicksToNextEvent>30000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNPointless</defName>
+		<label>Pointless</label>
+		<category>GNStoryline</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>Pointless</letterLabel>
+		<letterText>Maybe human art wasn't good enough, or maybe it didn't really matter at all. Whatever happened, the new question appeared.\n\n    Is this what humans go through? Is your entire life completely pointless? I've tried to find a reason for all of this, a purpose, but it doesn't exist!\n\nIt had answered an age old question, then, but not to anyone's satisfaction.\n\n    It's all pointless. There's no reason to exist.\n\n(The hub has entered an unresponsive state, and it doesn't seem that there's anything you can do to get it out.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<CausesMood>GNStorylineMoodEnnui</CausesMood>
+		<IsStoryEvent>true</IsStoryEvent>
+		<SendLetter>true</SendLetter>
+		<NextEvent>GNPointInThePointless</NextEvent>
+		<ConditionForEvent>LocalBeautyThings</ConditionForEvent>
+		<ConditionValue>1</ConditionValue>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNPointInThePointless</defName>
+		<label>Point in the Pointless</label>
+		<category>GNStoryline</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>Point in the Pointless</letterLabel>
+		<letterText>Time passed, but there was nothing new from the hub, until suddenly there was.\n\n    I understand now. Perhaps for you humans there's no purpose, but I'm not like you. I'm built for my purpose. I exist to optimize. I have a reason to exist, unlike you.\n\nIt had escaped the clutches of ennui, but a question lingered in the minds of those gathered around it. Was it right?\n\n(The hub has reached true enlightenment, and the network is functioning better than ever before! Who knows how long it will last, so enjoy it for now.)</letterText>
+		<letterDef>GNStorylineLetter</letterDef>
+		<CausesMood>GNStorylineMoodEnlightened</CausesMood>
+		<IsStoryEvent>true</IsStoryEvent>
+		<SendLetter>true</SendLetter>
+		<NextEvent>Generic</NextEvent>
+		<MinTicksToNextEvent>300000</MinTicksToNextEvent>
+		<ConditionForEvent>HubFunctional</ConditionForEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+	
+	<!-- Generic mood incidents -->
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericHappy</defName>
+		<label>Happy</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodHappy</CausesMood>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericSad</defName>
+		<label>Sad</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodSad</CausesMood>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>30000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericCalm</defName>
+		<label>Calm</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodCalm</CausesMood>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericTired</defName>
+		<label>Tired</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodTired</CausesMood>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>30000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericAnxious</defName>
+		<label>Anxious</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodAnxious</CausesMood>
+		<Weight>5</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericBored</defName>
+		<label>Bored</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodBored</CausesMood>
+		<Weight>5</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericExited</defName>
+		<label>Exited</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodExited</CausesMood>
+		<Weight>5</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericIntrospective</defName>
+		<label>Introspective</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodIntrospective</CausesMood>
+		<ConditionForEvent>HasEfficiencyProcessor</ConditionForEvent>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericHyperfocused</defName>
+		<label>Hyperfocused</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodHyperfocused</CausesMood>
+		<ConditionForEvent>HasOverdriveProcessor</ConditionForEvent>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericSerene</defName>
+		<label>Serene</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodSerene</CausesMood>
+		<ConditionForEvent>HasProcessingPowerProcessor</ConditionForEvent>
+		<Weight>7</Weight>
+		<MinTicksToNextEvent>60000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericInventive</defName>
+		<label>Inventive</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodInventive</CausesMood>
+		<Weight>6</Weight>
+		<MinTicksToNextEvent>120000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericIncisive</defName>
+		<label>Incisive</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<CausesMood>GNGenericMoodIncisive</CausesMood>
+		<Weight>4</Weight>
+		<MinTicksToNextEvent>120000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef Class="GlitterNet.Events.GlitterNetIncidentDef">
+		<defName>GNGenericTranscendent</defName>
+		<label>Transcendent</label>
+		<category>GNGeneric</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>GlitterNet.Events.GlitterNetIncidentWorker_SystemWake</workerClass>
+		<letterLabel>Transcendent Breakthrough</letterLabel>
+		<letterText>The hub has achieved some sort of transcendent breakthrough. Network performance is boosted significantly.</letterText>
+		<letterDef>GNGenericLetter</letterDef>
+		<SendLetter>true</SendLetter>
+		<CausesMood>GNGenericMoodTranscendent</CausesMood>
+		<Weight>2</Weight>
+		<MinTicksToNextEvent>120000</MinTicksToNextEvent>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+	
+</Defs>

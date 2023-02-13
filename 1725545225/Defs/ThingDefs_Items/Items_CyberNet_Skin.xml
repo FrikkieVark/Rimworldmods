@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Skin Replacements -->
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNRhinoHideSkinReplacement</defName>
+		<label>RhinoHide Skin Replacement</label>
+		<description>Artificial skin embedded with tiny nanomachines that utilize remote infrastructure to function. These ones are able to minimize the damage caused to the user when attacked by dispering and reflecting impact energy./n/nLike all skin replacements, RhinoHide cannot scar, and installing it will remove all scars.</description>
+		<statBases>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>0</Mass>
+		</statBases>
+		<costList>
+			<Gold>20</Gold>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNSkinReplacement</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNShockTouchSkinReplacement</defName>
+		<label>ShockTouch Skin Replacement</label>
+		<description>Artificial skin embedded with tiny nanomachines that utilize remote infrastructure to function. These ones are able to channel large electric currents through a user when they make contact with an enemy, stunning the enemy for a moment./n/nLike all skin replacements, ShockTouch cannot scar, and installing it will remove all scars.</description>
+		<statBases>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>0</Mass>
+		</statBases>
+		<costList>
+			<Gold>20</Gold>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNSkinReplacement</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNSootheAuraSkinReplacement</defName>
+		<label>SootheAura Skin Replacement</label>
+		<description>Artificial skin embedded with tiny nanomachines that utilize remote infrastructure to function. These ones are able to manipulate tiny electric and magnetic fields around the user, causing a pleasant sensation for anyone near them. This effect also extends to animals, making them easier to tame and train./n/nLike all skin replacements, SootheAura cannot scar, and installing it will remove all scars.</description>
+		<statBases>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>0</Mass>
+		</statBases>
+		<costList>
+			<Gold>20</Gold>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNSkinReplacement</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+</Defs>

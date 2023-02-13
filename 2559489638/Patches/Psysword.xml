@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Psysword</li>   
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Normal</success>
+        <operations>
+
+          <li Class="PatchOperationFindMod">
+          <mods>
+            <li>More Archotech Garbage Reupload</li>
+          </mods>
+          <match Class="PatchOperationSequence">
+          <success>Always</success>
+            <operations>
+
+              <li Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsySword"]</xpath>
+                <value>
+                  <costList>
+                    <ArchotechScrap>100</ArchotechScrap>
+                  </costList>
+                  <recipeMaker>
+                    <researchPrerequisites><li>Misha_CraftUltraWeapon</li></researchPrerequisites>
+                    <skillRequirements><Crafting>7</Crafting></skillRequirements>
+                    <workSkill>Crafting</workSkill>
+                    <recipeUsers><li>FabricationBench</li></recipeUsers>
+                    <unfinishedThingDef>Coldzero_UnfinishedPsySword</unfinishedThingDef>
+                    <soundWorking>Recipe_Machining</soundWorking>
+                    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                  </recipeMaker>
+                </value>
+              </li>
+
+              <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsySword"]</xpath>
+                  <value>
+                    <statBases>
+                      <WorkToMake>40000</WorkToMake>
+                      <MarketValue>2000</MarketValue>
+                      <Mass>2</Mass>
+                    </statBases>
+                  </value>
+              </li>
+
+              <li Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsySwordBladelink"]</xpath>
+                <value>
+                  <costList>
+                    <ArchotechScrap>100</ArchotechScrap>
+                    <AIPersonaCore>1</AIPersonaCore>
+                  </costList>
+                  <recipeMaker>
+                    <researchPrerequisites><li>Misha_CraftUltraWeapon</li></researchPrerequisites>
+                    <skillRequirements><Crafting>7</Crafting></skillRequirements>
+                    <workSkill>Crafting</workSkill>
+                    <recipeUsers><li>FabricationBench</li></recipeUsers>
+                    <unfinishedThingDef>Coldzero_UnfinishedPsySword</unfinishedThingDef>
+                    <soundWorking>Recipe_Machining</soundWorking>
+                    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+                  </recipeMaker>
+                </value>
+              </li>
+
+              <li Class="PatchOperationAdd">
+                <xpath>/Defs/ThingDef[defName = "MeleeWeapon_PsySwordBladelink"]/statBases</xpath>
+                  <value>
+                    <WorkToMake>40000</WorkToMake>
+                  </value>
+              </li>
+
+            </operations>
+          </match>
+          </li>
+
+        </operations>
+    </match>
+  </Operation>
+
+</Patch>

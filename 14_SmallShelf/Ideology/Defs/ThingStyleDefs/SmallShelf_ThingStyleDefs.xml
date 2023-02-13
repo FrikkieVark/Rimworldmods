@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Techist -->
+
+  <ThingStyleDef>
+    <defName>Techist_SmallShelf</defName>
+    <graphicData>
+      <texPath>Things/Building/BuildingStyles/Techist/ShelfSmall/TechistShelfSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,2)</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>Techist_OldSmallShelf</defName>
+    <graphicData>
+      <texPath>Things/Building/BuildingStyles/Techist/ShelfSmall/TechistShelfSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.5,2)</drawSize>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

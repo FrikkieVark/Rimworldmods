@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Skin Replacements -->
+  
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceSkinWithRhinoHide</defName>
+    <label>Replace Skin with RhinoHide</label>
+    <description>Replace Skin with RhinoHide</description>
+    <jobString>Replacing Skin with RhinoHide</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNRhinoHideSkinReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNRhinoHideSkinReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNSkin</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNRhinoHideSkinReplacement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceSkinWithShockTouch</defName>
+    <label>Replace Skin with ShockTouch</label>
+    <description>Replace Skin with ShockTouch</description>
+    <jobString>Replacing Skin with ShockTouch</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNShockTouchSkinReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNShockTouchSkinReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNSkin</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNShockTouchSkinReplacement</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CyberNetSurgery">
+    <defName>CNReplaceSkinWithSootheAura</defName>
+    <label>Replace Skin with SootheAura</label>
+    <description>Replace Skin with SootheAura</description>
+    <jobString>Replacing Skin with SootheAura</jobString>
+    <workAmount>8000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CNSootheAuraSkinReplacement</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>CNSootheAuraSkinReplacement</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>CNSkin</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>CNSootheAuraSkinReplacement</addsHediff>
+  </RecipeDef>
+
+</Defs>

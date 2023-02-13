@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Networked (Bionic) Level Body Parts -->
+
+  <CNNetworkedArm.label>电子臂</CNNetworkedArm.label>
+  <CNNetworkedArm.comps.1.tools.0.label>fist</CNNetworkedArm.comps.1.tools.0.label>
+  <CNNetworkedArm.stages.0.label>未连接</CNNetworkedArm.stages.0.label>
+  <CNNetworkedArm.stages.1.label>受限</CNNetworkedArm.stages.1.label>
+  <CNNetworkedArm.stages.2.label>缓慢</CNNetworkedArm.stages.2.label>
+  <CNNetworkedArm.stages.3.label>已连接</CNNetworkedArm.stages.3.label>
+  <CNNetworkedArm.stages.4.label>超频</CNNetworkedArm.stages.4.label>
+  <CNNetworkedArm.stages.5.label>增压</CNNetworkedArm.stages.5.label>
+  <CNNetworkedArm.labelNoun>一个电子臂</CNNetworkedArm.labelNoun>
+
+  <CNNetworkedLeg.label>电子腿</CNNetworkedLeg.label>
+  <CNNetworkedLeg.stages.0.label>未连接</CNNetworkedLeg.stages.0.label>
+  <CNNetworkedLeg.stages.1.label>受限</CNNetworkedLeg.stages.1.label>
+  <CNNetworkedLeg.stages.2.label>缓慢</CNNetworkedLeg.stages.2.label>
+  <CNNetworkedLeg.stages.3.label>已连接</CNNetworkedLeg.stages.3.label>
+  <CNNetworkedLeg.stages.4.label>超频</CNNetworkedLeg.stages.4.label>
+  <CNNetworkedLeg.stages.5.label>增压</CNNetworkedLeg.stages.5.label>
+  <CNNetworkedLeg.labelNoun>一个电子腿</CNNetworkedLeg.labelNoun>
+
+  <CNNetworkedEye.label>电子眼</CNNetworkedEye.label>
+  <CNNetworkedEye.stages.0.label>未连接</CNNetworkedEye.stages.0.label>
+  <CNNetworkedEye.stages.1.label>受限</CNNetworkedEye.stages.1.label>
+  <CNNetworkedEye.stages.2.label>缓慢</CNNetworkedEye.stages.2.label>
+  <CNNetworkedEye.stages.3.label>已连接</CNNetworkedEye.stages.3.label>
+  <CNNetworkedEye.stages.4.label>超频</CNNetworkedEye.stages.4.label>
+  <CNNetworkedEye.stages.5.label>增压</CNNetworkedEye.stages.5.label>
+  <CNNetworkedEye.labelNoun>一个电子眼</CNNetworkedEye.labelNoun>
+
+  <CNNetworkedSpine.label>电子脊柱</CNNetworkedSpine.label>
+  <CNNetworkedSpine.stages.0.label>未连接</CNNetworkedSpine.stages.0.label>
+  <CNNetworkedSpine.stages.1.label>受限</CNNetworkedSpine.stages.1.label>
+  <CNNetworkedSpine.stages.2.label>缓慢</CNNetworkedSpine.stages.2.label>
+  <CNNetworkedSpine.stages.3.label>已连接</CNNetworkedSpine.stages.3.label>
+  <CNNetworkedSpine.stages.4.label>超频</CNNetworkedSpine.stages.4.label>
+  <CNNetworkedSpine.stages.5.label>增压</CNNetworkedSpine.stages.5.label>
+  <CNNetworkedSpine.labelNoun>一个电子脊柱</CNNetworkedSpine.labelNoun>
+
+  <CNNetworkedHeart.label>电子心脏</CNNetworkedHeart.label>
+  <CNNetworkedHeart.stages.0.label>未连接</CNNetworkedHeart.stages.0.label>
+  <CNNetworkedHeart.stages.1.label>受限</CNNetworkedHeart.stages.1.label>
+  <CNNetworkedHeart.stages.2.label>缓慢</CNNetworkedHeart.stages.2.label>
+  <CNNetworkedHeart.stages.3.label>已连接</CNNetworkedHeart.stages.3.label>
+  <CNNetworkedHeart.stages.4.label>超频</CNNetworkedHeart.stages.4.label>
+  <CNNetworkedHeart.stages.5.label>增压</CNNetworkedHeart.stages.5.label>
+  <CNNetworkedHeart.labelNoun>一个电子心脏</CNNetworkedHeart.labelNoun>
+
+  <CNNetworkedStomach.label>电子胃</CNNetworkedStomach.label>
+  <CNNetworkedStomach.stages.0.label>未连接</CNNetworkedStomach.stages.0.label>
+  <CNNetworkedStomach.stages.1.label>受限</CNNetworkedStomach.stages.1.label>
+  <CNNetworkedStomach.stages.2.label>缓慢</CNNetworkedStomach.stages.2.label>
+  <CNNetworkedStomach.stages.3.label>已连接</CNNetworkedStomach.stages.3.label>
+  <CNNetworkedStomach.stages.4.label>超频</CNNetworkedStomach.stages.4.label>
+  <CNNetworkedStomach.stages.5.label>增压</CNNetworkedStomach.stages.5.label>
+  <CNNetworkedStomach.labelNoun>一个电子胃</CNNetworkedStomach.labelNoun>
+
+  <CNNetworkedEar.label>电子耳</CNNetworkedEar.label>
+  <CNNetworkedEar.stages.0.label>未连接</CNNetworkedEar.stages.0.label>
+  <CNNetworkedEar.stages.1.label>受限</CNNetworkedEar.stages.1.label>
+  <CNNetworkedEar.stages.2.label>缓慢</CNNetworkedEar.stages.2.label>
+  <CNNetworkedEar.stages.3.label>已连接</CNNetworkedEar.stages.3.label>
+  <CNNetworkedEar.stages.4.label>超频</CNNetworkedEar.stages.4.label>
+  <CNNetworkedEar.stages.5.label>增压</CNNetworkedEar.stages.5.label>
+  <CNNetworkedEar.labelNoun>一个电子耳</CNNetworkedEar.labelNoun>
+
+
+  <!--<CNNetworkedArm.stages.未连接.label>未连接</CNNetworkedArm.stages.未连接.label>-->
+  <!--<CNNetworkedArm.stages.受限.label>阻塞</CNNetworkedArm.stages.受限.label>-->
+  <!--<CNNetworkedArm.stages.缓慢.label>迟缓</CNNetworkedArm.stages.缓慢.label>-->
+  <!--<CNNetworkedArm.stages.已连接.label>已连接</CNNetworkedArm.stages.已连接.label>-->
+  <!--<CNNetworkedArm.stages.超频.label>超频</CNNetworkedArm.stages.超频.label>-->
+  <!--<CNNetworkedArm.stages.增压.label>增压</CNNetworkedArm.stages.增压.label>-->
+  <!--<CNNetworkedLeg.stages.未连接.label>未连接</CNNetworkedLeg.stages.未连接.label>-->
+  <!--<CNNetworkedLeg.stages.受限.label>阻塞</CNNetworkedLeg.stages.受限.label>-->
+  <!--<CNNetworkedLeg.stages.缓慢.label>迟缓</CNNetworkedLeg.stages.缓慢.label>-->
+  <!--<CNNetworkedLeg.stages.已连接.label>已连接</CNNetworkedLeg.stages.已连接.label>-->
+  <!--<CNNetworkedLeg.stages.超频.label>超频</CNNetworkedLeg.stages.超频.label>-->
+  <!--<CNNetworkedLeg.stages.增压.label>增压</CNNetworkedLeg.stages.增压.label>-->
+  <!--<CNNetworkedEye.stages.未连接.label>未连接</CNNetworkedEye.stages.未连接.label>-->
+  <!--<CNNetworkedEye.stages.受限.label>阻塞</CNNetworkedEye.stages.受限.label>-->
+  <!--<CNNetworkedEye.stages.缓慢.label>迟缓</CNNetworkedEye.stages.缓慢.label>-->
+  <!--<CNNetworkedEye.stages.已连接.label>已连接</CNNetworkedEye.stages.已连接.label>-->
+  <!--<CNNetworkedEye.stages.超频.label>超频</CNNetworkedEye.stages.超频.label>-->
+  <!--<CNNetworkedEye.stages.增压.label>增压</CNNetworkedEye.stages.增压.label>-->
+  <!--<CNNetworkedSpine.stages.未连接.label>未连接</CNNetworkedSpine.stages.未连接.label>-->
+  <!--<CNNetworkedSpine.stages.受限.label>阻塞</CNNetworkedSpine.stages.受限.label>-->
+  <!--<CNNetworkedSpine.stages.缓慢.label>迟缓</CNNetworkedSpine.stages.缓慢.label>-->
+  <!--<CNNetworkedSpine.stages.已连接.label>已连接</CNNetworkedSpine.stages.已连接.label>-->
+  <!--<CNNetworkedSpine.stages.超频.label>超频</CNNetworkedSpine.stages.超频.label>-->
+  <!--<CNNetworkedSpine.stages.增压.label>增压</CNNetworkedSpine.stages.增压.label>-->
+  <!--<CNNetworkedHeart.stages.未连接.label>未连接</CNNetworkedHeart.stages.未连接.label>-->
+  <!--<CNNetworkedHeart.stages.受限.label>阻塞</CNNetworkedHeart.stages.受限.label>-->
+  <!--<CNNetworkedHeart.stages.缓慢.label>迟缓</CNNetworkedHeart.stages.缓慢.label>-->
+  <!--<CNNetworkedHeart.stages.已连接.label>已连接</CNNetworkedHeart.stages.已连接.label>-->
+  <!--<CNNetworkedHeart.stages.超频.label>超频</CNNetworkedHeart.stages.超频.label>-->
+  <!--<CNNetworkedHeart.stages.增压.label>增压</CNNetworkedHeart.stages.增压.label>-->
+  <!--<CNNetworkedStomach.stages.未连接.label>未连接</CNNetworkedStomach.stages.未连接.label>-->
+  <!--<CNNetworkedStomach.stages.受限.label>阻塞</CNNetworkedStomach.stages.受限.label>-->
+  <!--<CNNetworkedStomach.stages.缓慢.label>迟缓</CNNetworkedStomach.stages.缓慢.label>-->
+  <!--<CNNetworkedStomach.stages.已连接.label>已连接</CNNetworkedStomach.stages.已连接.label>-->
+  <!--<CNNetworkedStomach.stages.超频.label>超频</CNNetworkedStomach.stages.超频.label>-->
+  <!--<CNNetworkedStomach.stages.增压.label>增压</CNNetworkedStomach.stages.增压.label>-->
+  <!--<CNNetworkedEar.stages.未连接.label>未连接</CNNetworkedEar.stages.未连接.label>-->
+  <!--<CNNetworkedEar.stages.受限.label>阻塞</CNNetworkedEar.stages.受限.label>-->
+  <!--<CNNetworkedEar.stages.缓慢.label>迟缓</CNNetworkedEar.stages.缓慢.label>-->
+  <!--<CNNetworkedEar.stages.已连接.label>已连接</CNNetworkedEar.stages.已连接.label>-->
+  <!--<CNNetworkedEar.stages.超频.label>超频</CNNetworkedEar.stages.超频.label>-->
+  <!--<CNNetworkedEar.stages.增压.label>增压</CNNetworkedEar.stages.增压.label>-->
+
+</LanguageData>

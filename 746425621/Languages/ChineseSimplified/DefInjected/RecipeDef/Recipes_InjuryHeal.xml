@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cure bite -->
+  <CureInjuryBiteAnimal.label>治疗咬伤</CureInjuryBiteAnimal.label>
+  <!-- EN: Cure bite. -->
+  <CureInjuryBiteAnimal.description>治疗咬伤。</CureInjuryBiteAnimal.description>
+  <!-- EN: Curing bite. -->
+  <CureInjuryBiteAnimal.jobString>正在治疗咬伤。</CureInjuryBiteAnimal.jobString>
+  
+  <!-- EN: cure bruise -->
+  <CureInjuryBruiseAnimal.label>治疗瘀伤</CureInjuryBruiseAnimal.label>
+  <!-- EN: Cure bruise. -->
+  <CureInjuryBruiseAnimal.description>治疗瘀伤。</CureInjuryBruiseAnimal.description>
+  <!-- EN: Curing bruise. -->
+  <CureInjuryBruiseAnimal.jobString>正在治疗瘀伤。</CureInjuryBruiseAnimal.jobString>
+  
+  <!-- EN: cure burn -->
+  <CureInjuryBurnAnimal.label>治疗烧伤</CureInjuryBurnAnimal.label>
+  <!-- EN: Cure burn. -->
+  <CureInjuryBurnAnimal.description>治疗烧伤。</CureInjuryBurnAnimal.description>
+  <!-- EN: Curing burn. -->
+  <CureInjuryBurnAnimal.jobString>正在治疗烧伤。</CureInjuryBurnAnimal.jobString>
+  
+  <!-- EN: cure crack -->
+  <CureInjuryCrackAnimal.label>治疗破裂</CureInjuryCrackAnimal.label>
+  <!-- EN: Cure crack. -->
+  <CureInjuryCrackAnimal.description>治疗破裂。</CureInjuryCrackAnimal.description>
+  <!-- EN: Curing crack. -->
+  <CureInjuryCrackAnimal.jobString>正在治疗破裂。</CureInjuryCrackAnimal.jobString>
+  
+  <!-- EN: cure crush -->
+  <CureInjuryCrushAnimal.label>治疗压伤</CureInjuryCrushAnimal.label>
+  <!-- EN: Cure crush. -->
+  <CureInjuryCrushAnimal.description>治疗压伤。</CureInjuryCrushAnimal.description>
+  <!-- EN: Curing crush. -->
+  <CureInjuryCrushAnimal.jobString>正在治疗压伤。</CureInjuryCrushAnimal.jobString>
+  
+  <!-- EN: cure cut -->
+  <CureInjuryCutAnimal.label>治疗割伤</CureInjuryCutAnimal.label>
+  <!-- EN: Cure cut. -->
+  <CureInjuryCutAnimal.description>治疗割伤。</CureInjuryCutAnimal.description>
+  <!-- EN: Curing cut. -->
+  <CureInjuryCutAnimal.jobString>正在治疗割伤。</CureInjuryCutAnimal.jobString>
+  
+  <!-- EN: cure gunshot -->
+  <CureInjuryGunshotAnimal.label>治疗枪伤</CureInjuryGunshotAnimal.label>
+  <!-- EN: Cure gunshot. -->
+  <CureInjuryGunshotAnimal.description>治疗枪伤。</CureInjuryGunshotAnimal.description>
+  <!-- EN: Curing gunshot. -->
+  <CureInjuryGunshotAnimal.jobString>正在治疗枪伤。</CureInjuryGunshotAnimal.jobString>
+  
+  <!-- EN: cure scratch -->
+  <CureInjuryScratchAnimal.label>治疗刮伤</CureInjuryScratchAnimal.label>
+  <!-- EN: Cure scratch. -->
+  <CureInjuryScratchAnimal.description>治疗刮伤。</CureInjuryScratchAnimal.description>
+  <!-- EN: Curing scratch. -->
+  <CureInjuryScratchAnimal.jobString>正在治疗刮伤。</CureInjuryScratchAnimal.jobString>
+  
+  <!-- EN: cure shredded -->
+  <CureInjuryShreddedAnimal.label>治疗撕裂</CureInjuryShreddedAnimal.label>
+  <!-- EN: Cure shredded. -->
+  <CureInjuryShreddedAnimal.description>治疗撕裂。</CureInjuryShreddedAnimal.description>
+  <!-- EN: Curing shredded. -->
+  <CureInjuryShreddedAnimal.jobString>正在治疗撕裂。</CureInjuryShreddedAnimal.jobString>
+  
+  <!-- EN: cure stab -->
+  <CureInjuryStabAnimal.label>治疗刺伤</CureInjuryStabAnimal.label>
+  <!-- EN: Cure stab. -->
+  <CureInjuryStabAnimal.description>治疗刺伤。</CureInjuryStabAnimal.description>
+  <!-- EN: Curing stab. -->
+  <CureInjuryStabAnimal.jobString>正在治疗刺伤。</CureInjuryStabAnimal.jobString>
+  
+  <!-- EN: cure surgical cut -->
+  <CureInjurySurgicalCutAnimal.label>治疗手术伤</CureInjurySurgicalCutAnimal.label>
+  <!-- EN: Cure surgical cut. -->
+  <CureInjurySurgicalCutAnimal.description>治疗手术伤。</CureInjurySurgicalCutAnimal.description>
+  <!-- EN: Curing surgical cut. -->
+  <CureInjurySurgicalCutAnimal.jobString>正在治疗手术伤。</CureInjurySurgicalCutAnimal.jobString>
+  
+</LanguageData>

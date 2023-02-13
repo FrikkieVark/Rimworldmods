@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!-- Blood Enhancements/Replacements -->
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNBrainDamageRepairSystem</defName>
+		<label>Brain Damage Repair System</label>
+		<description>The brain damage repair system used the GlitterNet to fulfil some of the functions lost due to brain damage. It's not quite as good as the real thing, but it gets the job done well enough.</description>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>20</Gold>
+			<ComponentSpacer>2</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNBrainDamageRepair</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNCombatOptimizationImplant</defName>
+		<label>Combat Optimization Implant</label>
+		<description>The combat optimization implant is a closed loop control system that uses the user's sensory data and the GlitterNet to make decisions about how to move muscles. It makes the user quite a combatant at any level of experience.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNCombatOptimizationImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNPhasedSleepImplant</defName>
+		<label>Phased Sleep Implant</label>
+		<description>The phased sleep implant is a strange implant that uses the GlitterNet let parts of the brain sleep while filling their functionality, though never as well as the brain does it. This effectively means that the user never has to sleep, but they're also never fully awake.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNPhasedSleepImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNMemoryEnhancementImplant</defName>
+		<label>Memory Enhancement Implant</label>
+		<description>The memory enhancement implant uses the GlitterNet to index and store memories for later access, giving the user an eidetic memory. This makes it a lot easier to learn, and impossible to forget anything.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNMemoryEnhancementImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNSocialAnalyzerImplant</defName>
+		<label>Social Analyzer Implant</label>
+		<description>The social analyzer implant uses tiny cues from people who the user interacts with to construct a profile of their thoughts, mood, and personality. Having access to this kind of information is a great advantage in any social situation.</description>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>30</Gold>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNSocialAnalyzerImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="CyberNetProsthetic">
+		<defName>CNConsciousnessEnhancementImplant</defName>
+		<label>Consciousness Enhancement Implant</label>
+		<description>The consciousness enhancement implant uses automates minor brain processes allowing more of the user's brain to be focused on the task at hand. This results in a general increase in consciousness and work speed.</description>
+		<statBases>
+			<WorkToMake>80000</WorkToMake>
+			<Mass>1</Mass>
+		</statBases>
+		<costList>
+			<Gold>40</Gold>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<researchPrerequisite>CNConsciousnessEnhancementImplant</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+</Defs>

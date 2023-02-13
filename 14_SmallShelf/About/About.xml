@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Small Shelf</name>
+	<author>Proxyer</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>Proxyer.SmallShelf</packageId>
+  <description><![CDATA[
+<color=#87CEFA>Description</color> :
+Small shelf: works like a normal shelf but has 1x1 size, holds anything
+
+Note for 1.4:
+1.4 vanilla add a "small shelf". The differences between vanilla and this mod are as follows.
+
+- Nothing is selected by default.
+- This mod shelf allows rock chunks and building categories items.
+- Priority is Important (Vanilla : Preferred).
+
+Update 1.4.1
+- Add oldstyle small shelf. It's the old style that only holds 1 stack.
+- Add Ideology Techist style.
+
+Update 1.4.2
+- The small shelf and old shelf build buttons are now displayed when selecting various shelfs.
+  Note : This feature is only for RimWorld 1.4.3555 and above.
+- Added small shelf and old shelf building buttons to various production benches in Core.
+
+Update 1.4.3
+- Added small shelf building buttons to styling station in Ideology DLC.
+
+
+Art from CuproPanda's "<color=#66FFFF>CorePanda</color>" mod.
+
+<color=#87CEFA>Translation included</color> :
+English, Chinese (Simplified), Chinese (Traditional), Japanese, Korean, Turkish
+Russian (by MarioMustach)
+
+Update to RimWorld 1.4 version.
+
+<color=#87CEFA>Original Art author</color> : <b>CorePanda</b>
+
+
+ ]]></description>
+</ModMetaData>

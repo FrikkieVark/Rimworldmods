@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorkGiverDef>
+        <defName>GNWorkGiver_TalkWithHub</defName>
+        <label>Talk with Wintermute</label>
+        <giverClass>GlitterNet.Events.Misc.WorkGiver_TalkWithHub</giverClass>
+        <workType>GNWorkType_TalkWithHub</workType>
+        <verb>Talk</verb>
+        <gerund>Talking with</gerund>
+        <priorityInType>10</priorityInType>
+        <requiredCapacities>
+            <li>Consciousness</li>
+            <li>Talking</li>
+            <li>Sight</li>
+        </requiredCapacities>
+    </WorkGiverDef>
+    
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>Neutroaleaves</defName>
+    <label>Neutroaleaves</label>
+    <description>Leaves of the plant Neutroaleaf, Can be refined into Neutroamine or simple crafted into herbal medicine.</description>
+    <graphicData>
+      <texPath>Things/Neutroaleaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+	 </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+	<ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PowerConduit">
+		<defName>MUR_SubsurfaceConduit</defName>
+		<label>subsurface conduit</label>
+		<description>A reinforced bundle of electrical cables for moving power around. Placed below the surface.</description>
+		<thingClass>Building</thingClass>
+		<uiIconPath>Things/Building/MUR_SubsurfaceConduit_MenuIcon</uiIconPath>
+		<graphicData>
+		  <texPath>Things/Building/MUR_SubsurfaceConduit</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+		  <MaxHitPoints>100</MaxHitPoints>
+		  <WorkToBuild>900</WorkToBuild>
+		  <Flammability>0</Flammability>
+		  <Beauty>0</Beauty>
+		</statBases>
+		<costList>
+		  <Steel>3</Steel>
+		</costList>
+		<placeWorkers>
+		  <li>MUR_SubsurfaceConduit.PlaceWorker_SubsurfaceConduit</li>
+		</placeWorkers>
+		<useHitPoints>false</useHitPoints>
+		<isAutoAttackableMapObject>false</isAutoAttackableMapObject>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Subsurface</terrainAffordanceNeeded>
+		<constructEffect>ConstructDirt</constructEffect>
+		<clearBuildingArea>false</clearBuildingArea>
+		<researchPrerequisites>
+		  <li>Electricity</li>
+		</researchPrerequisites>
+		<techLevel>Industrial</techLevel>
+  </ThingDef>
+
+  <TerrainAffordanceDef>
+    <defName>Subsurface</defName>
+    <label>subsurface</label>
+    <order>1248</order>
+    <visualizeOnAffordanceOverlay>true</visualizeOnAffordanceOverlay>
+    <affordanceOverlayColor>(255,130,0)</affordanceOverlayColor>
+  </TerrainAffordanceDef>
+
+</Defs>

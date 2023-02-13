@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Normal Infection Surgery -->
+  <!-- Cure flu -->
+
+  <CureInfectionFlu.label>インフルエンザ治療 (薬5)</CureInfectionFlu.label>
+  <CureInfectionFlu.description>インフルエンザを治療します。</CureInfectionFlu.description>
+  <CureInfectionFlu.jobString>インフルエンザ治療中</CureInfectionFlu.jobString>
+  <CureInfectionFlu.successfullyRemovedHediffMessage>{0}が正常に{1}のインフルエンザを治療しました。</CureInfectionFlu.successfullyRemovedHediffMessage>
+
+  <!-- Cure Disease: Chemical Damage -->
+
+  <CureChemicalDamageModerate.label>化学的損傷治療 (薬5 - 薬草不可)</CureChemicalDamageModerate.label>
+  <CureChemicalDamageModerate.description>化学的損傷を治療します。</CureChemicalDamageModerate.description>
+  <CureChemicalDamageModerate.jobString>化学的損傷治療中</CureChemicalDamageModerate.jobString>
+  <CureChemicalDamageModerate.successfullyRemovedHediffMessage>{0}が正常に{1}の化学的損傷を治療しました。</CureChemicalDamageModerate.successfullyRemovedHediffMessage>
+
+
+  <!-- Hard Infection Surgery -->
+  <!-- Cure plague -->
+
+  <CureInfectionPlague.label>ペスト治療 (ペノ5/最先端2)</CureInfectionPlague.label>
+  <CureInfectionPlague.description>ペストを治療します。</CureInfectionPlague.description>
+  <CureInfectionPlague.jobString>ペスト治療中</CureInfectionPlague.jobString>
+  <CureInfectionPlague.successfullyRemovedHediffMessage>{0}が正常に{1}のペストを治療しました。</CureInfectionPlague.successfullyRemovedHediffMessage>
+
+  <!-- Cure malaria -->
+
+  <CureInfectionMalaria.label>マラリア治療 (ペノ5/最先端2)</CureInfectionMalaria.label>
+  <CureInfectionMalaria.description>マラリアを治療します。</CureInfectionMalaria.description>
+  <CureInfectionMalaria.jobString>マラリア治療中</CureInfectionMalaria.jobString>
+  <CureInfectionMalaria.successfullyRemovedHediffMessage>{0}が正常に{1}のマラリアを治療しました。</CureInfectionMalaria.successfullyRemovedHediffMessage>
+
+  <!-- Cure Disease: Chemical Damage Severe -->
+
+  <CureChemicalDamageSevere.label>化学的重傷治療 (最先端5. 薬)</CureChemicalDamageSevere.label>
+  <CureChemicalDamageSevere.description>化学的重傷を治療します。</CureChemicalDamageSevere.description>
+  <CureChemicalDamageSevere.jobString>化学的重傷治療中</CureChemicalDamageSevere.jobString>
+  <CureChemicalDamageSevere.successfullyRemovedHediffMessage>{0}が正常に{1}の化学的損傷を治療しました。</CureChemicalDamageSevere.successfullyRemovedHediffMessage>
+
+
+  <!-- VeryHard Infection Surgery -->
+  <!-- Cure Sleeping Sickness -->
+
+  <CureInfectionSleepingSickness.label>眠り病治療 (ペノ5/最先端3)</CureInfectionSleepingSickness.label>
+  <CureInfectionSleepingSickness.description>眠り病を治療します。</CureInfectionSleepingSickness.description>
+  <CureInfectionSleepingSickness.jobString>眠り病治療中</CureInfectionSleepingSickness.jobString>
+  <CureInfectionSleepingSickness.successfullyRemovedHediffMessage>{0}が正常に{1}の眠り病を治療しました。</CureInfectionSleepingSickness.successfullyRemovedHediffMessage>
+
+</LanguageData>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RqRI_ITab_Label>Project</RqRI_ITab_Label>
+	<RqRI_CurrentProject>Current project: </RqRI_CurrentProject>
+	<RqRI_ResearchProgress>Research progress: </RqRI_ResearchProgress>
+	<RqRI_ProjectTechLevel>Project tech level:</RqRI_ProjectTechLevel>
+	<RqRI_FactionTechLevel>Your faction's tech level: </RqRI_FactionTechLevel>
+	<RqRI_ProjectCost>Project cost:</RqRI_ProjectCost>
+	<RqRI_ProjectCostMultiplied>Project cost multiplied by {0}:</RqRI_ProjectCostMultiplied>
+	<RqRI_ResearchSpeed>Current research speed:</RqRI_ResearchSpeed>
+	<RqRI_ResearchSpeedSoloDesc>The speed at which {0} is currently performing research:\n</RqRI_ResearchSpeedSoloDesc>
+	<RqRI_ToolTipDetails_Researcher>Researcher efficiency</RqRI_ToolTipDetails_Researcher><!-- Tooltip -->
+	<RqRI_ToolTipDetails_ResearchBench>Research bench factor</RqRI_ToolTipDetails_ResearchBench><!-- Tooltip -->
+	<RqRI_ResearchSpeedMultipleDesc>The speed at which these pawns are currently performing research:\n</RqRI_ResearchSpeedMultipleDesc>
+	<RqRI_TimeToComplete>Estimated time to complete: </RqRI_TimeToComplete>
+	<RqRI_TimeToCompleteDesc>Time required to complete this research under current conditions.</RqRI_TimeToCompleteDesc>
+	
+	<RqRI_Settings_ShowCurrentProject>Show current project</RqRI_Settings_ShowCurrentProject>
+	<RqRI_Settings_ShowResearchProgress>Show research progress</RqRI_Settings_ShowResearchProgress>
+	<RqRI_Settings_ShowTimeToComplete>Show time to complete</RqRI_Settings_ShowTimeToComplete>
+
+	<!-- Compatibility strings with other mods -->
+	<RqRI_NotCurrentlyInUse>This research bench is not currently in use.</RqRI_NotCurrentlyInUse><!-- InspectString -->
+	<RqRI_TechLevelDifference>Research speed multiplier due to complexity:</RqRI_TechLevelDifference>
+	<RqRI_TechLevelDifferenceDesc>{0}'s knowledge is at the {1} level, but this project's tech level is {2}.</RqRI_TechLevelDifferenceDesc>
+	<RqRI_ToolTipDetails_TechLevelMultiplier>Research complexity</RqRI_ToolTipDetails_TechLevelMultiplier><!-- Tooltip -->
+	<RqRI_PrerequisiteMultiplier>Research speed multiplier due to related knowledge:</RqRI_PrerequisiteMultiplier>
+	<RqRI_PrerequisiteMultiplierDesc>{0} has knowledge in more complex associated fields.</RqRI_PrerequisiteMultiplierDesc>
+	<RqRI_ToolTipDetails_PrerequisiteMultiplier>Related knowledge</RqRI_ToolTipDetails_PrerequisiteMultiplier><!-- Tooltip -->
+	<RqRI_LearningProgress>Learning progress: </RqRI_LearningProgress><!-- InspectString -->
+
+</LanguageData>

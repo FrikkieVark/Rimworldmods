@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Hediff Abstract Stuff -->
+    
+    <HediffDef Name="CNHediffProsthetic" Abstract="True">
+        <hediffClass>CyberNet.HediffCyberNetProsthetic</hediffClass>
+        <addedPartProps>
+            <solid>true</solid>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+        <isBad>false</isBad>
+        <minSeverity>0.001</minSeverity>
+        <defaultLabelColor>(0.18, 0.75, 1)</defaultLabelColor>
+    </HediffDef>
+
+    <HediffDef Name="CNHediffOther" Abstract="True">
+        <hediffClass>CyberNet.HediffCyberNetImplant</hediffClass>
+        <isBad>false</isBad>
+        <minSeverity>0.001</minSeverity>
+        <defaultLabelColor>(0.18, 0.75, 1)</defaultLabelColor>
+    </HediffDef>
+    
+</Defs>

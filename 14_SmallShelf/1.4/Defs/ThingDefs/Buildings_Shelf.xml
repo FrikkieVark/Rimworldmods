@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="SmallShelfBase" ParentName="FurnitureWithQualityBase" Abstract="True">
+    <thingClass>Building_Storage</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>60</pathCost>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>4</Mass>
+      <WorkToBuild>500</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>0.5</Beauty>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+    </statBases>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <storageGroupTag>Shelf</storageGroupTag>
+      <blueprintClass>Blueprint_Storage</blueprintClass>
+      <fixedStorageSettings>
+        <filter>
+          <disallowNotEverStorable>true</disallowNotEverStorable>
+          <categories>
+            <li>Root</li>
+          </categories>
+          <disallowedCategories>
+            <li>Plants</li>
+          </disallowedCategories>
+          <disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+            <li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+          </disallowedThingDefs>
+          <specialFiltersToDisallow>
+            <li>AllowLargeCorpses</li>
+          </specialFiltersToDisallow>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories />
+        </filter>
+      </defaultStorageSettings>
+      <paintable>true</paintable>
+      <relatedBuildCommands>
+        <li>ShelfSmall</li>
+        <li>Shelf</li>
+        <li>SmallShelf</li>
+        <li>OldSmallShelf</li>
+      </relatedBuildCommands>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationHotKey>Misc12</designationHotKey>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+    </comps>
+    <graphicData>
+      <!--<texPath>Things/Building/UniversalRack</texPath>-->
+      <texPath>Things/Building/Furniture/ShelfSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1.6,1.6)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/UniversalRack_south</uiIconPath>
+    <uiIconScale>0.95</uiIconScale>
+    <costStuffCount>20</costStuffCount>
+    <uiOrder>3005</uiOrder>
+    <size>(1,1)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="SmallShelfBase">
+    <defName>SmallShelf</defName>
+    <label>small shelf</label>
+    <description>Items stored in this will not deteriorate and don't affect the beauty of their surroundings, even if outside.\n\nSince shelf space is a little limited, shelves cannot hold plants and large corpses. Allow chunks and buildings.</description>
+    <building>
+      <maxItemsInCell>3</maxItemsInCell>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="SmallShelfBase">
+    <defName>OldSmallShelf</defName>
+    <label>oldstyle small shelf</label>
+    <description>It's the old style that only holds 1 stack. Items stored in this will not deteriorate and don't affect the beauty of their surroundings, even if outside.\n\nSince shelf space is a little limited, shelves cannot hold plants and large corpses. Allow chunks and buildings.</description>
+    <building>
+      <maxItemsInCell>1</maxItemsInCell>
+    </building>
+  </ThingDef>
+
+</Defs>

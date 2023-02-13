@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Blood Enhancements/Replacements -->
+
+  <CNBrainDamageRepairSystem.label>脑损伤修复系统</CNBrainDamageRepairSystem.label>
+  <CNBrainDamageRepairSystem.description>脑损伤修复系统将使用GlitterNET来代替脑组织损失的功能。虽然他并不如原生的好，但它依旧可以很好地完成工作。</CNBrainDamageRepairSystem.description>
+
+  <CNCombatOptimizationImplant.label>战斗强化植入体</CNCombatOptimizationImplant.label>
+  <CNCombatOptimizationImplant.description>战斗优化植入物是一个闭环控制系统，它利用用户的感官数据和GlitterNET来辅助肌肉移动。它可以让用户成为任何等级的战士。</CNCombatOptimizationImplant.description>
+
+  <CNPhasedSleepImplant.label>分段睡眠植入体</CNPhasedSleepImplant.label>
+  <CNPhasedSleepImplant.description>分段睡眠植入体是一种奇怪的植入物，它利用GlitterNET让大脑的一部分进入睡眠并接管功能，虽然并不如原生来的好。但是这意味着用户永远不需要睡觉，但也并不是完全清醒。</CNPhasedSleepImplant.description>
+
+  <CNMemoryEnhancementImplant.label>记忆强化植入体</CNMemoryEnhancementImplant.label>
+  <CNMemoryEnhancementImplant.description>记忆强化植入体使用GlitterNET来索引和存储与提供记忆。这将强化用户的学习能力，因为用户将不会忘记任何事。</CNMemoryEnhancementImplant.description>
+
+  <CNSocialAnalyzerImplant.label>社交强化植入体</CNSocialAnalyzerImplant.label>
+  <CNSocialAnalyzerImplant.description>社交强化植入体将分析互动对象的细小动作来分析他们的想法、情绪与性格，在任何社交场合都可以的得以利用。</CNSocialAnalyzerImplant.description>
+
+  <CNConsciousnessEnhancementImplant.label>意识强化植入体</CNConsciousnessEnhancementImplant.label>
+  <CNConsciousnessEnhancementImplant.description>意识强化植入体将接管小脑的功能，使用户的大脑能更加集中于当前任务，提升意识与工作速度。</CNConsciousnessEnhancementImplant.description>
+
+
+</LanguageData>

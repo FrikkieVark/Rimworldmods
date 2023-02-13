@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlitterNet.Disconnected>Не подключено к работающему Хабу GlitterNet.</GlitterNet.Disconnected>
+  <GlitterNet.Malfunctioning>Неисправность сети. Проверьте Хаб GlitterNet для дополнительной информации.</GlitterNet.Malfunctioning>
+  <GlitterNet.Functioning>Подключено к Хабу GlitterNet. Эффективность: {0}%</GlitterNet.Functioning>
+  <GlitterNet.MultipleHubs>Слишком много хабов подключено. Разрешен только один хаб на сеть. Количество хабов на данный момент: {0}</GlitterNet.MultipleHubs>
+  <GlitterNet.ProcessingPower>Вычислительная мощность: {0} ПетаФЛОПС</GlitterNet.ProcessingPower>
+  <GlitterNet.TotalProcessingPower>Общая вычислительная мощность:  {0} ПетаФЛОПС</GlitterNet.TotalProcessingPower>
+  <GlitterNet.ProcessingUsage>Нагрузка на процессор: {0} ПетаФЛОПС</GlitterNet.ProcessingUsage>
+  <GlitterNet.ConnectedTo>Подключен на данный момент к: {0}</GlitterNet.ConnectedTo>
+  <GlitterNet.TotalProcessingUsage>Общая нагрузка на процессор: {0} ПетаФЛОПС</GlitterNet.TotalProcessingUsage>
+  <GlitterNet.HubFunctioning>Функционирование системы. Эффективность на данный момент: {0}%</GlitterNet.HubFunctioning>
+  <GlitterNet.MalfunctioningPower>Неисправность девайса GlitterNet: Не запитан.</GlitterNet.MalfunctioningPower>
+  <GlitterNet.MalfunctioningBroken>Неисправность девайса GlitterNet: Сломан.</GlitterNet.MalfunctioningBroken>
+  <GlitterNet.MalfunctioningTemp>Неисправность девайса GlitterNet: Перегрев. Максимальная допустимая температура: {0}</GlitterNet.MalfunctioningTemp>
+  <GlitterNet.ConnectedDevices>Подключен к {0} девайсам GlitterNet.</GlitterNet.ConnectedDevices>
+  <GlitterNet.ConnectToNext>Подключить к следующему строению.</GlitterNet.ConnectToNext>
+  <GlitterNet.ConnectToNextDesc>Подключить данный интегратор к следующему доступному строению.</GlitterNet.ConnectToNextDesc>
+  <GlitterNet.MaxSimultaneousProcessor>Процессор параллельных вычислений увеличивает максимальное количество одновременно подключенных интеграторов на {0}.</GlitterNet.MaxSimultaneousProcessor>
+  <GlitterNet.EfficiencyProcessor>Процессор эффективности увеличивает максимальную возможную эффективность на {0}.</GlitterNet.EfficiencyProcessor>
+  <GlitterNet.OverdriveProcessor>Процессор перегрузки увеличивает эффективность на {0} и нагрузку на процессор на {1}.</GlitterNet.OverdriveProcessor>
+  <GlitterNet.ProcessingPowerProcessor>Процессор накладных расходов увеличивает мощность процессора на {0}.</GlitterNet.ProcessingPowerProcessor>
+  <GlitterNet.IntegratorsReport>Интеграторы GlitterNet</GlitterNet.IntegratorsReport>
+  <GlitterNet.AwokenStatus>Пробудился!</GlitterNet.AwokenStatus>
+  <GlitterNet.CurrentMood>Текущее настроение: {0}</GlitterNet.CurrentMood>
+
+  <GlitterNet.EnableSystemWake_title>Активировать Пробуждение Системы</GlitterNet.EnableSystemWake_title>
+  <GlitterNet.EnableSystemWake_desc>Пробуждение Системы - сюжетная линия мода GlitterNet. Если вы желаете, чтобы сюжетная линия присутствовала в Вашей игре, активируйте данный параметр. Данный параметр может быть изменен в любой момент игры.</GlitterNet.EnableSystemWake_desc>
+  <GlitterNet.EnableThermalManagement_title>Активировать Менеджмент Температуры</GlitterNet.EnableThermalManagement_title>
+  <GlitterNet.EnableThermalManagement_desc>Если менеджмент температуры активирован, хабы GlitterNet, процессоры и специализированные процессоры будут производить тепло и будут иметь максимальную допустимую температуру. Рекомендовано играть с другим модом, добавляющим более продвинутые методы контроля температуры. Данный параметр может быть изменен в любой момент игры.</GlitterNet.EnableThermalManagement_desc>
+  <GlitterNet.ShutoffTemperature_title>Температура Отключения</GlitterNet.ShutoffTemperature_title>
+  <GlitterNet.ShutoffTemperature_desc>Температура в градусах Цельсия, при которой девайсы отключаются, если менеджмент температуры активирован.</GlitterNet.ShutoffTemperature_desc>
+  <GlitterNet.HeatProductionMultiplier_title>Множитель Производства Тепла</GlitterNet.HeatProductionMultiplier_title>
+  <GlitterNet.HeatProductionMultiplier_desc>Тепло, производимое девайсами, умножается на данное значение, если менеджмент температуры активирован.</GlitterNet.HeatProductionMultiplier_desc>
+
+</LanguageData>

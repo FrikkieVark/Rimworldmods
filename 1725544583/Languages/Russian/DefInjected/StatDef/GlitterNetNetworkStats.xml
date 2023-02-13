@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <GlitterNetNetworkMaxEfficiencyOffset.label>Компенсация Максимальной Эффективности Сети</GlitterNetNetworkMaxEfficiencyOffset.label>
+  <GlitterNetNetworkMaxEfficiencyOffset.description>Максимальная эффективность сети компенсируется данным значением.</GlitterNetNetworkMaxEfficiencyOffset.description>
+
+  <GlitterNetNetworkEfficiencyOffset.label>Компенсация Эффективности Сети</GlitterNetNetworkEfficiencyOffset.label>
+  <GlitterNetNetworkEfficiencyOffset.description>Эффективность сети компенсируется данным значением.</GlitterNetNetworkEfficiencyOffset.description>
+
+  <GlitterNetNetworkMaxSimultaneousOffset.label>Компенсация Максимального Количества Одновременно Подключенных Интеграторов В Сети</GlitterNetNetworkMaxSimultaneousOffset.label>
+  <GlitterNetNetworkMaxSimultaneousOffset.description>Максимальное количество одновременно подключенных интеграторов в сети компенсируется данным значением.</GlitterNetNetworkMaxSimultaneousOffset.description>
+
+  <GlitterNetNetworkProcessingPowerFactor.label>Коэффициент Мощности Сетевой Обработки</GlitterNetNetworkProcessingPowerFactor.label>
+  <GlitterNetNetworkProcessingPowerFactor.description>Мощность сетевой обработки умножена на данное значение.</GlitterNetNetworkProcessingPowerFactor.description>
+
+  <GlitterNetNetworkProcessingUsageFactor.label>Коэффициент Использования Сетевой Обработки</GlitterNetNetworkProcessingUsageFactor.label>
+  <GlitterNetNetworkProcessingUsageFactor.description>Использование сетевой обработки умножена на данное значением.</GlitterNetNetworkProcessingUsageFactor.description>
+
+
+</LanguageData>
