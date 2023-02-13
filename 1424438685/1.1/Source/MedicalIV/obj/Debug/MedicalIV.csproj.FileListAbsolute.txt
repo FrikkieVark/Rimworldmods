@@ -1,4 +1,0 @@
-E:\Steam Games (Non SSD)\steamapps\common\RimWorld\Mods\IV Medical\Assemblies\IV.dll
-E:\Steam Games (Non SSD)\steamapps\common\RimWorld\Mods\IV Medical\Source\MedicalIV\MedicalIV\obj\Debug\MedicalIV.csproj.CoreCompileInputs.cache
-E:\Steam Games (Non SSD)\steamapps\common\RimWorld\Mods\IV Medical\Source\MedicalIV\MedicalIV\obj\Debug\IV.dll
-E:\Steam Games (Non SSD)\steamapps\common\RimWorld\Mods\IV Medical\Source\MedicalIV\MedicalIV\obj\Debug\MedicalIV.csprojAssemblyReference.cache

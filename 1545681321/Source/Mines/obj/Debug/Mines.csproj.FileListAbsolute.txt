@@ -1,9 +1,0 @@
-D:\Games\Rimworld\Mods\Mines\Assemblies\Mines.dll
-D:\Games\Rimworld\Mods\Mines\Source\Mines\obj\Debug\ResolveAssemblyReference.cache
-D:\Games\Rimworld\Mods\Mines\Source\Mines\obj\Debug\Mines.dll
-F:\prog\Mines\Assemblies\Mines.dll
-F:\prog\Mines\Source\Mines\obj\Debug\Mines.csprojResolveAssemblyReference.cache
-F:\prog\Mines\Source\Mines\obj\Debug\Mines.dll
-F:\Games\Rimworld\Mods\Mines\Assemblies\Mines.dll
-F:\Games\Rimworld\Mods\Mines\Source\Mines\obj\Debug\Mines.csprojResolveAssemblyReference.cache
-F:\Games\Rimworld\Mods\Mines\Source\Mines\obj\Debug\Mines.dll
