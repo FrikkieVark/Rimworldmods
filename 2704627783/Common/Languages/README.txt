@@ -1,1 +1,0 @@
-한국어 번역 by Seanggag
