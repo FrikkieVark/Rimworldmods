@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		
+		
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName= "GR_RandomBooster"]/comps/li[@Class="GeneticRim.CompProperties_RandomItemSpawner"]/items</xpath>
+					<value>
+						
+							<li>GR_GenderSelectorMajor_Female</li>	
+							<li>GR_GenderSelectorMajor_Male</li>
+							<li>GR_ControllerAttackBooster</li>	
+							<li>GR_ControllerDefendBooster</li>
+					</value>
+				</li>
+				
+			</operations>
+		
+	</Operation>
+</Patch>
+

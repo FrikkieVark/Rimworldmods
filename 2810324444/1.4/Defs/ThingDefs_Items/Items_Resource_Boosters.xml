@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+
+
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_GenderSelector_Female</defName>
+		<label>gender selector: female</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_GenderSelector_Female</texPath>			
+		</graphicData>
+		<description>A fertility booster that also forces the produced embryo to develop female characteristics. Effectively allows hybrids to reproduce with the exact same species.\n\nNote: Insectoid hybrids are always incapable of reproducing.</description>
+		<statBases>
+			<MarketValue>28</MarketValue>
+		</statBases>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isFertilityUnblocker>true</isFertilityUnblocker>
+				<forceFemale>true</forceFemale>
+			</li>
+		</modExtensions>
+
+	</ThingDef>
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_GenderSelectorMajor_Female</defName>
+		<label>improved gender selector: female</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_GenderSelectorMajor_Female</texPath>			
+		</graphicData>
+		<description>A fertility booster that also forces the produced embryo to develop female characteristics. Effectively allows hybrids to reproduce with the exact same species.\n\nThis booster can't be crafted, only scavenged.\n\nNote: Insectoid hybrids are always incapable of reproducing.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+		</statBases>
+		<tradeability>None</tradeability>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isFertilityUnblocker>true</isFertilityUnblocker>
+				<forceFemale>true</forceFemale>
+				<safety>5</safety>
+				
+			</li>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					
+					<li>GR_Safety</li>
+				</statToAdd>
+				<statValues>
+					
+					<li>5</li>
+				</statValues>
+				<statDescriptions>
+				
+					<li>GR_SafetyDesc</li>
+				</statDescriptions>
+			
+			</li>
+		</modExtensions>
+
+	</ThingDef>
+	
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_GenderSelector_Male</defName>
+		<label>gender selector: male</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_GenderSelector_Male</texPath>			
+		</graphicData>
+		<description>A fertility booster that also forces the produced embryo to develop male characteristics. Effectively allows hybrids to reproduce with the exact same species.\n\nNote: Insectoid hybrids are always incapable of reproducing.</description>
+		<statBases>
+			<MarketValue>28</MarketValue>
+		</statBases>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isFertilityUnblocker>true</isFertilityUnblocker>
+				<forceMale>true</forceMale>
+			</li>
+		</modExtensions>
+
+	</ThingDef>
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_GenderSelectorMajor_Male</defName>
+		<label>improved gender selector: male</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_GenderSelectorMajor_Male</texPath>			
+		</graphicData>
+		<description>A fertility booster that also forces the produced embryo to develop male characteristics. Effectively allows hybrids to reproduce with the exact same species.\n\nThis booster can't be crafted, only scavenged.\n\nNote: Insectoid hybrids are always incapable of reproducing.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+		</statBases>
+		<tradeability>None</tradeability>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isFertilityUnblocker>true</isFertilityUnblocker>
+				<forceMale>true</forceMale>
+				<safety>5</safety>
+				
+			</li>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					
+					<li>GR_Safety</li>
+				</statToAdd>
+				<statValues>
+					
+					<li>5</li>
+				</statValues>
+				<statDescriptions>
+				
+					<li>GR_SafetyDesc</li>
+				</statDescriptions>
+			
+			</li>
+		</modExtensions>
+
+	</ThingDef>
+	
+	
+	
+	
+	
+	
+
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_ControllerAttackBooster</defName>
+		<label>improved controller with attack module</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_ControllerAttackBooster</texPath>			
+		</graphicData>
+		<description>Self-assembling machinery that fuses with the specimen’s nerve centers during the growth process. Allows hybrids to be drafted and causes sharp plasteel claws to grow from one of the creature's limbs.\n\nThis booster can't be crafted, only scavenged.</description>
+		<statBases>
+			<MarketValue>350</MarketValue>
+		</statBases>
+		<tradeability>None</tradeability>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isController>true</isController>
+				<addedHediffs>
+					<li>
+						<hediff>GR_HybridAttack</hediff>
+						<bodyparts><li>Leg</li></bodyparts>
+					</li>
+				
+				</addedHediffs>
+			</li>
+			
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="GR_BoosterBase">
+		<defName>GR_ControllerDefendBooster</defName>
+		<label>improved controller with defend module</label>
+		<graphicData>
+			<texPath>Things/Item/Boosters/GR_ControllerDefendBooster</texPath>			
+		</graphicData>
+		<description>Self-assembling machinery that fuses with the specimen’s nerve centers during the growth process. Allows hybrids to be drafted and creates a strong mechanite skin that protects the animal from harm.\n\nThis booster can't be crafted, only scavenged.</description>
+		<statBases>
+			<MarketValue>350</MarketValue>
+		</statBases>
+		<tradeability>None</tradeability>
+		<modExtensions>
+			<li Class="GeneticRim.DefExtension_HybridChanceAlterer">
+				<isController>true</isController>
+				<addedHediffs>
+					<li>
+						<hediff>GR_HybridArmor</hediff>
+						<bodyparts><li>Body</li></bodyparts>
+					</li>
+				
+				</addedHediffs>
+			</li>
+			
+		</modExtensions>
+	</ThingDef>
+</Defs>

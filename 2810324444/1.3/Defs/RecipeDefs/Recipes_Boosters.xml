@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="GR_BoosterRecipeBase">
+		<defName>GR_Craft_GenderSelector_Female</defName>
+		<label>Craft Gender selector: female</label>
+		<description>Craft a gender selector: female booster.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_GenderSelector_Female>1</GR_GenderSelector_Female>
+		</products>		
+	</RecipeDef>
+	<RecipeDef ParentName="GR_BoosterRecipeBase">
+		<defName>GR_Craft_GenderSelector_Female_Bulk</defName>
+		<label>Craft 5x Gender selector: female</label>
+		<workAmount>1500</workAmount>
+		<description>Craft gender selector: female boosters in bulk.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_GenderSelector_Female>5</GR_GenderSelector_Female>
+		</products>		
+	</RecipeDef>
+	
+	<RecipeDef ParentName="GR_BoosterRecipeBase">
+		<defName>GR_Craft_GenderSelector_Male</defName>
+		<label>Craft Gender selector: male</label>
+		<description>Craft a gender selector: male booster.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_GenderSelector_Male>1</GR_GenderSelector_Male>
+		</products>		
+	</RecipeDef>
+	<RecipeDef ParentName="GR_BoosterRecipeBase">
+		<defName>GR_Craft_GenderSelector_Male_Bulk</defName>
+		<label>Craft 5x Gender selector: male</label>
+		<workAmount>1500</workAmount>
+		<description>Craft gender selector: male boosters in bulk.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>MedicineIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<GR_GenderSelector_Male>5</GR_GenderSelector_Male>
+		</products>		
+	</RecipeDef>	
+</Defs>

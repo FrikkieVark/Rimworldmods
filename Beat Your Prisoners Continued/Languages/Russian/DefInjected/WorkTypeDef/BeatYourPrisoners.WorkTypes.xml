@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.label>Cломить</CM_Beat_Prisoners_WorkType_Break_Resistance.label>
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.description>Сломить сопротивление заключенных.</CM_Beat_Prisoners_WorkType_Break_Resistance.description>
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.labelShort>Cломить</CM_Beat_Prisoners_WorkType_Break_Resistance.labelShort>
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.pawnLabel>Прерваться</CM_Beat_Prisoners_WorkType_Break_Resistance.pawnLabel>
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.gerundLabel>сломленный</CM_Beat_Prisoners_WorkType_Break_Resistance.gerundLabel>
+  <CM_Beat_Prisoners_WorkType_Break_Resistance.verb>Cломить</CM_Beat_Prisoners_WorkType_Break_Resistance.verb>
+
+
+</LanguageData>

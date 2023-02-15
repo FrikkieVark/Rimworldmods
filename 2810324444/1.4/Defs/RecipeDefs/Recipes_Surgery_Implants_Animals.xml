@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--=============== Animal Control Implant ====================-->
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>GR_InstallAnimalControlImplant</defName>
+		<label>&lt;color=#E89D1B&gt;install animal Implant: animal mind controller&lt;/color&gt;</label>
+		<description>Installs animal mind controller implant. This implant will allow this creature to be drafted and controlled by the player.</description>
+		<workerClass>GeneticRimAddOn.Recipe_AddHediff</workerClass>
+		<jobString>Installing animal mind controller.</jobString>		
+		<targetsBodyPart>false</targetsBodyPart>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>GR_AnimalControlImplant</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>GR_AnimalControlImplant</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>GR_AnimalControlImplant</addsHediff>
+		
+	</RecipeDef>
+</Defs>

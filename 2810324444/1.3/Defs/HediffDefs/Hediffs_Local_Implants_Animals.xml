@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<HediffDef Name="GR_BoosterHybridPartsBase" Abstract="True">
+	<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(232, 157, 27)</defaultLabelColor>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+		
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_BoosterHybridPartsBase">
+		<defName>GR_AnimalControlImplant</defName>
+		<label>animal controller</label>
+		<labelNoun>an animal controller</labelNoun>
+		<description>An installed animal controller implant. This implant will allow this creature to be drafted and controlled by the player.</description>
+		<descriptionHyperlinks>
+			<ThingDef>GR_AnimalControlImplant</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>GR_AnimalControlImplant</spawnThingOnRemoved>
+		
+		
+		<comps>
+			<li Class="AnimalBehaviours.HediffCompProperties_Draftable">
+				<makeNonFleeingToo>true</makeNonFleeingToo>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+	<HediffDef ParentName="GR_BoosterHybridPartsBase">
+		<defName>GR_HybridArmor</defName>
+		<label>animal Implant: mecha-skin</label>
+		<description>A synthetic skin mesh consisting on a fortified lattice of networked mechanites that covers the entirety of this animal's surface, protecting it from harm.</description>
+		
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>30</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+					<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.4</ArmorRating_Heat>
+				</statOffsets>
+			</li>
+			
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="GR_BoosterHybridPartsBase">
+		<defName>GR_HybridAttack</defName>
+		<label>animal Implant: rending plasteel claws</label>
+		<description>Sharp plasteel claws extending from one of the animal's legs. These can be used as a powerful melee weapon.</description>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>rending plasteel claws</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>25</power>
+						<cooldownTime>1.3</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<soundMeleeHit>Pawn_Melee_PowerClaw_Hit</soundMeleeHit>
+						<soundMeleeMiss>Pawn_Melee_PowerClaw_Miss</soundMeleeMiss>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+			
+		</stages>
+	</HediffDef>
+	
+</Defs>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+		
+	<ThingDef Class="HemogenExtractor.HemogenExtractorDef" ParentName="BuildingBase">
+		<defName>HemogenExtractor</defName>
+		<label>Hemogen Extractor</label>
+		<description>It's a Hemogen Extractor. It drains the user's blood while still keeping them alive using primitive version cryptosleep technology.
+Keep in mind that upon extraction the user doesn't instantly restore blood so they'll need a day or two to do so.
+Since extractor uses primitive version of cryptosleep it can't sustain the user needs without additional nutrition present.
+Extractor comes with a built-in auto-eject feature that prevents death from malnutrition.(Pawn will be ejected if there is no food and/or energy present for 3 days)</description>
+		<thingClass>HemogenExtractor.Building_HemogenExtractor</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<blockWind>true</blockWind>	
+		<uiIconPath>Things/Building/HemogenExtractor_Full</uiIconPath>
+		<uiIconOffset>(0, 0)</uiIconOffset>
+		<uiIconScale>1</uiIconScale>
+		<fillPercent>0.8</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<tickerType>Normal</tickerType>
+		<designationCategory>Biotech</designationCategory>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
+		<defaultPlacingRot>South</defaultPlacingRot>		
+		<inspectorTabs>
+			<li>HemogenExtractor.ITab_CustomNutrition</li>
+		</inspectorTabs>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<fixedStorageSettings>
+				<priority>Critical</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Critical</priority>
+				<filter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>Chocolate</li>
+						<li>HemogenPack</li>
+					</disallowedThingDefs>
+					<disallowedCategories>
+						<li>FoodMeals</li>
+					</disallowedCategories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<graphicData>
+			<texPath>Things/Building/HemogenExtractor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(8, 8)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+		<altitudeLayer>BuildingBelowTop</altitudeLayer>
+		<statBases>
+			<WorkToBuild>7500</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(3,2)</size>
+		<costList>
+			<Steel>300</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<comps>	
+			<li Class="CompProperties_Forbiddable"/>		
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>400</basePowerConsumption>
+			</li>	
+			<li Class="CompProperties_Refuelable">
+				<compClass>HemogenExtractor.CompNutritionRefuelable</compClass>
+				<fuelConsumptionRate>8.0</fuelConsumptionRate>
+				<fuelCapacity>75.0</fuelCapacity>
+				<autoRefuelPercent>1</autoRefuelPercent>
+				<fuelFilter>
+					<categories>
+						<li>Foods</li>
+					</categories>
+					<disallowedThingDefs>
+						<li>HemogenPack</li>
+					</disallowedThingDefs>
+					<disallowedCategories>
+						<li>FoodMeals</li>
+						<li>EggsFertilized</li>
+					</disallowedCategories>
+				</fuelFilter>
+			</li>
+			<li Class="HemogenExtractor.CompProperties_SpawnerHemogen">
+				<requiresPower>true</requiresPower>
+				<thingToSpawn>HemogenPack</thingToSpawn>
+				<spawnCount>10</spawnCount>
+				<spawnIntervalRange><min>180000</min><max>180000</max></spawnIntervalRange>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(255,216,122,0)</glowColor>
+			</li>
+			<li Class="HemogenExtractor.CompProperties_SecondLayer">
+				<graphicData>
+					<texPath>Things/Building/HemogenExtractorGlass</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(8,8)</drawSize>
+					<drawRotated>false</drawRotated>
+				</graphicData>
+				<offset>(0,0,0)</offset>
+				<altitudeLayer>MoteOverhead</altitudeLayer>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>Deathrest</li>
+		</researchPrerequisites>
+		<destroyable>true</destroyable>
+		<rotatable>false</rotatable>
+		<innerDrawOffset>(0.45, 0, 0.35)</innerDrawOffset>
+	</ThingDef>
+
+	<WorkGiverDef>
+		<defName>CustomWorkRefuel</defName>
+		<label>refuel fuelable buildings</label>
+		<giverClass>HemogenExtractor.WorkGiver_CustomRefuel</giverClass>
+		<workType>Hauling</workType>
+		<verb>refuel</verb>
+		<gerund>refueling</gerund>
+		<priorityInType>60</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+	<JobDef>
+		<defName>CarryToHemogenExtractor</defName>
+		<driverClass>HemogenExtractor.JobDriver_CarryToHemogenExtractor</driverClass>
+		<reportString>carrying TargetA to HemogenExtractor.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>EnterHemogenExtractor</defName>
+		<driverClass>HemogenExtractor.JobDriver_EnterHemogenExtractor</driverClass>
+		<reportString>entering HemogenExtractor.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+</Defs>
+

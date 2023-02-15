@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef Name="GR_AnimalImplantBaseNoQuality" Abstract="True" ParentName="BodyPartBase">
+		<tradeability>Sellable</tradeability>
+		<thingCategories>
+			<li>GR_ImplantCategory</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/GR_ControllerImplant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<!--=============== Torso ====================-->
+	
+	<ThingDef ParentName="GR_AnimalImplantBaseNoQuality">
+		<defName>GR_AnimalControlImplant</defName>
+		
+		<label>animal Implant: animal mind controller</label>
+		<description>An animal mind controller implant. This implant will allow this creature to be drafted and controlled by the player.</description>		
+		<statBases>
+			<MarketValue>150</MarketValue>
+			<Mass>4</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+
+
+</Defs>
